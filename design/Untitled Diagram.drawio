@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T23:00:33.393Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="JZm5TA9e6gwCQ1_jg7x5" version="18.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-20T23:30:35.953Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="hVvld5t1Tn9ypSRi5Tjf" version="18.0.8" type="github" pages="3">
   <diagram name="Login" id="vvYQtBmdYc1zt_GZLRea">
     <mxGraphModel dx="1724" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -244,12 +244,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fecgliY1gMyG_tVOH_5I" name="Home">
-    <mxGraphModel dx="821" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2873" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vJVPy_AwZhcLyUe-xoOc-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="10" width="1060" height="1770" as="geometry" />
+          <mxGeometry x="20" y="10" width="1060" height="1780" as="geometry" />
         </mxCell>
         <mxCell id="vJVPy_AwZhcLyUe-xoOc-2" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="60" width="190" height="50" as="geometry" />
@@ -567,310 +567,448 @@
           <mxGeometry x="440" y="1521.25" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-79" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="20" width="750" height="1560" as="geometry" />
+          <mxGeometry x="1318" y="10" width="750" height="1570" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-80" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1332" y="60" width="125" height="60" as="geometry" />
+          <mxGeometry x="1350" y="50" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-81" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="150" width="740" height="10" as="geometry" />
+          <mxGeometry x="1318" y="140" width="740" height="10" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-82" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1325" y="170" width="700" height="50" as="geometry" />
+          <mxGeometry x="1343" y="160" width="700" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-83" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1335" y="240" width="680" height="180" as="geometry" />
+          <mxGeometry x="1353" y="230" width="680" height="180" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-84" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="490" width="110" height="140" as="geometry" />
+          <mxGeometry x="1328" y="480" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-85" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;“La educación es el arma más&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;poderosa que puedes usar para&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;cambiar el mundo”&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;NELSON MANDELA&lt;/span&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1805" y="440" width="235" height="114" as="geometry" />
+          <mxGeometry x="1823" y="430" width="235" height="114" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-86" value="Buscador" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;rounded=0;labelBackgroundColor=none;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="80" width="225" height="30" as="geometry" />
+          <mxGeometry x="1528" y="70" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-87" value="&lt;div style=&quot;text-align: justify; font-size: 11px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ENCUENTRA TU LUGAR IDEAL EN LA LIBRERÍA EN LÍNEA E-BOOKS&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;¡Más de 100 libros listos para enviar, 200 libros electrónicos y 80 audiolibros para escuchar de inmediato!&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Apoya esta pagina de jovenes emprendedores, cada miga de pan cuenta y ayuda a agrandar este sueño, para ser hecho realidad.&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="493.75" width="360" height="140.5" as="geometry" />
+          <mxGeometry x="1448" y="483.75" width="360" height="140.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-88" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="565" width="230" height="115" as="geometry" />
+          <mxGeometry x="1828" y="555" width="230" height="115" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-89" value="Generos" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1315" y="510" width="75" height="20" as="geometry" />
+          <mxGeometry x="1333" y="500" width="75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-90" value="Ficcion" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1315" y="532" width="55" height="20" as="geometry" />
+          <mxGeometry x="1333" y="522" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-91" value="Imagen" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1901.75" y="610" width="60" height="20" as="geometry" />
+          <mxGeometry x="1919.75" y="600" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-92" value="Mi cuenta" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1755" y="50" width="60" height="20" as="geometry" />
+          <mxGeometry x="1773" y="40" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-93" value="Lista de deseos" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1840" y="50" width="115" height="20" as="geometry" />
+          <mxGeometry x="1858" y="40" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-94" value="Carrito" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1970" y="50" width="60" height="20" as="geometry" />
+          <mxGeometry x="1988" y="40" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-96" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Carrusel de imagenes&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1605" y="320" width="150" height="20" as="geometry" />
+          <mxGeometry x="1623" y="310" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-99" value="Terror" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1315" y="554" width="55" height="20" as="geometry" />
+          <mxGeometry x="1333" y="544" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-100" value="Novelas" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1315" y="579.5" width="60.13" height="18.5" as="geometry" />
+          <mxGeometry x="1333" y="569.5" width="60.13" height="18.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-101" value="Comics" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1315" y="606" width="65" height="20" as="geometry" />
+          <mxGeometry x="1333" y="596" width="65" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-102" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1335" y="1400" width="680" height="150" as="geometry" />
+          <mxGeometry x="1353" y="1390" width="680" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-103" value="&lt;b&gt;Conocenos&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1354.5" y="1410" width="108" height="20" as="geometry" />
+          <mxGeometry x="1372.5" y="1400" width="108" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-104" value="¿Quienes somos?" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1346.5" y="1443" width="136" height="20" as="geometry" />
+          <mxGeometry x="1364.5" y="1433" width="136" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-105" value="Conctatenos" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1346.5" y="1490" width="96" height="20" as="geometry" />
+          <mxGeometry x="1364.5" y="1480" width="96" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-106" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1850.5" y="1460" width="140" height="60" as="geometry" />
+          <mxGeometry x="1868.5" y="1450" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-107" value="&lt;b&gt;Te ayudamos&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1499.5" y="1410" width="120" height="20" as="geometry" />
+          <mxGeometry x="1517.5" y="1400" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-108" value="Tu cuenta" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1499.5" y="1450" width="80" height="20" as="geometry" />
+          <mxGeometry x="1517.5" y="1440" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-109" value="Envio y devoluciones" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1499.5" y="1500" width="170" height="20" as="geometry" />
+          <mxGeometry x="1517.5" y="1490" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-110" value="&lt;b&gt;Compra por genero&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1689.5" y="1410" width="170" height="20" as="geometry" />
+          <mxGeometry x="1707.5" y="1400" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-111" value="Ficcion" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1689.5" y="1443" width="55" height="20" as="geometry" />
+          <mxGeometry x="1707.5" y="1433" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-112" value="Terror" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1689.5" y="1480" width="55" height="20" as="geometry" />
+          <mxGeometry x="1707.5" y="1470" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-113" value="Novelas" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1689.5" y="1520" width="65" height="20" as="geometry" />
+          <mxGeometry x="1707.5" y="1510" width="65" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-114" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Novedades&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1617" y="720" width="106" height="20" as="geometry" />
+          <mxGeometry x="1635" y="710" width="106" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-115" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1335" y="760" width="680" height="150" as="geometry" />
+          <mxGeometry x="1353" y="750" width="680" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-116" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="1342.5" y="815" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1360.5" y="805" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-118" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="787.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1438" y="777.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-120" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1420" y="885" width="100" height="20" as="geometry" />
+          <mxGeometry x="1438" y="875" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-158" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="1976.25" y="817.5" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1994.25" y="807.5" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-162" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1565" y="787.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1583" y="777.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-163" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1565" y="885" width="100" height="20" as="geometry" />
+          <mxGeometry x="1583" y="875" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-164" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1705" y="787.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1723" y="777.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-165" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1700" y="887.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="1718" y="877.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-166" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="790" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1868" y="780" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-167" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1850" y="887.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="1868" y="877.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-168" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Mas vendidos&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1617" y="940" width="106" height="20" as="geometry" />
+          <mxGeometry x="1635" y="930" width="106" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-169" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="980" width="680" height="150" as="geometry" />
+          <mxGeometry x="1338" y="970" width="680" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-170" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="1342.5" y="1035" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1360.5" y="1025" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-171" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="1007.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1438" y="997.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-172" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1420" y="1105" width="100" height="20" as="geometry" />
+          <mxGeometry x="1438" y="1095" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-173" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="1976.25" y="1037.5" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1994.25" y="1027.5" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-174" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1565" y="1007.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1583" y="997.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-175" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1565" y="1105" width="100" height="20" as="geometry" />
+          <mxGeometry x="1583" y="1095" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-176" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1705" y="1007.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1723" y="997.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-177" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1700" y="1107.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="1718" y="1097.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-178" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="1010" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1868" y="1000" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-179" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1850" y="1107.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="1868" y="1097.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-180" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Recomendados&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1617" y="1160" width="106" height="20" as="geometry" />
+          <mxGeometry x="1635" y="1150" width="106" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-181" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="1200" width="680" height="150" as="geometry" />
+          <mxGeometry x="1338" y="1190" width="680" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-182" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="1342.5" y="1255" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1360.5" y="1245" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-183" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="1227.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1438" y="1217.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-184" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1420" y="1325" width="100" height="20" as="geometry" />
+          <mxGeometry x="1438" y="1315" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-185" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="1976.25" y="1257.5" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1994.25" y="1247.5" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-186" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1565" y="1227.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1583" y="1217.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-187" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1565" y="1325" width="100" height="20" as="geometry" />
+          <mxGeometry x="1583" y="1315" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-188" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1705" y="1227.5" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1723" y="1217.5" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-189" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1700" y="1327.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="1718" y="1317.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-190" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;libro&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="1230" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="1868" y="1220" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-191" value="Nombre libro" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="1850" y="1327.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="1868" y="1317.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-193" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="1343" y="311.25" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1361" y="301.25" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hvP3ro87KPUXglCwlEH1-194" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="1976.75" y="313.75" width="27.5" height="35" as="geometry" />
+          <mxGeometry x="1994.75" y="303.75" width="27.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-1" value="&lt;b&gt;© 2022 e-books.com, Inc. o sus afiliados&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
           <mxGeometry x="355.5" y="1760" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;© 2022 e-books.com, Inc. o sus afiliados&lt;/font&gt;&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="1492.5" y="1560" width="335" height="30" as="geometry" />
+          <mxGeometry x="1530.5" y="1550" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-3" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="-180" width="400" height="1550" as="geometry" />
-        </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-4" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="-170" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Mi cuenta&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2320" y="-160" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Lista de deseos&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2390" y="-160" width="115" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Carrito&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2493" y="-160" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-8" value="Buscador" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;rounded=0;labelBackgroundColor=none;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="-90" width="355" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-9" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="-42.5" width="400" height="10" as="geometry" />
+          <mxGeometry x="2170" y="10" width="400" height="1560" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-10" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Libros&amp;nbsp;&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="1354.5" y="182.5" width="60" height="20" as="geometry" />
+          <mxGeometry x="1372.5" y="172.5" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-11" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Libros&amp;nbsp; digitales&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="1640" y="185" width="130" height="20" as="geometry" />
+          <mxGeometry x="1658" y="175" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-12" value="Audiolibros" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="1815" y="185" width="60" height="20" as="geometry" />
+          <mxGeometry x="1833" y="175" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-13" value="&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#24292f&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Adolescentes y Jóvenes&lt;/span&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="1447" y="185" width="170" height="20" as="geometry" />
+          <mxGeometry x="1465" y="175" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-14" value="Niños" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="1950" y="182.5" width="60" height="20" as="geometry" />
+          <mxGeometry x="1968" y="172.5" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ym4tNuInhtMfcHf9Lne3-15" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
           <mxGeometry x="3354.5" y="-32.5" width="400" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-16" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="-10" width="380" height="40" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-67" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="20" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-17" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Libros&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2177" width="40" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-68" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Mi cuenta&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2330" y="30" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-18" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Libros&amp;nbsp; digitales&lt;/font&gt;&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2347" width="100" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-69" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Lista de deseos&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2400" y="30" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Audiolibros&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2437" width="60" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-70" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Carrito&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2503" y="30" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-20" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#24292f&quot;&gt;Adolescentes y Jóvenes&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2216" width="130" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-71" value="Buscador" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;rounded=0;labelBackgroundColor=none;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="100" width="355" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-21" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Niños&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2510" width="45" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-72" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="147.5" width="400" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-28" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="50" width="380" height="150" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-73" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="180" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-29" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Carrusel de imagenes&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2287" y="110" width="150" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-74" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Libros&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2187" y="190" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-31" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="2528.88" y="115.63" width="11.25" height="18.75" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-75" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Libros&amp;nbsp; digitales&lt;/font&gt;&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2357" y="190" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-33" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="2177" y="115.63" width="11.25" height="18.75" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-76" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Audiolibros&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2447" y="190" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-37" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="220.75" width="70" height="140" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-77" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#24292f&quot;&gt;Adolescentes y Jóvenes&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2226" y="190" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-38" value="&lt;div style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ENCUENTRA TU LUGAR IDEAL EN LA LIBRERÍA EN LÍNEA E-BOOKS&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;¡Más de 100 libros listos para enviar, 200 libros electrónicos y 80 audiolibros para escuchar de inmediato!&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Apoya esta pagina de jovenes emprendedores, cada miga de pan cuenta y ayuda a agrandar este sueño, para ser hecho realidad.&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="2252" y="220.75" width="290" height="140.5" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-78" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Niños&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2520" y="190" width="45" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-39" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Generos&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2176" y="231.75" width="75" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-79" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="240" width="380" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ficcion&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2176" y="253.75" width="55" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-80" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Carrusel de imagenes&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2297" y="300" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-41" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Terror&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2176" y="275.75" width="55" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-81" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="2538.88" y="305.63" width="11.25" height="18.75" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-42" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Novelas&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2176" y="301.25" width="60.13" height="18.5" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-82" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2187" y="305.63" width="11.25" height="18.75" as="geometry" />
         </mxCell>
-        <mxCell id="Ym4tNuInhtMfcHf9Lne3-43" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Comics&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="2176" y="327.75" width="65" height="20" as="geometry" />
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-83" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="410.75" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-84" value="&lt;div style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ENCUENTRA TU LUGAR IDEAL EN LA LIBRERÍA EN LÍNEA E-BOOKS&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;¡Más de 100 libros listos para enviar, 200 libros electrónicos y 80 audiolibros para escuchar de inmediato!&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Apoya esta pagina de jovenes emprendedores, cada miga de pan cuenta y ayuda a agrandar este sueño, para ser hecho realidad.&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2262" y="410.75" width="290" height="140.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-85" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Generos&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2186" y="421.75" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-86" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ficcion&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2186" y="443.75" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-87" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Terror&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2186" y="465.75" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-88" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Novelas&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2186" y="491.25" width="60.13" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-89" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Comics&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2186" y="517.75" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-90" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;“La educación es el arma más&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;poderosa que puedes usar para&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;cambiar el mundo”&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;NELSON MANDELA&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="569.75" width="170" height="100.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-91" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2378" y="569.75" width="174" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-92" value="Imagen" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2431" y="609.75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-93" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Novedades&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2314.5" y="730" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-94" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2182.5" y="775" width="370" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-97" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2218" y="785" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-98" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2218" y="862.5" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-99" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2327.5" y="785" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-100" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2327.5" y="862.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-101" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2436.38" y="787.5" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-102" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2436.38" y="865" width="83.62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-103" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="2533.75" y="821.63" width="11.25" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-104" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2185.87" y="821.63" width="11.25" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-106" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Mas vendidos&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2319" y="911.5" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-107" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2187" y="956.5" width="370" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-108" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2222.5" y="966.5" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-109" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2222.5" y="1044" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-110" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2332" y="966.5" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-111" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2332" y="1044" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-112" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2440.88" y="969" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-113" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2440.88" y="1046.5" width="83.62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-114" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="2538.25" y="1003.13" width="11.25" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-115" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2190.37" y="1003.13" width="11.25" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-127" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Recomendados&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2316.5" y="1097.5" width="106" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-128" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2184.5" y="1142.5" width="370" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-129" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="1152.5" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-130" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2220" y="1230" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-131" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2329.5" y="1152.5" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-132" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2329.5" y="1230" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-133" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Imagen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;libro&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2438.38" y="1155" width="75" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-134" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Nombre libro&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2438.38" y="1232.5" width="83.62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-135" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="2535.75" y="1189.13" width="11.25" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-136" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2187.87" y="1189.13" width="11.25" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-137" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2187" y="1320" width="363" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-142" value="&lt;b&gt;Conocenos&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2205.12" y="1330" width="108" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-143" value="¿Quienes somos?" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2197.12" y="1363" width="136" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-144" value="Conctatenos" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2201" y="1396.25" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-149" value="&lt;b&gt;Te ayudamos&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2201" y="1420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-150" value="Tu cuenta" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2201" y="1460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-151" value="Envio y devoluciones" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2201" y="1510" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-152" value="&lt;b&gt;Compra por genero&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2372.5" y="1333.75" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-153" value="Ficcion" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2372.5" y="1366.75" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-154" value="Terror" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2372.5" y="1403.75" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-155" value="Novelas" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2372.5" y="1443.75" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-156" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="2411" y="1490" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym4tNuInhtMfcHf9Lne3-157" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;© 2022 e-books.com, Inc. o sus afiliados&lt;/font&gt;&lt;/b&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="2218" y="1545" width="335" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
