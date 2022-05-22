@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T08:36:34.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="R538LYFiAOi3GjN_x5_J" version="18.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-22T08:38:09.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="wrj0NYT3m2NiMz9KnlkJ" version="18.0.8" type="github" pages="5">
   <diagram name="Login" id="vvYQtBmdYc1zt_GZLRea">
-    <mxGraphModel dx="1550" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5167" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="J01vVkQWqHk7LzoT_Zzm-0" />
         <mxCell id="J01vVkQWqHk7LzoT_Zzm-1" parent="J01vVkQWqHk7LzoT_Zzm-0" />
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Formulario de registro" id="TEh1zE3kpqTZAhOw4--a">
-    <mxGraphModel dx="1550" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5167" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="S3RBpqKrZi_EE3nzO5TS-0" />
         <mxCell id="S3RBpqKrZi_EE3nzO5TS-1" parent="S3RBpqKrZi_EE3nzO5TS-0" />
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fecgliY1gMyG_tVOH_5I" name="Home">
-    <mxGraphModel dx="5167" dy="4139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3875" dy="3397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1014,7 +1014,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WiBVXRXaRIMzPWT0ujot" name="Carrito de compras">
-    <mxGraphModel dx="3875" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3100" dy="1782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1149,7 +1149,7 @@
         <mxCell id="GhcrPG7Z9vBqT9fjPfCe-34" value="Header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="840" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GhcrPG7Z9vBqT9fjPfCe-35" value="Vertical Container" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Comic Sans MS;fontSize=24;fillColor=none;gradientColor=none;startSize=100;swimlaneFillColor=none;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="GhcrPG7Z9vBqT9fjPfCe-35" value="Header" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Comic Sans MS;fontSize=24;fillColor=none;gradientColor=none;startSize=100;swimlaneFillColor=none;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1081" y="40" width="720" height="1400" as="geometry" />
         </mxCell>
         <mxCell id="GhcrPG7Z9vBqT9fjPfCe-36" value="" style="line;strokeWidth=1;html=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Comic Sans MS;fontSize=12;fillColor=none;gradientColor=none;" vertex="1" parent="GhcrPG7Z9vBqT9fjPfCe-35">
@@ -1358,7 +1358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5GculX6gMTa74TjlxE2P" name="Detalles Producto">
-    <mxGraphModel dx="6821" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="7854" dy="3564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
