@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T08:48:08.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="eRCgDk8DjPmAPjKesVT6" version="18.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-25T04:44:57.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="Cr3SPO7MImn1rqyDONWc" version="18.1.1" type="github" pages="5">
   <diagram name="Login" id="vvYQtBmdYc1zt_GZLRea">
-    <mxGraphModel dx="5167" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="J01vVkQWqHk7LzoT_Zzm-0" />
         <mxCell id="J01vVkQWqHk7LzoT_Zzm-1" parent="J01vVkQWqHk7LzoT_Zzm-0" />
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Formulario de registro" id="TEh1zE3kpqTZAhOw4--a">
-    <mxGraphModel dx="5167" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="S3RBpqKrZi_EE3nzO5TS-0" />
         <mxCell id="S3RBpqKrZi_EE3nzO5TS-1" parent="S3RBpqKrZi_EE3nzO5TS-0" />
@@ -126,8 +126,8 @@
         <mxCell id="15CFaCIAydMy-h_9LVXV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
           <mxGeometry x="305" y="210" width="500" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="15CFaCIAydMy-h_9LVXV-5" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Iniciar sesion&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
-          <mxGeometry x="280" y="230" width="280" height="50" as="geometry" />
+        <mxCell id="15CFaCIAydMy-h_9LVXV-5" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Registrate&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
+          <mxGeometry x="254.75" y="230" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="15CFaCIAydMy-h_9LVXV-6" value="&lt;span style=&quot;color: rgb(17, 17, 17); font-family: &amp;quot;Amazon Ember&amp;quot;, Arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;Dirección de correo electrónico o número de teléfono móvil&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
           <mxGeometry x="329.5" y="340" width="350" height="55" as="geometry" />
@@ -186,8 +186,8 @@
         <mxCell id="QOUGlaeyx6ONiWop0Ikw-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
           <mxGeometry x="315" y="1190" width="500" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="QOUGlaeyx6ONiWop0Ikw-4" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Iniciar sesion&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
-          <mxGeometry x="310" y="1210" width="280" height="50" as="geometry" />
+        <mxCell id="QOUGlaeyx6ONiWop0Ikw-4" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Registrate&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
+          <mxGeometry x="280.87" y="1210" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QOUGlaeyx6ONiWop0Ikw-5" value="&lt;span style=&quot;color: rgb(17, 17, 17); font-family: &amp;quot;Amazon Ember&amp;quot;, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Dirección de correo electrónico o número de teléfono móvil&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="S3RBpqKrZi_EE3nzO5TS-1" vertex="1">
           <mxGeometry x="335" y="1395" width="420" height="55" as="geometry" />
