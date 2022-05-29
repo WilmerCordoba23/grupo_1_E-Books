@@ -8,7 +8,7 @@ console.log("Servidor encendido")
 
 app.use(express.static('public'));
 
-app.get("/",(req,res)=>
+app.get("/home",(req,res)=>
 res.sendFile(path.join(__dirname,"./views/index.html"))
 );
 

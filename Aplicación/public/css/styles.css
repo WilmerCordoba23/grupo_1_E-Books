@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    /*header*/
+header.home{
+    background-color: #72c8f1;
+    padding: 20px;
+}
+body{
+    color: #0F1111;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial,sans-serif;
+}
+.enlaces, nav ul li a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(11, 0, 0); 
+}
+.enlaces li{
+    margin-left: 20px;
+    
+}
+.logo{
+    height: 100px;
+    width: 20%;
+}
+.logo-footer{
+    height: 100px;
+    width: 100%;
+}
+.nav-bar {
+    color: #222222;
+    padding: 5px 0;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+header  .buscador input{
+ width: 500px;
+ height: 50px;
+}
+/*header*/
+/*main*/
+.generos{
+
+    border: solid ;
+    margin: 20px 0px;
+    color: #222222;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+.enlaces-generos,main div ul li a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+    color: rgb(11, 0, 0); 
+}
+.enlaces-generos li{
+
+    margin: 0 auto;
+}
+/*secciones*/
+.seccion{
+    margin: 40px auto;
+}
+.titulo-seccion{
+    text-align: center;
+}
+.novedades{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+    text-align: center;
+}
+div.novedades article{
+margin: 0 auto;
+}
+.img_producto{
+    height: 100px;
+    width: 100px;
+}
+/*secciones*/
+/*main*/
+/*footer*/
+div.footer-section a{
+    color: #ffff;
+    text-decoration: none;
+}
+.footer-section,div.footer-section li{
+    margin: 10px auto;
+    background-color: #232F3E;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+.footer-seccion{
+    color: #ffff;
+    display: block;
+margin: 8px auto;
+}
+.footer-copy{
+    text-align: center;
+}
+/*footer*/
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .logo{
+        height: 30px;
+        width: 20%;
+    }
+    .buscador{
+        position: relative;
+        top: 20px;
+       left: 10px;
+        }
+
+     header  .buscador input{
+         margin-top: 5px;
+        width: 300px;
+        height: 30px;
+        }
+
+    .enlaces{
+         position: relative;
+         top: -60px;
+         left: 70px;
+         font-size: 14px;
+    }
+    .generos{
+
+        font-size: 12px;
+  
+    }
+    .img_producto{
+        height: 80px;
+        width: 80px;
+    }
+    .logo-footer{
+        height: 100px;
+        width: 80%;
+    }
+    
+    
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
