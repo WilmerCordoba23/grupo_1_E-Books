@@ -2,68 +2,80 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Merriweather", "Georgia", serif;
     
     }
     /*header*/
 header.home{
-    background-color: #72c8f1;
-    padding: 20px;
+    background-color: #f4f2e9;
 }
 body{
-    color: #0F1111;
+    color: #333333;
     font-size: 14px;
     line-height: 20px;
-    font-family: Arial,sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+
 }
 .enlaces, nav ul li a{
     display: flex;
     list-style: none;
     text-decoration: none;
-    color: rgb(11, 0, 0); 
+    position: relative;
+    top: 8px;
+    color: #222222;
 }
 .enlaces li{
     margin-left: 20px;
     
 }
 .logo{
-    height: 100px;
+    height: 50px;
     width: 20%;
+
 }
 .logo-footer{
     height: 100px;
     width: 100%;
 }
 .nav-bar {
-    color: #222222;
+    
     padding: 5px 0;
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-between;
+    position: relative;
+    right: 20px;
 }
 header  .buscador input{
  width: 500px;
- height: 50px;
+ height: 40px;
+ border-radius: 10px;
+ border: none;
+ position: relative;
+ top: 8px;
 }
+header  .buscador a{
+    text-decoration: none;
+    color: #222222;
+   }
 /*header*/
 /*main*/
 .generos{
-
-    border: solid ;
-    margin: 20px 0px;
+    background-color: #f4f2e9;
     color: #222222;
     padding: 5px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;   
+
 }
 .enlaces-generos,main div ul li a{
     display: flex;
     list-style: none;
     text-decoration: none;
-    
-    color: rgb(11, 0, 0); 
+    color: #222222;
 }
 .enlaces-generos li{
 
@@ -93,13 +105,13 @@ margin: 0 auto;
 /*main*/
 /*footer*/
 div.footer-section a{
-    color: #ffff;
+    color: #181818;
     text-decoration: none;
 }
 .footer-section,div.footer-section li{
-    margin: 10px auto;
-    background-color: #232F3E;
-    color: #ffff;
+    margin:  auto;
+    background-color: #f9f8f4;
+    color: #181818;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -109,12 +121,16 @@ div.footer-section a{
     
 }
 .footer-seccion{
-    color: #ffff;
+    color: #181818;
     display: block;
 margin: 8px auto;
+
 }
 .footer-copy{
+    background-color: #f9f8f4;
+    color: #181818;
     text-align: center;
+    padding-bottom: 20px;
 }
 /*footer*/
 
@@ -122,10 +138,12 @@ margin: 8px auto;
     .logo{
         height: 30px;
         width: 20%;
+        position: relative;
+        top: 5px;
     }
     .buscador{
         position: relative;
-        top: 20px;
+        top: 8px;
        left: 10px;
         }
 
@@ -153,6 +171,10 @@ margin: 8px auto;
     .logo-footer{
         height: 100px;
         width: 80%;
+    }
+    .nav-bar{
+        position: relative;
+        left: 15px;
     }
     
     
