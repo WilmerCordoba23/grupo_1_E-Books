@@ -39,7 +39,7 @@ body{
 }
 .nav-bar {
     
-    padding: 5px 0;
+
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
@@ -49,10 +49,11 @@ body{
     right: 20px;
 }
 header  .buscador input{
- width: 500px;
+ width: 100px;
  height: 40px;
- border-radius: 10px;
+ border-radius: 10px 0px 0px 10px;
  border: none;
+ background-color: #ffff;
  position: relative;
  top: 8px;
 }
@@ -60,7 +61,61 @@ header  .buscador a{
     text-decoration: none;
     color: #222222;
    }
+header  .buscador button{
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #ffff;
+    height: 40px;
+    position: relative;
+    top: 8px;
+    right: 4px;
+}
 /*header*/
+/*banner*/
+section.banner img{
+    width: 100%;
+}
+/*banner*/
+/*informacion-relacionada*/
+.informacion-relacionada{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #f4f2e9;
+}
+.informacion-lista{
+
+    width: 20%;
+    margin: 0 auto;
+}
+section.informacion-lista  ul{
+    list-style: none;
+    text-decoration: none;
+}
+section.informacion-lista  ul li a{
+    margin: 20px 0px 20px 20px ;
+}
+.informacion-encuentra{
+    width: 50%;
+    margin: 0 auto;
+}
+
+section.informacion-encuentra h4,section.informacion-encuentra p{
+
+    margin-top: 30px;
+}
+.informacion-visual{
+
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+section.informacion-visual img{
+    width:250px;
+     height:250px;
+    
+}
+/*informacion-relacionada*/
 /*main*/
 .generos{
     background-color: #f4f2e9;
@@ -93,7 +148,13 @@ header  .buscador a{
     flex-wrap: wrap;
     flex-direction: row;   
     text-align: center;
+    margin-top: 20px;
+    border: solid #f4f2e9;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: #f4f2e9;
 }
+
 div.novedades article{
 margin: 0 auto;
 }
@@ -142,9 +203,10 @@ margin: 8px auto;
         top: 5px;
     }
     .buscador{
+        margin: 0 auto;
         position: relative;
         top: 8px;
-       left: 10px;
+       
         }
 
      header  .buscador input{
@@ -155,7 +217,7 @@ margin: 8px auto;
 
     .enlaces{
          position: relative;
-         top: -60px;
+         top: -70px;
          left: 70px;
          font-size: 14px;
     }
@@ -174,10 +236,51 @@ margin: 8px auto;
     }
     .nav-bar{
         position: relative;
-        left: 15px;
+        left: 0;
     }
-    
-    
+
+    .informacion-relacionada{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .informacion-lista{
+        
+        width: 10%;
+    }
+    section.informacion-lista  ul li a{
+        margin: 20px 0px 10px 0 ;
+    }
+    .informacion-encuentra{
+        font-size: 12px;
+        width: 70%;
+        text-align: justify;
+    }
+    section.informacion-encuentra h4{
+        margin-top: 20px;
+    }
+    section.informacion-encuentra p{
+        margin-top: 0;    
+    }
+    .informacion-visual{
+
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section.informacion-visual img{
+        width:200px;
+        height:200px;
+    }
+    header  .buscador input{
+     width: 300px;
+     height: 40px;
+
+    }
+    div.novedades article{
+        width: 50%;
+        }
+
+
 }
 @media (min-width: 481px) and (max-width: 768px) {
 
