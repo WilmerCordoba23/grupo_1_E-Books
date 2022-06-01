@@ -16,6 +16,64 @@ body{
     background-color: rgba(255, 255, 255, 0);
 
 }
+
+.form { 
+    background: #f4f4f4;
+    width: 45%;
+    border:1px solid #c4c4c4;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top: 2%;
+  }
+  
+  .form h1 {
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  
+  .form input {
+    border: 1px solid #c4c4c4;
+    padding: 8px;
+    border-radius: 5px;
+    width: 85%;
+    margin-right: 5%;
+  }
+  
+  .form input[type="submit"] {
+    background: black;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #login-boton  { 
+    background: black;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30%;
+  
+
+  }
+  .form p {
+    margin-left: 5%;
+    text-align: left;
+    padding-top: 10px;
+  }
+  
+  .form a {
+      text-align: center ;
+    text-decoration: none;
+    color: #222222  ;
+  }
 .enlaces, nav ul li a{
     display: flex;
     list-style: none;
@@ -31,6 +89,12 @@ body{
 .logo{
     height: 50px;
     width: 20%;
+
+}
+.logo-header{
+    margin-top: 2%;
+    height: 100px;
+    width: 50%;
 
 }
 .logo-footer{
@@ -49,7 +113,7 @@ body{
     right: 20px;
 }
 header  .buscador input{
- width: 100px;
+ width: 400px;
  height: 40px;
  border-radius: 10px 0px 0px 10px;
  border: none;
@@ -196,6 +260,12 @@ margin: 8px auto;
 /*footer*/
 
 @media (min-width: 0px) and (max-width: 480px) {
+    #login {
+        width: 95%;
+    }
+    #login-boton {
+        width: 90%;
+    }
     .logo{
         height: 30px;
         width: 20%;

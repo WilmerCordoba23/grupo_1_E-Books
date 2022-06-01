@@ -3,24 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Document</title>
 </head>
 <body>
+    <center>
+            <header class="home">
 
-	<header>
+        <nav class="nav-bar">
 
-	</header>    
+            <img src="./images/logo.svg" alt="E-Books_logo" class="logo">
 
-	<main>
+            <div class="buscador">
+                
+            <input type="text" placeholder=" Buscar productos, marcas">
+            <button><a href="" class="fas fa-search"></a></button>
+            </div>
 
-	</main>
+            <ul class="enlaces">
+                <li><a href="/home">Inicio</a></li>
+                <li><a href="/login">Mi cuenta </a></li>
+                <li><a href="">Lista de deseos </a></li>
+                <li><a href="/productCart">Carrito </a></li>
+            </ul>
 
-	<footer>
+        </nav>
+    </header>
+        <main>
+            <div class="form">
+                 <h1>Registrate</h1>
+                 <p>Tu nombre</p>
+                 <input type="text" placeholder="Nombres y apellidos">
+                 <br>
+                 <p>Direccion de correo electronico o numero de telefono movil</p>
+                 <input type="text">
+                 <br>
+                 <p>Contraseña</p>
+                 <input type="text" placeholder="Como minimo 6 caracteres">
+                 <p id="arriba">!La contraseña debe contener al menos 6 caracteres</p>
+                 <br>
+                 <p >Vuelve a repetir la contraseña</p>
+                 <input type="text">
+                 <br>
+                 <br>
+                 <input type="submit" value="Continuar">
+                 <br>   
+                 <p>Al crear una cuenta, aceptas las <u><a href="">Condiciones de uso</a></u> y el <u><a href="">Aviso de privacidad</a></u> de E-Books.</p>
+                 <br>
+                 <p>Ya tienes cuenta? <u><a href="">Inicia sesion</a></u></p>
+            </div>  
+            <br>
+            <br>
 
-	</footer>
+        </main>
 
+    </center>
+    <footer>
+        
+
+        <div class="footer-section">
+            <section class="footer-seccion">
+
+            <h4>Conocenos</h4>
+            <li><a>¿Quienes somos?</a></li>
+            <li><a>Conctatenos</a></li>
+            <li><a href="/productCart">Carrito </a></li>
+            
+            </section>
+
+            <section class="footer-seccion">
+
+                <h4>Compra por genero</h4>
+                <li><a>Ficcion</a></li>
+                <li><a>Terror</a></li>
+                <li><a>Novelas</a></li>
+                
+            </section>
+
+             <section class="footer-seccion">
+
+                    <h4>Te ayudamos</h4>
+                    <li><a>Tu cuenta</a></li>
+                    <li><a>Conctatenos</a></li>
+                    <li><a>Envio y devoluciones</a></li>
+                    
+            </section>
+            
+            <section class="footer-seccion">
+
+                <img src="./images/logo.svg" alt="E-Books_logo" class="logo-footer">
+                
+             </section>
+
+        </div>
+
+        <section>
+           
+        <p  class="footer-copy"><strong>© 2022 e-books.com, Inc. o sus afiliados</strong></p>
+
+        </section>
+</footer>
 </body>
 </html>
