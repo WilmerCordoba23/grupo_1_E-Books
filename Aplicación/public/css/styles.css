@@ -11,10 +11,9 @@ header.home{
 }
 body{
     color: #333333;
+    background-color: #f4f4f4;
     font-size: 14px;
     line-height: 20px;
-    background-color: rgba(255, 255, 255, 0);
-
 }
 
 .form { 
@@ -87,9 +86,8 @@ body{
     
 }
 .logo{
-    height: 50px;
+    height: 40px;
     width: 20%;
-
 }
 .logo-header{
     margin-top: 2%;
@@ -102,8 +100,6 @@ body{
     width: 100%;
 }
 .nav-bar {
-    
-
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
@@ -111,10 +107,11 @@ body{
     justify-content:space-between;
     position: relative;
     right: 20px;
+    padding-bottom: 10px;
 }
 header  .buscador input{
  width: 400px;
- height: 40px;
+ height: 30px;
  border-radius: 10px 0px 0px 10px;
  border: none;
  background-color: #ffff;
@@ -129,7 +126,7 @@ header  .buscador button{
     border-radius: 0px 10px 10px 0px;
     border: none;
     background-color: #ffff;
-    height: 40px;
+    height: 30px;
     position: relative;
     top: 8px;
     right: 4px;
@@ -145,12 +142,11 @@ section.banner img{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    background-color: #f4f2e9;
 }
 .informacion-lista{
 
     width: 20%;
-    margin: 0 auto;
+    margin: 8px auto  0 auto;
 }
 section.informacion-lista  ul{
     list-style: none;
@@ -176,7 +172,7 @@ section.informacion-encuentra h4,section.informacion-encuentra p{
 }
 section.informacion-visual img{
     width:250px;
-     height:250px;
+    height:250px;
     
 }
 /*informacion-relacionada*/
@@ -206,25 +202,30 @@ section.informacion-visual img{
 }
 .titulo-seccion{
     text-align: center;
+    margin-bottom: 20px;
 }
 .novedades{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;   
+    flex-wrap: wrap;
+    width: 100%;
+}
+.novedades article{
     text-align: center;
-    margin-top: 20px;
     border: solid #f4f2e9;
     border-radius: 10px;
-    padding: 2px;
-    background-color: #f4f2e9;
+    padding: 8px 0 2px 0;
+    width: 15%;
+    margin: 20px auto 0 auto;
+    background-color: #ffffff;
 }
 
 div.novedades article{
 margin: 0 auto;
 }
 .img_producto{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 80%;
 }
 /*secciones*/
 /*main*/
@@ -259,7 +260,7 @@ margin: 8px auto;
 }
 /*footer*/
 
-@media (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 400px) {
     #login {
         width: 95%;
     }
@@ -290,6 +291,9 @@ margin: 8px auto;
          top: -70px;
          left: 70px;
          font-size: 14px;
+    }
+    .enlaces{
+        margin-top: 10px;
     }
     .generos{
 
@@ -343,15 +347,177 @@ margin: 8px auto;
     }
     header  .buscador input{
      width: 300px;
-     height: 40px;
+     height: 30px;
 
     }
-    div.novedades article{
+    .novedades article{
         width: 50%;
-        }
+
+    }
+    .img_producto{
+        height: 200px;
+        width: 80%;
+    }
 
 
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 767px) {
+    #login {
+        width: 95%;
+    }
+    #login-boton {
+        width: 90%;
+    }
+    .logo{
+        height: 40px;
+        width: 15%;
+        position: relative;
+        top: 5px;
+    }
+    .buscador{
+        width: 35%;
+        position: relative;
+        top: 5px;
+      }
 
+     header  .buscador input{
+        font-size: 10px; 
+        width: 120px;
+        height: 20px;
+        }
+        header  .buscador button{
+            border-radius: 0px 10px 10px 0px;
+            border: none;
+            background-color: #ffff;
+            height: 20px;
+            position: relative;
+            top: 9px;
+            right: -1;
+
+        }
+    .enlaces{
+     width: 40%;
+    }
+    .enlaces li{
+        margin-left: 5px;  
+        font-size: 10px; 
+    }
+
+    .enlaces{
+        margin-top: 0;
+    }
+    .generos{
+
+        font-size: 12px;
+  
+    }
+    .img_producto{
+        height: 80px;
+        width: 80px;
+    }
+    .logo-footer{
+        height: 100px;
+        width: 80%;
+    }
+    .nav-bar {
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+        position: relative;
+        right: 0;
+        padding-bottom: 0;
+    }
+.generos{
+    font-size: 12px; 
+    padding-top: 10px;
+}
+    section.informacion-lista  ul li a{
+        margin: 20px 0px 10px 0 ;
+    }
+
+    
+    .novedades article{
+        width: 40%;
+
+    }
+    .img_producto{
+        height: 150px;
+        width: 80%;
+    }
+    .informacion-relacionada{
+        flex-wrap: wrap;
+        margin: 0 0;
+    }
+    .informacion-visual{
+
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section.informacion-visual img{
+        width:200px;
+        height:200px;
+        
+    }
+    .informacion-lista{
+
+        width: 10%;
+        margin: 8px auto  0 auto;
+    }
+    
+    .informacion-encuentra{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+        text-align: justify;
+    }
+}
+@media (min-width: 768px){
+    .logo{
+        height: 50px;
+        width: 20%;
+        position: relative;
+        top: 5px;
+    }
+    .buscador{
+        margin: 0 auto;
+        position: relative;
+        top: 8px;
+       
+        }
+
+     header  .buscador input{
+         margin-top: 5px;
+        width: 300px;
+        height: 30px;
+        }
+
+    .enlaces{
+         position: relative;
+         top: 5px;
+         left: 0;
+         font-size: 14px;
+    }
+    .enlaces{
+        margin-top: 10px;
+    }
+    .novedades{
+        width: 100%;
+    }
+    .novedades article{
+       
+        width: 20%;
+        margin: 20px auto 0 auto;
+        background-color: #ffffff;
+    }
+    
+    div.novedades article{
+    margin: 0 auto;
+    }
+    .img_producto{
+        height: 200px;
+        width: 70%;
+    }
 }
