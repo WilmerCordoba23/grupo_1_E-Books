@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Document</title>
+    <title>Incia sesion</title>
 </head>
 <body>
     <center>
@@ -23,7 +23,7 @@
                 </div>
     
                 <ul class="enlaces">
-                    <li><a href="/home">Inicio</a></li>
+                    <li><a href="/">Inicio</a></li>
                     <li><a href="/login">Mi cuenta </a></li>
                     <li><a href="">Lista de deseos </a></li>
                     <li><a href="/productCart">Carrito </a></li>
@@ -32,13 +32,13 @@
             </nav>
         </header>
         <main>
-            <div class="form">
+            <form action="/" class="form">
                  <h1>Iniciar sesion</h1>
-                 <p>Direccion de correo electronico o numero de telefono movil</p>
-                 <input type="text">
+                 <label for="usuario"><p>Direccion de correo electronico o numero de telefono movil</p></label>
+                 <input type="text" name="usuario" id="usuario" minlength="2">
                  <br>
-                 <p>Contraseña</p>
-                 <input type="password">
+                 <label for="contraseña"><p>Contraseña</p></label>
+                 <input type="password" name="contraseña" id="contraseña" minlength="6">
                  <br>
                  <br>
                  <input type="submit" value="Continuar">
@@ -46,7 +46,7 @@
                  <p>Al continuar, aceptas las <u><a href="">Condiciones de uso</a></u>  y el <u><a class="" href="">Aviso de privacidad</a></u> de E-Books.</p>
                  <br>
                  <p><u><a href="">Necesitas ayuda?</a></u></p>
-            </div>  
+                </form>
             <br>
             <p>---------------------Eres nuevo en E-Books?-------------------</p>
             <a href="./register"><input type="submit" id="login-boton" value="Crear cuenta de E-Books"></a>
