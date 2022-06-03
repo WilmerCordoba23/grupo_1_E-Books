@@ -370,7 +370,9 @@ margin: 8px auto;
         position: relative;
         left: 0;
     }
-
+    body{
+        font-size: 12px !important;
+    }
     .informacion-relacionada{
         flex-wrap: wrap;
         margin: 0 auto;
@@ -383,7 +385,6 @@ margin: 8px auto;
         margin: 20px 0px 10px 0 ;
     }
     .informacion-encuentra{
-        font-size: 12px;
         width: 70%;
         text-align: justify;
     }
