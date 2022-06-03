@@ -1,1 +1,2 @@
+web: node app.js
 web: node grupo_1_E-Books/Aplicación/app.js
