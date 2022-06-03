@@ -12,7 +12,7 @@ header.home{
 body{
     color: #333333;
     background-color: #f4f4f4;
-    font-size: 14px;
+    font-size: 15px !important;
     line-height: 20px;
 }
 
@@ -232,7 +232,6 @@ button.pago{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
 }
 .generos{
     background-color: #f4f2e9;
@@ -317,7 +316,7 @@ margin: 8px auto;
 }
 /*footer*/
 
-@media (min-width: 0px) and (max-width: 400px) {
+@media (min-width: 0px) and (max-width: 389px) {
     #login {
         width: 95%;
     }
@@ -325,10 +324,12 @@ margin: 8px auto;
         width: 90%;
     }
     .logo{
-        height: 30px;
-        width: 20%;
+        height: 60px;
+        width: 60px;
+        margin: 0 0;
         position: relative;
-        top: 5px;
+        top: 8px;
+        left: 10px;
     }
     .buscador{
         margin: 0 auto;
@@ -573,7 +574,7 @@ margin: 8px auto;
         text-align: justify;
     }
 }
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 390px) and (max-width: 767px) {
     .details{
         display: none;
     }
@@ -738,10 +739,12 @@ margin: 8px auto;
         width: 90%;
     }
     .logo{
-        height: 40px;
-        width: 15%;
+        height: 45px;
+        width: 45px;
+        margin: 0 auto;
         position: relative;
-        top: 5px;
+        top: 3px;
+        right: 10px;
     }
     .buscador{
         width: 35%;
@@ -769,7 +772,7 @@ margin: 8px auto;
     }
     .enlaces li{
         margin-left: 5px;  
-        font-size: 10px; 
+        font-size: 9px; 
     }
 
     .enlaces{
@@ -906,7 +909,7 @@ margin: 8px auto;
     .total{
         margin-top: 50px;
         margin-right: 1%;
-        margin-bottom: 1000px;
+        margin-bottom: 40px;
     }
     #productDetails{
         display: flex;
@@ -1018,10 +1021,11 @@ margin: 8px auto;
         display: none;
     }
     .logo{
-        height: 50px;
-        width: 20%;
+        height: 70px;
+        width: 70px;
+        margin: 0 65px;
         position: relative;
-        top: 5px;
+        top: 4px;
     }
     .buscador{
         margin: 0 auto;
@@ -1040,7 +1044,7 @@ margin: 8px auto;
          position: relative;
          top: 5px;
          left: 0;
-         font-size: 14px;
+         font-size: 12px;
     }
     .enlaces{
         margin-top: 10px;
