@@ -144,7 +144,6 @@ section.banner img{
     justify-content:space-between;
 }
 .informacion-lista{
-
     width: 20%;
     margin: 8px auto  0 auto;
 }
@@ -279,6 +278,14 @@ button.pago{
 div.novedades article{
 margin: 0 auto;
 }
+div.novedades article:hover .detalles{
+   color: darkblue;
+   font-size: 20px;
+    }
+.detalles{
+    text-decoration: none;
+    color: #333333;
+    }
 .img_producto{
     height: 200px;
     width: 80%;
@@ -348,15 +355,8 @@ margin: 8px auto;
          position: relative;
          top: -70px;
          left: 70px;
-         font-size: 14px;
-    }
-    .enlaces{
-        margin-top: 10px;
-    }
-    .generos{
-
-        font-size: 12px;
-  
+         font-size: 14px; 
+         margin-top: 10px;
     }
     .img_producto{
         height: 80px;
@@ -377,8 +377,7 @@ margin: 8px auto;
         flex-wrap: wrap;
         margin: 0 auto;
     }
-    .informacion-lista{
-        
+    .informacion-lista{ 
         width: 10%;
     }
     section.informacion-lista  ul li a{
