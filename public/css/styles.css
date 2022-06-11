@@ -324,6 +324,9 @@ margin: 8px auto;
 /*footer*/
 
 @media (min-width: 0px) and (max-width: 389px) {
+    .form{
+        width: 90%;
+    }
     #login {
         width: 95%;
     }
@@ -575,6 +578,9 @@ margin: 8px auto;
     }
 }
 @media (min-width: 390px) and (max-width: 767px) {
+    .form{
+        width: 90%;
+    }
     .details{
         display: none;
     }
@@ -847,6 +853,7 @@ margin: 8px auto;
     }
 }
 @media (min-width: 768px){
+
     .cart{
         background-color: #f4f2e9;
         margin-left: 1%;
