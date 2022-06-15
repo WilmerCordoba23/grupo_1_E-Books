@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head')%>
+<body>
+    <%- include('./partials/menu')%>
+
+<center>
+        <main>
+            <form action="/" class="form">
+                 <h1>Registrate</h1>
+                 <label for="nombre"><p>Tu nombre</p></label>
+                 <input type="text" name="nombre" id="nombre" placeholder="Nombres y apellidos" minlength="2">
+                 <br>
+                 <label for="usuario"><p>Direccion de correo electronico o numero de telefono movil</p></label>
+                 <input type="text" id="usuario" name="usuario" minlength="2">
+                 <br>
+                 <label for="contraseña"><p>Contraseña</p></label>
+                 <input type="password" id="contraseña" name="contraseña" placeholder="Como minimo 6 caracteres" minlength="6">
+                 <p id="arriba">!La contraseña debe contener al menos 6 caracteres</p>
+                 <br>
+                 <label for="verificarcontraseña"><p >Vuelve a repetir la contraseña</p></label>
+                 <input type="password" name="verificarcontraseña" id="verificarcontraseña" minlength="6">
+                 <br>
+                 <br>
+                 <input type="submit" value="Continuar">
+                 <br>   
+                 <p>Al crear una cuenta, aceptas las <u><a href="">Condiciones de uso</a></u> y el <u><a href="">Aviso de privacidad</a></u> de E-Books.</p>
+                 <br>
+                 <p>Ya tienes cuenta? <u><a href="">Inicia sesion</a></u></p>
+                </form>
+            <br>
+            <br>
+
+        </main>
+
+    </center>
+   
+    <%- include('./partials/footer')%>
+
+</body>
+</html>

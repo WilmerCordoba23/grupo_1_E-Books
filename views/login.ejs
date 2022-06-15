@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head')%>
+<body>
+    
+    <%- include('./partials/menu')%>
+
+        <center>
+        <main>
+            <form action="/" class="form">
+                 <h1>Iniciar sesion</h1>
+                 <label for="usuario"><p>Direccion de correo electronico o numero de telefono movil</p></label>
+                 <input type="text" name="usuario" id="usuario" minlength="2">
+                 <br>
+                 <label for="contraseña"><p>Contraseña</p></label>
+                 <input type="password" name="contraseña" id="contraseña" minlength="6">
+                 <br>
+                 <br>
+                 <input type="submit" value="Continuar">
+                 <br>   
+                 <p>Al continuar, aceptas las <u><a href="">Condiciones de uso</a></u>  y el <u><a class="" href="">Aviso de privacidad</a></u> de E-Books.</p>
+                 <br>
+                 <p><u><a href="">Necesitas ayuda?</a></u></p>
+                </form>
+            <br>
+            <p>---------------------Eres nuevo en E-Books?-------------------</p>
+            <a href="./register"><input type="submit" id="login-boton" value="Crear cuenta de E-Books"></a>
+            <br>
+            <br>
+        </main>
+
+    </center>
+    
+       <%- include('./partials/footer')%>
+
+</body>
+</html>
