@@ -20,6 +20,15 @@ const productscontroller={
         
         res.render("productCart")
     },
+    productRegister:(req,res)=>{
+        res.render("productRegister")
+    },
+    productModify:(req,res)=>{
+        res.render("productModify")
+    }
+
+
+
 
 };
 

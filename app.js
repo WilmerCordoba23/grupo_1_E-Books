@@ -16,6 +16,9 @@ app.use(express.static('./public'));
 app.get('/',products);
 app.get('/productDetail',products);
 app.get('/productCart',products);
+app.get('/productRegister',products);
+app.get('/productModify',products);
+
 
 //usuarios
 app.get('/login',usuarios);
