@@ -1,3 +1,13 @@
-Nuestro grupo está de acuerdo en que hicimos una mala distribución de nuestro tiempo, lo que nos conllevó a realizar 
-el sprint deforma atareada a último momento, algo que consideramos que hicimos bien es el Wireframe y la rapidez en la
-que pudimos solucionar los problemas que se nos presentaron en nuestro camino, haciendo un buen diseño el cual nos gustó a todos.
+Que hicimos mal: 
+-Falta de organizacion a la hora de reunirnos.
+-No fijar fechas clave para tener listas o finalizadas las actividades.
+-Poca disponibilidad y coordinacion de nuestros horarios.
+
+Empezar a hacer: 
+-Fijar fechas para las cuales tener listos o finalizadas las actividades correspondientes de cada uno.
+-Empezar a lmplementar las daily/weekly standups.
+-Dividirnos de manera mas eficaz las tareas.
+-Organizar mejor nuestros horarios para trabajar de maner mas efectiva y produvtiva.
+
+Dejar de hacer:
+-Retrasar hasta la ultima fecha posible las actividades que debemos realizar.
