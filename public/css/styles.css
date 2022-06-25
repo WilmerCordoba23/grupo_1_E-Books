@@ -84,7 +84,7 @@ body{
 }
 .enlaces li{
     margin-left: 20px;
-    
+    font-size: 15px;
 }
 .logo{
     height: 40px;
@@ -265,6 +265,7 @@ button.pago{
 .titulo-seccion{
     text-align: center;
     margin-bottom: 20px;
+    background-color: white;
 }
 .novedades{
     display: flex;
@@ -286,7 +287,9 @@ margin: 0 auto;
 background-color: white;
 }
 div.novedades article:hover .detalles{
-   font-size: 15px;
+   font-size: 14px;
+    transition: 
+    font-size,0.8s; 
     }
 .detalles{
     text-decoration: none;
@@ -780,8 +783,8 @@ margin: 8px auto;
      width: 40%;
     }
     .enlaces li{
-        margin-left: 5px;  
-        font-size: 9px; 
+        margin-left: 10px;  
+        font-size: 14px; 
     }
 
     .enlaces{
