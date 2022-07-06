@@ -4,6 +4,13 @@
    "Nombre": "Wilmer Alexander",
    "Apellido": "Cordoba Arroyo",
    "Email": "alexandercordoba2003@hotmail.com",
-   "Contraseña: "wilmer11"
- }
+   "Contraseña": "wilmer11"
+ },
+ {
+  "Identificador": 8,
+  "Nombre": "Sergio Andres",
+  "Apellido": "Cordoba Torrez",
+  "Email": "sergioandrestorrez@gmail.com",
+  "Contraseña": "sergio8"
+}
 ]
