@@ -1,107 +1,64 @@
 [
  {
-  "id": 1,
-  "name": "Book Lovers",
-  "price": 49.515,
-  "category": "Novedades",
-  "description": "“Una de mis autoras favoritas”.—Colleen Hoover Un éxito de ventas instantáneo, n.° 1
-
-del New York Times perspicaz y delicioso de la autora de Beach Read y People We Meet on Vacation . Nombrado el libro más esperado de 2022 por Oprah Daily ∙ Today ∙ Parade ∙ Marie Claire ∙ Bustle ∙ PopSugar ∙ Katie Couric Media ∙ Book Bub ∙ SheReads ∙ Medium ∙ The Washington Post ∙ ¡y más! Un verano. Dos rivales. Un giro en la trama que no vieron venir... La vida de Nora Stephens son los libros, los ha leído todos, y no
-ese tipo de heroína. No la valiente, no la relajada chica de los sueños, y especialmente no la novia. De hecho, las únicas personas para las que Nora es una heroína son sus clientes, para quienes consigue grandes acuerdos como agente literaria despiadada, y su querida hermana pequeña Libby.
-
-Por eso acepta ir a Sunshine Falls, Carolina del Norte, durante el mes de agosto, cuando Libby le ruega un viaje de hermanas, con visiones de la transformación de una pequeña ciudad para Nora, quien está convencida de que necesita convertirse en la heroína de su propio historia. Pero en lugar de picnics en los prados, o encuentros con un apuesto médico rural o un cantinero de antebrazos abultados, Nora sigue tropezando con Charlie Lastra, un editor melancólico y estudioso de la ciudad. Sería un lindo encuentro si no fuera por el hecho de que se han visto muchas veces y nunca ha sido lindo.
-
-Si Nora sabe que ella no es una heroína ideal, Charlie sabe que él no es el héroe de nadie, pero a medida que se juntan una y otra vez, en una serie de coincidencias que ningún editor que se precie permitiría, lo que descubren podría desentrañar las historias cuidadosamente elaboradas. han escrito sobre ellos mismos.",
-  "image": "Book Lovers.jpg",
-  "format": "Tapa dura",
-  "gender": "Romantico"
- },
-{
-  "id": 2
-  "name": "Daughters of the Night Sky",
-  "price": 42.512,
-  "category": "Novedades",
-  "description": "Una novela, inspirada en el regimiento más célebre del Ejército Rojo, sobre el sacrificio, el coraje y el amor de una mujer en tiempos de guerra.
-
-Rusia, 1941. Katya Ivanova es una joven piloto en una academia militar remota en los Montes Urales. Desde la infancia, ha soñado con volar a los cielos para escapar de su sombría vida en la montaña. Con los nazis en marcha por toda Europa, se le pide que use sus alas para servir a su país en su hora más oscura. Ni siquiera las súplicas de su nuevo esposo, un artista sensible que teme por su seguridad, pueden disuadirla de hacer su parte como una orgullosa hija de Rusia.
-
-Después de años de arduo entrenamiento, Katya es asignada al 588.° Regimiento de Bombarderos Nocturnos, una de las únicas unidades aéreas soviéticas compuesta en su totalidad por mujeres. Los alemanes aprenden rápidamente a temer las incursiones nocturnas de los atrevidos voladores a los que llaman "brujas nocturnas". Pero la brutal campaña cobrará un precio amargo en Katya y sus hermanas de armas. Cuando el humo de la guerra se disipe, nada volverá a ser igual, y una de las heroínas militares más condecoradas de Rusia se enfrentará a la elección más angustiosa de todas.",
-  "image": "Daughters of the Night Sky.jpg",
-  "format": "Tapa dura",
-  "gender": "Aventura"
- },
-,
-{
-  "id": 3,
-  "name": "Detective Comics",
-  "price": 108.803,
-  "category": "Novedades",
-  "description": "Con la pérdida de su fortuna y su mansión, la elección del alcalde Nakano y el creciente sentimiento anti-vigilante en Ciudad Gótica, Bruce Wayne debe repensar cómo ser Batman... o arriesgarse a quedarse atrás en su propia ciudad. 
- 
-¡Presentamos al Sr. Worth! Cuando su hija es asesinada durante la brutal ola de crímenes que se apodera de Gotham City, Roland Worth, un montón de músculos y dinero de dos metros y medio de altura, emprende un camino de venganza hacia el principal sospechoso del crimen: ¡Batman! El Caballero Oscuro ha sido incriminado por asesinato y, para empeorar las cosas, este espeluznante acto parece estar conectado con otra fuerza malvada emergente en el horizonte. ¡Es una explosión de galería de pícaros, y esta vez no hay una mansión en la colina desde la que Bruce Wayne pueda montar su contraataque! La escritora ganadora del premio Eisner, Mariko Tamaki, y el artista superestrella Dan Mora comienzan una nueva historia emocionante, sorprendente y que desafía a la muerte para el detective más grande del mundo.",
-  "image": "Detective Comics.jpg",
-  "format": "Tapa dura",
-  "gender": "Ficcion"
- },
-{
-  "id": 4,
-  "name": "Dissonance",
-  "price": 113.886,
-  "category": "Novedades",
-  "description": "Un nuevo mundo. Mil Amenazas. Bienvenidos al Continente.
-
-La vida de Félix en la Tierra se había convertido en una serie de trabajos sin salida, relaciones arruinadas y apartamentos rotativos más pequeños que la mayoría de los sellos postales. Según todos los informes, incluso el suyo propio, era un cobarde. Demasiado miedo de avanzar, de correr riesgos. Sin embargo, cuando se le dio la oportunidad de elegir entre arriesgar su vida o alejarse de un encuentro mortal, no dudó.
-
-Momentos antes de su muerte prematura, Félix fue arrancado de la tierra y arrojado a un mundo mágico conocido solo como 'El Continente'. Empoderado por el 'Sistema', aprende que puede fortalecerse a sí mismo a través del combate y la dedicación. Para sobrevivir, tendrá que esforzarse más allá de sus límites o caer ante los monstruos que lo rodean.
-
-Niveles, estadísticas y magia. La muerte es el comienzo de un terrible destino, pero si vive... nadie sabe en qué se convertirá.",
-  "image": "Dissonance.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Ficcion"
- },
-{
-  "id": 5,
-  "name": "Every Summer After",
-  "price": 53,100,
-  "category": "Novedades",
-  "description": " 'Un debut radiante': Emily Henry, autora número uno en ventas del New York Times de Tú y yo de vacaciones Cinco veranos para enamorarse. Un momento para desmoronarse. Un fin de semana para hacerlo bien. La escritora de una revista tiene que tomar una decisión cuando regresa al lago en el que creció, y al hombre sin el que pensó que nunca tendría que vivir, en este debut dolorosamente nostálgico.
-
-
-Dicen que nunca puedes volver a casa, y para Persephone Fraser eso se ha sentido demasiado cierto durante la última década, desde que cometió el mayor error de su vida. En lugar de resplandecientes veranos en la orilla del lago de su infancia, los pasa en un elegante apartamento en la ciudad, saliendo con amigos y manteniendo a todos a una distancia segura de su corazón. Hasta el día en que recibe una llamada que la envía de vuelta a Barry's Bay y a la órbita de Sam Florek.
-
-Durante cinco veranos, a través de las tardes brumosas en el agua y las cálidas noches de verano trabajando en el restaurante de su familia y acurrucándose con los libros (libros de texto de medicina para él y cuentos de terror en progreso para ella), Percy y Sam habían sido inseparables. Y poco a poco esa amistad se convirtió en algo asombrosamente más, antes de que se desmoronara espectacularmente.
-
-Cuando Percy regresa al lago para asistir al funeral de la madre de Sam, su conexión es tan innegable como siempre. Percy debe confrontar las decisiones que ha tomado y los años que ha pasado castigándose por ellas, para determinar, de una vez por todas, si su amor puede ser más grande que los mayores errores de su pasado.
-
-Contada a lo largo de cinco años y un fin de semana, Every Summer After es una mirada amplia y arrolladora sobre el amor y las personas y las elecciones que nos marcan para siempre.
-
-"Una dulce historia sobre las segundas oportunidades y cómo el futuro que imaginamos para nosotros mismos nunca es exactamente lo que resulta ser. - Jodi Picoult, autora número 1 en ventas del New York Times de The Book of Two Ways y Wish You Were Here
-
-"Carley Fortune perfecciona la nostalgia del joven amor de verano y las elecciones que nos cambian para siempre en Every Summer After, una novela inteligente y encantadora que tocará tus fibras sensibles y satisfará con creces a los fans de Emily Henry". Esta es tu próxima lectura en la playa de lectura obligada de una nueva y emocionante voz. ¡Una alegría total para devorar! - Ashley Audrain, autora número uno en ventas de The Push
-
-Ambientada en el idílico campo rural de Ontario, el debut de Carley Fortune Every Summer After sigue a una pareja, Persephone (Percy) y Sam, mientras navegan por la pérdida, las promesas rotas y el amor no correspondido. En una narrativa de "entonces/ahora" que abarca casi dos décadas, Fortune explora hábilmente el tira y afloja de una relación agobiada por errores y malentendidos del pasado, y cómo se trata tanto de elección como del destino. Evocadora y nostálgica, esta novela es perfecta para aquellos que codician los calurosos días de verano en el muelle y las historias de amor de segunda oportunidad. ¡Lo devoré! - Karma Brown, autora número uno en ventas de Receta para una esposa perfecta
-
-“Al igual que el verano, no quería que esta épica y nostálgica historia de romance juvenil se terminara. Ambientada en el país de las cabañas de Ontario, uno de mis lugares favoritos en la tierra, este tentador debut es una historia de amor de verano perfectamente hermosa que los fanáticos de Jojo Moyes y Emily Henry deberían agregar a sus listas de deseos de inmediato. - Marissa Stapley, autora superventas de Lucky"",
-  "image": "Every Summer After.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Ficcion"
- },
-{
-  "id": 6,
-  "name": "Keep Away",
-  "price": 86.543,
-  "category": "Novedades",
-  "description": "Ben sabe que si va a triunfar como capitán de una nave estelar, algo tiene que ceder. Después de otro encuentro inesperado con el Sr. Keep, está listo para aceptar que no puede evitar su destino para siempre.
-
-Pero el primer paso es increíble, y no está precisamente empezando con las mejores bases. Tiene más que perder que su nave estelar o su vida. Mucho más.
-
-Comprar la nave estelar era un negocio. Esto es personal.
-
-La aventura de tu vida continúa en la tercera entrega de la serie de ciencia ficción número 1 Starship For Sale. Si te gustan las naves estelares encontradas, los héroes inverosímiles y el caos intergaláctico, te encantará Starship For Sale.",
-  "image": "Keep Away.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Ficcion"
- },
+    "id": 1,
+    "name": "Book Lovers",
+    "price": 49.515,
+    "category": "Novedades",
+    "description": "Una de mis autoras favoritas.—Colleen Hoover Un éxito de ventas instantáneo, n.° 1 del New York Times perspicaz y delicioso de la autora de Beach Read y People We Meet on Vacation . Nombrado el libro más esperado de 2022 por Oprah Daily ∙ Today ∙ Parade ∙ Marie Claire ∙ Bustle ∙ PopSugar ∙ Katie Couric Media ∙ Book Bub ∙ SheReads ∙ Medium ∙ The Washington Post ∙ ¡y más! Un verano. Dos rivales. Un giro en la trama que no vieron venir... La vida de Nora Stephens son los libros, los ha leído todos, y no ese tipo de heroína. No la valiente, no la relajada chica de los sueños, y especialmente no la novia. De hecho, las únicas personas para las que Nora es una heroína son sus clientes, para quienes consigue grandes acuerdos como agente literaria despiadada, y su querida hermana pequeña Libby. Por eso acepta ir a Sunshine Falls, Carolina del Norte, durante el mes de agosto, cuando Libby le ruega un viaje de hermanas, con visiones de la transformación de una pequeña ciudad para Nora, quien está convencida de que necesita convertirse en la heroína de su propio historia. Pero en lugar de picnics en los prados, o encuentros con un apuesto médico rural o un cantinero de antebrazos abultados, Nora sigue tropezando con Charlie Lastra, un editor melancólico y estudioso de la ciudad. Sería un lindo encuentro si no fuera por el hecho de que se han visto muchas veces y nunca ha sido lindo. Si Nora sabe que ella no es una heroína ideal, Charlie sabe que él no es el héroe de nadie, pero a medida que se juntan una y otra vez, en una serie de coincidencias que ningún editor que se precie permitiría, lo que descubren podría desentrañar las historias cuidadosamente elaboradas. han escrito sobre ellos mismos.",
+    "image": "Book Lovers.jpg",
+    "format": "Tapa dura",
+    "gender": "Romantico"
+   },
+  {
+    "id": 2,
+   "name": "Daughters of the Night Sky",
+    "price": 42.512,
+    "category": "Novedades",
+    "description": "Una novela, inspirada en el regimiento más célebre del Ejército Rojo, sobre el sacrificio, el coraje y el amor de una mujer en tiempos de guerra. Rusia, 1941. Katya Ivanova es una joven piloto en una academia militar remota en los Montes Urales. Desde la infancia, ha soñado con volar a los cielos para escapar de su sombría vida en la montaña. Con los nazis en marcha por toda Europa, se le pide que use sus alas para servir a su país en su hora más oscura. Ni siquiera las súplicas de su nuevo esposo, un artista sensible que teme por su seguridad, pueden disuadirla de hacer su parte como una orgullosa hija de Rusia. Después de años de arduo entrenamiento, Katya es asignada al 588.° Regimiento de Bombarderos Nocturnos, una de las únicas unidades aéreas soviéticas compuesta en su totalidad por mujeres. Los alemanes aprenden rápidamente a temer las incursiones nocturnas de los atrevidos voladores a los que llaman 'brujas nocturnas'. Pero la brutal campaña cobrará un precio amargo en Katya y sus hermanas de armas. Cuando el humo de la guerra se disipe, nada volverá a ser igual, y una de las heroínas militares más condecoradas de Rusia se enfrentará a la elección más angustiosa de todas.",
+    "image": "Daughters of the Night Sky.jpg",
+    "format": "Tapa dura",
+    "gender": "Aventura"
+   },
+  {
+    "id": 3,
+    "name": "Detective Comics",
+    "price": 108.803,
+    "category": "Novedades",
+    "description": "Con la pérdida de su fortuna y su mansión, la elección del alcalde Nakano y el creciente sentimiento anti-vigilante en Ciudad Gótica, Bruce Wayne debe repensar cómo ser Batman... o arriesgarse a quedarse atrás en su propia ciudad. ¡Presentamos al Sr. Worth! Cuando su hija es asesinada durante la brutal ola de crímenes que se apodera de Gotham City, Roland Worth, un montón de músculos y dinero de dos metros y medio de altura, emprende un camino de venganza hacia el principal sospechoso del crimen: ¡Batman! El Caballero Oscuro ha sido incriminado por asesinato y, para empeorar las cosas, este espeluznante acto parece estar conectado con otra fuerza malvada emergente en el horizonte. ¡Es una explosión de galería de pícaros, y esta vez no hay una mansión en la colina desde la que Bruce Wayne pueda montar su contraataque! La escritora ganadora del premio Eisner, Mariko Tamaki, y el artista superestrella Dan Mora comienzan una nueva historia emocionante, sorprendente y que desafía a la muerte para el detective más grande del mundo.",
+    "image": "Detective Comics.jpg",
+    "format": "Tapa dura",
+    "gender": "Ficcion"
+   },
+  {
+    "id": 4,
+    "name": "Dissonance",
+    "price": 113.886,
+    "category": "Novedades",
+    "description": "Un nuevo mundo. Mil Amenazas. Bienvenidos al Continente. La vida de Félix en la Tierra se había convertido en una serie de trabajos sin salida, relaciones arruinadas y apartamentos rotativos más pequeños que la mayoría de los sellos postales. Según todos los informes, incluso el suyo propio, era un cobarde. Demasiado miedo de avanzar, de correr riesgos. Sin embargo, cuando se le dio la oportunidad de elegir entre arriesgar su vida o alejarse de un encuentro mortal, no dudó. Momentos antes de su muerte prematura, Félix fue arrancado de la tierra y arrojado a un mundo mágico conocido solo como 'El Continente'. Empoderado por el 'Sistema', aprende que puede fortalecerse a sí mismo a través del combate y la dedicación. Para sobrevivir, tendrá que esforzarse más allá de sus límites o caer ante los monstruos que lo rodean. Niveles, estadísticas y magia. La muerte es el comienzo de un terrible destino, pero si vive... nadie sabe en qué se convertirá.",
+    "image": "Dissonance.jpg",
+    "format": "Tapa Blanda",
+    "gender": "Ficcion"
+   },
+  {
+    "id": 5,
+    "name": "Every Summer After",
+    "price": 53.100,
+    "category": "Novedades",
+    "description": " 'Un debut radiante': Emily Henry, autora número uno en ventas del New York Times de Tú y yo de vacaciones Cinco veranos para enamorarse. Un momento para desmoronarse. Un fin de semana para hacerlo bien. La escritora de una revista tiene que tomar una decisión cuando regresa al lago en el que creció, y al hombre sin el que pensó que nunca tendría que vivir, en este debut dolorosamente nostálgico. Dicen que nunca puedes volver a casa, y para Persephone Fraser eso se ha sentido demasiado cierto durante la última década, desde que cometió el mayor error de su vida. En lugar de resplandecientes veranos en la orilla del lago de su infancia, los pasa en un elegante apartamento en la ciudad, saliendo con amigos y manteniendo a todos a una distancia segura de su corazón. Hasta el día en que recibe una llamada que la envía de vuelta a Barry's Bay y a la órbita de Sam Florek. Durante cinco veranos, a través de las tardes brumosas en el agua y las cálidas noches de verano trabajando en el restaurante de su familia y acurrucándose con los libros (libros de texto de medicina para él y cuentos de terror en progreso para ella), Percy y Sam habían sido inseparables. Y poco a poco esa amistad se convirtió en algo asombrosamente más, antes de que se desmoronara espectacularmente. Cuando Percy regresa al lago para asistir al funeral de la madre de Sam, su conexión es tan innegable como siempre. Percy debe confrontar las decisiones que ha tomado y los años que ha pasado castigándose por ellas, para determinar, de una vez por todas, si su amor puede ser más grande que los mayores errores de su pasado. Contada a lo largo de cinco años y un fin de semana, Every Summer After es una mirada amplia y arrolladora sobre el amor y las personas y las elecciones que nos marcan para siempre. 'Una dulce historia sobre las segundas oportunidades y cómo el futuro que imaginamos para nosotros mismos nunca es exactamente lo que resulta ser. - Jodi Picoult, autora número 1 en ventas del New York Times de The Book of Two Ways y Wish You Were Here 'Carley Fortune perfecciona la nostalgia del joven amor de verano y las elecciones que nos cambian para siempre en Every Summer After, una novela inteligente y encantadora que tocará tus fibras sensibles y satisfará con creces a los fans de Emily Henry'. Esta es tu próxima lectura en la playa de lectura obligada de una nueva y emocionante voz. ¡Una alegría total para devorar! - Ashley Audrain, autora número uno en ventas de The Push Ambientada en el idílico campo rural de Ontario, el debut de Carley Fortune Every Summer After sigue a una pareja, Persephone (Percy) y Sam, mientras navegan por la pérdida, las promesas rotas y el amor no correspondido. En una narrativa de 'entonces/ahora' que abarca casi dos décadas, Fortune explora hábilmente el tira y afloja de una relación agobiada por errores y malentendidos del pasado, y cómo se trata tanto de elección como del destino. Evocadora y nostálgica, esta novela es perfecta para aquellos que codician los calurosos días de verano en el muelle y las historias de amor de segunda oportunidad. ¡Lo devoré! - Karma Brown, autora número uno en ventas de Receta para una esposa perfecta'Al igual que el verano, no quería que esta épica y nostálgica historia de romance juvenil se terminara. Ambientada en el país de las cabañas de Ontario, uno de mis lugares favoritos en la tierra, este tentador debut es una historia de amor de verano perfectamente hermosa que los fanáticos de Jojo Moyes y Emily Henry deberían agregar a sus listas de deseos de inmediato. - Marissa Stapley, autora superventas de Lucky'",
+    "image": "Every Summer After.jpg",
+    "format": "Tapa Blanda",
+    "gender": "Ficcion"
+   },
+  {
+    "id": 6,
+    "name": "Keep Away",
+    "price": 86.543,
+    "category": "Novedades",
+    "description": "Ben sabe que si va a triunfar como capitán de una nave estelar, algo tiene que ceder. Después de otro encuentro inesperado con el Sr. Keep, está listo para aceptar que no puede evitar su destino para siempre. Pero el primer paso es increíble, y no está precisamente empezando con las mejores bases. Tiene más que perder que su nave estelar o su vida. Mucho más. Comprar la nave estelar era un negocio. Esto es personal. La aventura de tu vida continúa en la tercera entrega de la serie de ciencia ficción número 1 Starship For Sale. Si te gustan las naves estelares encontradas, los héroes inverosímiles y el caos intergaláctico, te encantará Starship For Sale.",
+    "image": "Keep Away.jpg",
+    "format": "Tapa Blanda",
+    "gender": "Ficcion"
+   },
  {
   "id":7,
   "name":"La Psicología del Dinero",
