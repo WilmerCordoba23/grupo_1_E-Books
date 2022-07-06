@@ -101,5 +101,66 @@ La aventura de tu vida continúa en la tercera entrega de la serie de ciencia fi
   "image": "Keep Away.jpg",
   "format": "Tapa Blanda",
   "gender": "Ficcion"
- }
+ },
+ {
+  "id":7,
+  "name":"La Psicología del Dinero",
+  "price": 43.5,
+  "category":"Novedades",
+  "description":"En cuestiones de dinero, lo que importa no es lo listo que seas sino cómo te comportas. Tendemos a pensar en la inversión o la gestión de las finanzas personales como una disciplina matemática, en la que los datos y las fórmulas nos dicen exactamente qué hacer. Sin embargo, el rasgo que define a las personas que logran enriquecerse no es su destreza con los números, ni su salario o su talento, sino su historia personal, sus motivaciones y su visión única del mundo.Un genio que pierde el control de sus emociones puede ser un desastre financiero. Y lo mismo vale en caso contrario: gente de a pie sin formación en finanzas puede enriquecerse si cuenta con unos cuantos patrones de comportamiento. Esto, impensable en otras disciplinas como la arquitectura o la medicina, es fundamental en el campo de las finanzas.Este libro, llamado a convertirse en un clásico de las finanzas personales, nos provee del conocimiento esencial para entender la psicología del dinero y nos invita a hacernos una pregunta fundamental que raramente nos hacemos, cuál es nuestra relación con el dinero y qué queremos realmente de él.A partir de 18 claves imperecederas, Morgan Housel nos enseña cómo funciona la psicología del dinero y cuáles son los hábitos y conductas que nos ayudarán no solo a generar riqueza, sino, más importante aún, a conservarla.  «Un libro imprescindible para cualquiera que quiera tomar decisiones más inteligentes y vivir una vida más rica.» Daniel Pink, autor de La sorprendente verdad sobre qué nos motiva«Ideas fascinantes y consejos prácticos. Cualquiera que quiera hacerse rico debería tener una copia de este libro.» James Clear, autor de Hábitos atómicos«Uno de los mejores y más originales libros de finanzas de los últimos años.» Jason Zweig, Wall Street Journal«Housel es de esos escritores capaces de hacer digeribles conceptos financieros de lo más complejos. Este es un libro que se devora de principio a fin y que no solo nos explica por qué tomamos malas decisiones con respecto al dinero, sino que nos ayudará a tomar mejores.» Annie Duke, autora de Thinking in BetsLa riqueza no es fruto de nuestra inteligencia, talento o trabajo. Es fruto de nuestro comportamiento.",
+  "image":"psicologia del dinero.jpg",
+  "format": "Tapa Blanda",
+  "gender":"Liderazgo"
+},
+{
+  "id":"8",
+  "name":"Hermanos de Sangre",
+  "price":44,
+  "category":"Novedades",
+  "description":"Cuenta todos los detalles sobre el asesinato de Carlos Castaño Gil, máximo comandante de las autodefensas colombianas. Fueron 11 años la búsqueda de la persona que apretó el gatillo aquel abril 2004 Manuel Salvador Ospina Cifuentes, la persona que le pone fin a la existencia de Carlos Castaño. Tras casi cuatro de décadas de fidelidad y servicio por parte de Ospina al jefe de las AUC ¿quién se iba a imaginar que este jornalero de una finca iba a convertirse en el asesiso de su comandante? Hermanos de Sangre entreteje las historias paralelas (reconstruidas mediante la reportería, la entrevista y la crónica realizadas por el periodista y abogado (Toño) Sánchez Jr.)",
+  "image": "hermanos de sangre.jpg",
+  "format":"Tapa Blanda",
+  "gender":"Accion"
+  
+},
+{
+  "id":"9",
+  "name": "Viva sus Fortalezas",
+  "price":29,
+  "category":"Novedades",
+  "description":"Basada en una filosofía de fortalezas adoptada por millones de lectores. - Historias personales y consejos viables para las personas comprometidas espiritualmente, todo con base en décadas de investigación. - Incluye un código ID que permite que los lectores ingresen a StrengthsFinder.com, una evaluación de personalidad realizada más de un millón de veces.Incluso en un país tan religioso como los Estados Unidos, muchas personas no se sienten comprometidas con sus comunidades de fe. Más de la mitad declara que, en realidad, sus congregaciones no les brindan la oportunidad de hacer lo que mejor saben hacer. La gente simplemente se siente desconectada.   Quizás se debe a que las comunidades de fe cometen errores involuntarios: los pastores les piden a las personas tímidas que actúen como “anfitriones”, o contratan a personas desorganizadas por naturaleza para que coordinen los eventos de la iglesia.   El problema es simplemente este: muchos de los talentos de las personas pasan desapercibidos. Pero esto no tiene que ser así. “Aprovechar sus fortalezas” le muestra a los lectores la forma de utilizar sus dones innatos para enriquecer a sus comunidades de fe. El libro, escrito por los expastores Albert Winseman, Curt Liesveld, y Donald O. Clifton (coautor del libro récord en ventas nacional Now, Discover Your Strengths [Ahora, descubra sus fortalezas]) les muestra a las personas la forma de identificar y afirmar sus talentos, además de la forma de utilizarlos en pro del crecimiento y el servicio. Pero aún más importante, Aprovechar sus fortalezas ayuda a las personas a descubrir su verdadera vocación.   El libro incluye un código ID que permite que los lectores ingresen a StrengthsFinder.com, una evaluación de personalidad que revela los cinco mayores talentos del usuario. El enriquecimiento espiritual comienza con la conversión de los talentos en fortalezas. “Aprovechar sus fortalezas” es una guía indispensable para ayudar a que los lectores hagan exactamente lo que el título indica.",
+  "image": "viva sus fortalezas.jpg",
+  "format":"Tapa dura",
+  "gender":"Autoayuda"
+},
+{
+  "id":"10",
+  "name":"Salvar Vidas en el Mediterráneo: Un Panfleto Íntimo Contra el Racismo",
+  "price":19,
+  "category":"Novedades",
+  "description":"El Mediterraneo es escenario de una situacion doblemente vergonzosa: la crisis humanitaria de los inmigrantes a la deriva y el acoso legal que sufren las ONG que intentan rescatarlos. Sandro Veronesi sube a bordo de uno de los barcos de rescate; conversa con el activista Oscar Camps, creador de Proactiva Open Arms; escribe una carta abierta a Roberto Saviano recabando su ayuda y la de otros intelectuales comprometidos y envia incendiarios tuits al ministro Mateo Salvini. Denuncia la postura de su gobierno y de otros gobiernos, las mentiras fake news que circulan con voluntad toxica, el racismo latente y la lamentable situacion de los emigrantes que esperan en Libia; pone sobre la mesa el Derecho Maritimo Internacional y habla de la necesidad de actuar, de hacerse oir y luchar por la dignidad. / The Mediterranean is the scene of two shameful situations: the humanitarian crisis of the drifting immigrants and the legal harassment suffered by the NGOs that try to rescue them. Sandro Veronesi climbs aboard one of the rescue boats to talk with activists.",
+  "image":"salvar vidas en el mediterraneo.jpg",
+  "format":"Tapa Blanda",
+  "gender":"Sociolgia"
+},
+{
+  "id":"11",
+  "name":"Boulevard 2 - Después de él",
+  "price":31.56,
+  "category":"Novedades",
+  "description":"Tras la muerte de Luke, Hasley debe seguir con su vida, pasar página y mirar hacia delante. Cuando su madre le dice que es hora de continuar y dejar el pasado atrás esas palabras se le clavan como puñales en el alma, pero no por ello son menos ciertas. Hasley es joven y tiene todo el tiempo del mundo para rehacer su vida y conocer a alguien más. La vida está llena de oportunidad. Quizás no para Luke, pero sí para Hasley y ella sabe que él hubiese querido que ella continuase su camino y cumpliese sus sueños. Todo cobra un nuevo sentido con la aparición de Harry Beckinsale, licenciado en derecho, dos años mayor que ella y con la vida en orden. ¿Será esta la nueva oportunidad para que los sueños de Hasley puedan descansar en paz junto a la memoria de Luke?",
+  "image":"boulevard 2.jpg",
+  "format":"Tapa dura",
+  "gender":"Literatura"
+},
+{
+  "id":"12",
+  "name":"La Riqueza de las Naciones",
+  "price":56.4,
+  "category":"Novedades",
+  "description":"La riqueza de las naciones, consta de cinco Libros. Con fundamento en que: (la riqueza de una nación deriva del producto anual del trabajo de su gente y de la tierra) el trabajo es el (fondo) del que se derivan todas las riquezas, el principal propósito es cómo aumentarlo: en el libro Primero considera que a partir de la división del trabajo surge el comercio, la distribución, el dinero, el precio el valor, los salarios, los costes, el beneficio y la renta.",
+  "image":"la riqueza de las naciones.jpg",
+  "format":"Tapa dura",
+  "gender":"Economia"
+}
 ]
