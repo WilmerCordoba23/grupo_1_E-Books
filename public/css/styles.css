@@ -38,7 +38,14 @@ body{
     width: 85%;
     margin-right: 5%;
 
-  }
+}
+.borrar{
+    transition: background-color 300ms;
+}
+.borrar:hover{
+    color: white;
+    background-color: black;
+}
   
   .form input[type="submit"] {
     background: black;
