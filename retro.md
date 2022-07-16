@@ -12,3 +12,4 @@ Empezar a hacer:
 
 Dejar de hacer:
 -Retrasar hasta la ultima fecha posible las actividades que debemos realizar.
+-No mejorar en lo que nos hemos propuesto en la retro.
