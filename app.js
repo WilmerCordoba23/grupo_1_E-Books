@@ -15,7 +15,9 @@ app.use(express.static('./public'));
 
 
 app.use('/',products);
-app.use('/productDetail',products);
+app.use('/search',products);
+app.use('/gender',products);
+app.use('/productDetail/',products);
 app.use('/productCart',products);
 app.use('/productRegister',products);
 app.use('/productModify',products);

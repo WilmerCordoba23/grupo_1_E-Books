@@ -2,28 +2,14 @@
 <html lang="en">
     <%- include('./partials/head')%>
 <body>
-
-	<%- include('./partials/menu')%>
-
-	<main>
-
-        <div class="generos">
-            <ul class="enlaces-generos">
-                <li><a href="">Libros  </a></li>
-                <li><a href="">Adolescentes y Jóvenes </a></li>
-                <li><a href="">Libros  digitales </a></li>
-                <li><a href="">Audiolibros </a></li>
-                <li><a href="">Niños </a></li>
-            </ul>
-        </div>
-
-
+    <%- include('./partials/menu')%>
+    <main>
+        <%- include('./partials/genders')%>
         <div>
             <section class="banner">
                 <img src="images/banner.jpg" alt="Banner de E-Books">
-            </section>    
+            </section>
         </div>
-
         <div class="informacion-relacionada">
             <section  class="informacion-lista">
                 <ul>
@@ -48,136 +34,58 @@
             <section class="informacion-visual">
                     <img src="/images/mensaje.png" alt="">
             </section>
-            
         </div>
-
-        <section class="seccion">      
-
+        <section class="seccion">
             <h4 class="titulo-seccion">Novedades</h4>
-
             <div  class="novedades">
-                
-                <article>
-                    <img src="./images/products/Way_of_Kings.jpg" alt="Way_of_Kings.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Way of Kings</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Daughters of the Night Sky.jpg" alt="Daughters of the Night Sky.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Daughters of the Night Sky</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Every Summer After.jpg" alt="Every Summer After.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Every Summer After</a></h5>
-                    </div>
-                </article>
-
-                <article>
-                    <img src="./images/products/Keep Away.jpg" alt="Keep Away.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Keep Away</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Mine To Have.jpg" alt="Mine To Have.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Mine To Have</a></h5>
-                    </div>
-                </article>
+                <% for (let i = 0; i < products.length; i++) { %>
+                    <%if(products[i].category=="Novedades"){%>
+                        <article>
+                            <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_producto">                            <div>
+                                <h5 class="descripcion"><a href="/productDetail/<%=products[i].id%>" class="detalles"><%=products[i].name%></a></h5>
+                            </div>
+                        </article>
+                        <br>
+                        <br>
+                    <%}%>
+                <% } %>
             </div>
         </section>
-
         <section class="seccion">
             <h4 class="titulo-seccion">Mas vendidos</h4>
-
             <div  class="novedades">
-                <article>
-                    <img src="./images/products/Frozen.jpg" alt="Cafetera" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Frozen</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Safe Heart.jpg" alt="Safe Heart.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Safe Heart</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Sparring Partners.jpg" alt="Sparring Partners.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Sparring Partners</a></h5>
-                    </div>
-                </article>
-
-                <article>
-                    <img src="./images/products/Stone Cold.jpg" alt="Stone Cold.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Stone Cold</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Sky on Fire.jpg" alt="Sky on Fire.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Sky on Fire</a></h5>
-                    </div>
-                </article>
+                <% for (let i = 0; i < products.length; i++) { %>
+                    <%if(products[i].category=="Mas vendidos"){%>
+                        <article>
+                            <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_producto">
+                            <div>
+                                <h5 class="descripcion"><a href="/productDetail/<%=products[i].id%>" class="detalles"><%=products[i].name%></a></h5>
+                            </div>
+                        </article>
+                        <br>
+                        <br>
+                    <%}%>
+                <% } %>
             </div>
         </section>
-
         <section class="seccion">
             <h4 class="titulo-seccion">Recomendados</h4>
-
             <div  class="novedades">
-                <article>
-                    <img src="./images/products/Mr. Stiff Stud.jpg" alt="Mr. Stiff Stud.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Mr. Stiff Stud</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Dissonance.jpg" alt="Dissonance.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Dissonance</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Detective Comics.jpg" alt="Detective Comics.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Detective Comics</a></h5>
-                    </div>
-                </article>
-
-                <article>
-                    <img src="./images/products/Kingdom Hearts III.jpg" alt="Kingdom Hearts III.jpg" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Kingdom Hearts III</a></h5>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="./images/products/Naruto Vol. 71 I Love You Guys .jpg" alt="Naruto, Vol. 71: I Love You Guys" class="img_producto">
-                    <div>
-                        <h5 class="descripcion"><a href="/productDetail" class="detalles">Naruto: I Love You Guys</a></h5>
-                    </div>
-                </article>
+                <% for (let i = 0; i < products.length; i++) { %>
+                    <%if(products[i].category=="Recomendados"){%>
+                        <article>
+                            <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_producto">
+                            <div>
+                                <h5 class="descripcion"><a href="/productDetail/<%=products[i].id%>" class="detalles"><%=products[i].name%></a></h5>
+                            </div>
+                        </article>
+                        <br>
+                        <br>
+                    <%}%>
+                <% } %>
             </div>
         </section>
-	</main>
-
-	<%- include('./partials/footer')%>
-
+    </main>
+    <%- include('./partials/footer')%>
 </body>
 </html>

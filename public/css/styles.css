@@ -264,7 +264,11 @@ button.pago{
 .enlaces-generos li{
 
     margin: 0 auto;
-}
+} 
+.enlaces-generos button{
+
+    border: none;
+} 
 /*secciones*/
 .seccion{
     margin: 40px auto;

@@ -17,11 +17,16 @@ const storage = multer.diskStorage({
 
 router.get('/',productscontroller.index);
 
-router.get('/productDetail',productscontroller.productDetail);
+router.get('/search', productscontroller.search); 
+
+router.get('/gender', productscontroller.gender); 
+
+router.get('/productDetail/:id',productscontroller.productDetail);
 
 router.get('/productCart',productscontroller.productCart);
 
 router.get('/productRegister',productscontroller.productRegister);
+
 router.post('/products',uploadFile.single('image'),productscontroller.Createproducts);
 
 router.get('/productModify',productscontroller.productModify);

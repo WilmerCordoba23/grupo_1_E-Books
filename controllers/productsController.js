@@ -8,11 +8,20 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const productscontroller={
     index:(req,res)=>{
         
-        res.render("index")
+        res.render("index", {products:products})
     },
+    search: (req, res) => {
+		let finalProducts = products.filter(product => product.name == req.query.keywords);
+		res.render('results',{finalProducts});
+	},
+    gender: (req, res) => {
+		let finalProducts = products.filter(product => product.gender == req.query.keywords);
+		res.render('resultsgender',{finalProducts});
+	},
     productDetail:(req,res)=>{
-        
-        res.render("productDetail")
+        let id = req.params.id
+        let product = products.find(products => products.id == id)
+        res.render("productDetail" ,{product:product})
     },
     productCart:(req,res)=>{
         

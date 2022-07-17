@@ -1,192 +1,192 @@
 [
- {
-  "id": 1,
-  "name": "Book Lovers",
-  "price": 49.515,
-  "category": "Novedades",
-  "description": "Una de mis autoras favoritas.—Colleen Hoover Un éxito de ventas instantáneo, n.° 1 del New York Times perspicaz y delicioso de la autora de Beach Read y People We Meet on Vacation . Nombrado el libro más esperado de 2022 por Oprah Daily ∙ Today ∙ Parade ∙ Marie Claire ∙ Bustle ∙ PopSugar ∙ Katie Couric Media ∙ Book Bub ∙ SheReads ∙ Medium ∙ The Washington Post ∙ ¡y más! Un verano. Dos rivales. Un giro en la trama que no vieron venir... La vida de Nora Stephens son los libros, los ha leído todos, y no ese tipo de heroína. No la valiente, no la relajada chica de los sueños, y especialmente no la novia. De hecho, las únicas personas para las que Nora es una heroína son sus clientes, para quienes consigue grandes acuerdos como agente literaria despiadada, y su querida hermana pequeña Libby. Por eso acepta ir a Sunshine Falls, Carolina del Norte, durante el mes de agosto, cuando Libby le ruega un viaje de hermanas, con visiones de la transformación de una pequeña ciudad para Nora, quien está convencida de que necesita convertirse en la heroína de su propio historia. Pero en lugar de picnics en los prados, o encuentros con un apuesto médico rural o un cantinero de antebrazos abultados, Nora sigue tropezando con Charlie Lastra, un editor melancólico y estudioso de la ciudad. Sería un lindo encuentro si no fuera por el hecho de que se han visto muchas veces y nunca ha sido lindo. Si Nora sabe que ella no es una heroína ideal, Charlie sabe que él no es el héroe de nadie, pero a medida que se juntan una y otra vez, en una serie de coincidencias que ningún editor que se precie permitiría, lo que descubren podría desentrañar las historias cuidadosamente elaboradas. han escrito sobre ellos mismos.",
-  "image": "Book Lovers.jpg",
-  "format": "Tapa dura",
-  "gender": "Romantico"
- },
- {
-  "id": 2,
-  "name": "Daughters of the Night Sky",
-  "price": 42.512,
-  "category": "Novedades",
-  "description": "Una novela, inspirada en el regimiento más célebre del Ejército Rojo, sobre el sacrificio, el coraje y el amor de una mujer en tiempos de guerra. Rusia, 1941. Katya Ivanova es una joven piloto en una academia militar remota en los Montes Urales. Desde la infancia, ha soñado con volar a los cielos para escapar de su sombría vida en la montaña. Con los nazis en marcha por toda Europa, se le pide que use sus alas para servir a su país en su hora más oscura. Ni siquiera las súplicas de su nuevo esposo, un artista sensible que teme por su seguridad, pueden disuadirla de hacer su parte como una orgullosa hija de Rusia. Después de años de arduo entrenamiento, Katya es asignada al 588.° Regimiento de Bombarderos Nocturnos, una de las únicas unidades aéreas soviéticas compuesta en su totalidad por mujeres. Los alemanes aprenden rápidamente a temer las incursiones nocturnas de los atrevidos voladores a los que llaman 'brujas nocturnas'. Pero la brutal campaña cobrará un precio amargo en Katya y sus hermanas de armas. Cuando el humo de la guerra se disipe, nada volverá a ser igual, y una de las heroínas militares más condecoradas de Rusia se enfrentará a la elección más angustiosa de todas.",
-  "image": "Daughters of the Night Sky.jpg",
-  "format": "Tapa dura",
-  "gender": "Aventura"
- },
- {
-  "id": 3,
-  "name": "Detective Comics",
-  "price": 108.803,
-  "category": "Novedades",
-  "description": "Con la pérdida de su fortuna y su mansión, la elección del alcalde Nakano y el creciente sentimiento anti-vigilante en Ciudad Gótica, Bruce Wayne debe repensar cómo ser Batman... o arriesgarse a quedarse atrás en su propia ciudad. ¡Presentamos al Sr. Worth! Cuando su hija es asesinada durante la brutal ola de crímenes que se apodera de Gotham City, Roland Worth, un montón de músculos y dinero de dos metros y medio de altura, emprende un camino de venganza hacia el principal sospechoso del crimen: ¡Batman! El Caballero Oscuro ha sido incriminado por asesinato y, para empeorar las cosas, este espeluznante acto parece estar conectado con otra fuerza malvada emergente en el horizonte. ¡Es una explosión de galería de pícaros, y esta vez no hay una mansión en la colina desde la que Bruce Wayne pueda montar su contraataque! La escritora ganadora del premio Eisner, Mariko Tamaki, y el artista superestrella Dan Mora comienzan una nueva historia emocionante, sorprendente y que desafía a la muerte para el detective más grande del mundo.",
-  "image": "Detective Comics.jpg",
-  "format": "Tapa dura",
-  "gender": "Ficcion"
- },
- {
-  "id": 4,
-  "name": "Dissonance",
-  "price": 113.886,
-  "category": "Novedades",
-  "description": "Un nuevo mundo. Mil Amenazas. Bienvenidos al Continente. La vida de Félix en la Tierra se había convertido en una serie de trabajos sin salida, relaciones arruinadas y apartamentos rotativos más pequeños que la mayoría de los sellos postales. Según todos los informes, incluso el suyo propio, era un cobarde. Demasiado miedo de avanzar, de correr riesgos. Sin embargo, cuando se le dio la oportunidad de elegir entre arriesgar su vida o alejarse de un encuentro mortal, no dudó. Momentos antes de su muerte prematura, Félix fue arrancado de la tierra y arrojado a un mundo mágico conocido solo como 'El Continente'. Empoderado por el 'Sistema', aprende que puede fortalecerse a sí mismo a través del combate y la dedicación. Para sobrevivir, tendrá que esforzarse más allá de sus límites o caer ante los monstruos que lo rodean. Niveles, estadísticas y magia. La muerte es el comienzo de un terrible destino, pero si vive... nadie sabe en qué se convertirá.",
-  "image": "Dissonance.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Ficcion"
- },
- {
-  "id": 5,
-  "name": "Every Summer After",
-  "price": 53.1,
-  "category": "Novedades",
-  "description": " 'Un debut radiante': Emily Henry, autora número uno en ventas del New York Times de Tú y yo de vacaciones Cinco veranos para enamorarse. Un momento para desmoronarse. Un fin de semana para hacerlo bien. La escritora de una revista tiene que tomar una decisión cuando regresa al lago en el que creció, y al hombre sin el que pensó que nunca tendría que vivir, en este debut dolorosamente nostálgico. Dicen que nunca puedes volver a casa, y para Persephone Fraser eso se ha sentido demasiado cierto durante la última década, desde que cometió el mayor error de su vida. En lugar de resplandecientes veranos en la orilla del lago de su infancia, los pasa en un elegante apartamento en la ciudad, saliendo con amigos y manteniendo a todos a una distancia segura de su corazón. Hasta el día en que recibe una llamada que la envía de vuelta a Barry's Bay y a la órbita de Sam Florek. Durante cinco veranos, a través de las tardes brumosas en el agua y las cálidas noches de verano trabajando en el restaurante de su familia y acurrucándose con los libros (libros de texto de medicina para él y cuentos de terror en progreso para ella), Percy y Sam habían sido inseparables. Y poco a poco esa amistad se convirtió en algo asombrosamente más, antes de que se desmoronara espectacularmente. Cuando Percy regresa al lago para asistir al funeral de la madre de Sam, su conexión es tan innegable como siempre. Percy debe confrontar las decisiones que ha tomado y los años que ha pasado castigándose por ellas, para determinar, de una vez por todas, si su amor puede ser más grande que los mayores errores de su pasado. Contada a lo largo de cinco años y un fin de semana, Every Summer After es una mirada amplia y arrolladora sobre el amor y las personas y las elecciones que nos marcan para siempre. 'Una dulce historia sobre las segundas oportunidades y cómo el futuro que imaginamos para nosotros mismos nunca es exactamente lo que resulta ser. - Jodi Picoult, autora número 1 en ventas del New York Times de The Book of Two Ways y Wish You Were Here 'Carley Fortune perfecciona la nostalgia del joven amor de verano y las elecciones que nos cambian para siempre en Every Summer After, una novela inteligente y encantadora que tocará tus fibras sensibles y satisfará con creces a los fans de Emily Henry'. Esta es tu próxima lectura en la playa de lectura obligada de una nueva y emocionante voz. ¡Una alegría total para devorar! - Ashley Audrain, autora número uno en ventas de The Push Ambientada en el idílico campo rural de Ontario, el debut de Carley Fortune Every Summer After sigue a una pareja, Persephone (Percy) y Sam, mientras navegan por la pérdida, las promesas rotas y el amor no correspondido. En una narrativa de 'entonces/ahora' que abarca casi dos décadas, Fortune explora hábilmente el tira y afloja de una relación agobiada por errores y malentendidos del pasado, y cómo se trata tanto de elección como del destino. Evocadora y nostálgica, esta novela es perfecta para aquellos que codician los calurosos días de verano en el muelle y las historias de amor de segunda oportunidad. ¡Lo devoré! - Karma Brown, autora número uno en ventas de Receta para una esposa perfecta'Al igual que el verano, no quería que esta épica y nostálgica historia de romance juvenil se terminara. Ambientada en el país de las cabañas de Ontario, uno de mis lugares favoritos en la tierra, este tentador debut es una historia de amor de verano perfectamente hermosa que los fanáticos de Jojo Moyes y Emily Henry deberían agregar a sus listas de deseos de inmediato. - Marissa Stapley, autora superventas de Lucky'",
-  "image": "Every Summer After.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Ficcion"
- },
- {
-  "id": 6,
-  "name": "Keep Away",
-  "price": 86.543,
-  "category": "Novedades",
-  "description": "Ben sabe que si va a triunfar como capitán de una nave estelar, algo tiene que ceder. Después de otro encuentro inesperado con el Sr. Keep, está listo para aceptar que no puede evitar su destino para siempre. Pero el primer paso es increíble, y no está precisamente empezando con las mejores bases. Tiene más que perder que su nave estelar o su vida. Mucho más. Comprar la nave estelar era un negocio. Esto es personal. La aventura de tu vida continúa en la tercera entrega de la serie de ciencia ficción número 1 Starship For Sale. Si te gustan las naves estelares encontradas, los héroes inverosímiles y el caos intergaláctico, te encantará Starship For Sale.",
-  "image": "Keep Away.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Ficcion"
- },
- {
-  "id": 7,
-  "name": "La Psicología del Dinero",
-  "price": 43.5,
-  "category": "Novedades",
-  "description": "En cuestiones de dinero, lo que importa no es lo listo que seas sino cómo te comportas. Tendemos a pensar en la inversión o la gestión de las finanzas personales como una disciplina matemática, en la que los datos y las fórmulas nos dicen exactamente qué hacer. Sin embargo, el rasgo que define a las personas que logran enriquecerse no es su destreza con los números, ni su salario o su talento, sino su historia personal, sus motivaciones y su visión única del mundo.Un genio que pierde el control de sus emociones puede ser un desastre financiero. Y lo mismo vale en caso contrario: gente de a pie sin formación en finanzas puede enriquecerse si cuenta con unos cuantos patrones de comportamiento. Esto, impensable en otras disciplinas como la arquitectura o la medicina, es fundamental en el campo de las finanzas.Este libro, llamado a convertirse en un clásico de las finanzas personales, nos provee del conocimiento esencial para entender la psicología del dinero y nos invita a hacernos una pregunta fundamental que raramente nos hacemos, cuál es nuestra relación con el dinero y qué queremos realmente de él.A partir de 18 claves imperecederas, Morgan Housel nos enseña cómo funciona la psicología del dinero y cuáles son los hábitos y conductas que nos ayudarán no solo a generar riqueza, sino, más importante aún, a conservarla.  «Un libro imprescindible para cualquiera que quiera tomar decisiones más inteligentes y vivir una vida más rica.» Daniel Pink, autor de La sorprendente verdad sobre qué nos motiva«Ideas fascinantes y consejos prácticos. Cualquiera que quiera hacerse rico debería tener una copia de este libro.» James Clear, autor de Hábitos atómicos«Uno de los mejores y más originales libros de finanzas de los últimos años.» Jason Zweig, Wall Street Journal«Housel es de esos escritores capaces de hacer digeribles conceptos financieros de lo más complejos. Este es un libro que se devora de principio a fin y que no solo nos explica por qué tomamos malas decisiones con respecto al dinero, sino que nos ayudará a tomar mejores.» Annie Duke, autora de Thinking in BetsLa riqueza no es fruto de nuestra inteligencia, talento o trabajo. Es fruto de nuestro comportamiento.",
-  "image": "psicologia del dinero.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Liderazgo"
- },
- {
-  "id": 8,
-  "name": "Hermanos de Sangre",
-  "price": 44,
-  "category": "Novedades",
-  "description": "Cuenta todos los detalles sobre el asesinato de Carlos Castaño Gil, máximo comandante de las autodefensas colombianas. Fueron 11 años la búsqueda de la persona que apretó el gatillo aquel abril 2004 Manuel Salvador Ospina Cifuentes, la persona que le pone fin a la existencia de Carlos Castaño. Tras casi cuatro de décadas de fidelidad y servicio por parte de Ospina al jefe de las AUC ¿quién se iba a imaginar que este jornalero de una finca iba a convertirse en el asesiso de su comandante? Hermanos de Sangre entreteje las historias paralelas (reconstruidas mediante la reportería, la entrevista y la crónica realizadas por el periodista y abogado (Toño) Sánchez Jr.)",
-  "image": "hermanos de sangre.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Accion"
- },
- {
-  "id": 9,
-  "name": "Viva sus Fortalezas",
-  "price": 29,
-  "category": "Novedades",
-  "description": "Basada en una filosofía de fortalezas adoptada por millones de lectores. - Historias personales y consejos viables para las personas comprometidas espiritualmente, todo con base en décadas de investigación. - Incluye un código ID que permite que los lectores ingresen a StrengthsFinder.com, una evaluación de personalidad realizada más de un millón de veces.Incluso en un país tan religioso como los Estados Unidos, muchas personas no se sienten comprometidas con sus comunidades de fe. Más de la mitad declara que, en realidad, sus congregaciones no les brindan la oportunidad de hacer lo que mejor saben hacer. La gente simplemente se siente desconectada.   Quizás se debe a que las comunidades de fe cometen errores involuntarios: los pastores les piden a las personas tímidas que actúen como “anfitriones”, o contratan a personas desorganizadas por naturaleza para que coordinen los eventos de la iglesia.   El problema es simplemente este: muchos de los talentos de las personas pasan desapercibidos. Pero esto no tiene que ser así. “Aprovechar sus fortalezas” le muestra a los lectores la forma de utilizar sus dones innatos para enriquecer a sus comunidades de fe. El libro, escrito por los expastores Albert Winseman, Curt Liesveld, y Donald O. Clifton (coautor del libro récord en ventas nacional Now, Discover Your Strengths [Ahora, descubra sus fortalezas]) les muestra a las personas la forma de identificar y afirmar sus talentos, además de la forma de utilizarlos en pro del crecimiento y el servicio. Pero aún más importante, Aprovechar sus fortalezas ayuda a las personas a descubrir su verdadera vocación.   El libro incluye un código ID que permite que los lectores ingresen a StrengthsFinder.com, una evaluación de personalidad que revela los cinco mayores talentos del usuario. El enriquecimiento espiritual comienza con la conversión de los talentos en fortalezas. “Aprovechar sus fortalezas” es una guía indispensable para ayudar a que los lectores hagan exactamente lo que el título indica.",
-  "image": "viva sus fortalezas.jpg",
-  "format": "Tapa dura",
-  "gender": "Autoayuda"
- },
- {
-  "id": 10,
-  "name": "Salvar Vidas en el Mediterráneo: Un Panfleto Íntimo Contra el Racismo",
-  "price": 19,
-  "category": "Novedades",
-  "description": "El Mediterraneo es escenario de una situacion doblemente vergonzosa: la crisis humanitaria de los inmigrantes a la deriva y el acoso legal que sufren las ONG que intentan rescatarlos. Sandro Veronesi sube a bordo de uno de los barcos de rescate; conversa con el activista Oscar Camps, creador de Proactiva Open Arms; escribe una carta abierta a Roberto Saviano recabando su ayuda y la de otros intelectuales comprometidos y envia incendiarios tuits al ministro Mateo Salvini. Denuncia la postura de su gobierno y de otros gobiernos, las mentiras fake news que circulan con voluntad toxica, el racismo latente y la lamentable situacion de los emigrantes que esperan en Libia; pone sobre la mesa el Derecho Maritimo Internacional y habla de la necesidad de actuar, de hacerse oir y luchar por la dignidad. / The Mediterranean is the scene of two shameful situations: the humanitarian crisis of the drifting immigrants and the legal harassment suffered by the NGOs that try to rescue them. Sandro Veronesi climbs aboard one of the rescue boats to talk with activists.",
-  "image": "salvar vidas en el mediterraneo.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Sociolgia"
- },
- {
-  "id": 11,
-  "name": "Boulevard 2 - Después de él",
-  "price": 31.56,
-  "category": "Novedades",
-  "description": "Tras la muerte de Luke, Hasley debe seguir con su vida, pasar página y mirar hacia delante. Cuando su madre le dice que es hora de continuar y dejar el pasado atrás esas palabras se le clavan como puñales en el alma, pero no por ello son menos ciertas. Hasley es joven y tiene todo el tiempo del mundo para rehacer su vida y conocer a alguien más. La vida está llena de oportunidad. Quizás no para Luke, pero sí para Hasley y ella sabe que él hubiese querido que ella continuase su camino y cumpliese sus sueños. Todo cobra un nuevo sentido con la aparición de Harry Beckinsale, licenciado en derecho, dos años mayor que ella y con la vida en orden. ¿Será esta la nueva oportunidad para que los sueños de Hasley puedan descansar en paz junto a la memoria de Luke?",
-  "image": "boulevard 2.jpg",
-  "format": "Tapa dura",
-  "gender": "Literatura"
- },
- {
-  "id": 12,
-  "name": "La Riqueza de las Naciones",
-  "price": 56.4,
-  "category": "Novedades",
-  "description": "La riqueza de las naciones, consta de cinco Libros. Con fundamento en que: (la riqueza de una nación deriva del producto anual del trabajo de su gente y de la tierra) el trabajo es el (fondo) del que se derivan todas las riquezas, el principal propósito es cómo aumentarlo: en el libro Primero considera que a partir de la división del trabajo surge el comercio, la distribución, el dinero, el precio el valor, los salarios, los costes, el beneficio y la renta.",
-  "image": "la riqueza de las naciones.jpg",
-  "format": "Tapa dura",
-  "gender": "Economia"
- },
- {
-  "id": 13,
-  "name": "El Camino de Los Reyes",
-  "price": 60,
-  "category": "Novedades",
-  "description": "Anhelo los días previos a la Última Desolación. Los días en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aún había magia en el mundo y honor en el corazón de los hombres. El mundo fue nuestro, pero lo perdimos. Probablemente no hay nada más estimulante para las almas de los hombres que la victoria. ¿O tal vez fue la victoria una ilusión durante todo ese tiempo? ¿Comprendieron nuestros enemigos que cuanto más duramente luchaban, más resistíamos nosotros? Quizá vieron que el fuego y el martillo tan solo producían mejores espadas. Pero ignoraron el acero durante el tiempo suficiente para oxidarse. Hay cuatro personas a las que observamos. La primera es el médico, quien dejó de curar para convertirse en soldado durante la guerra más brutal de nuestro tiempo. La segunda es el asesino, un homicida que llora siempre que mata. La tercera es la mentirosa, una joven que viste un manto de erudita sobre un corazón de ladrona. Por último está el alto príncipe, un guerrero que mira al pasado mientras languidece su sed de guerra. El mundo puede cambiar. La potenciación y el uso de las esquirlas pueden aparecer de nuevo, la magia de los días pasados puede volver a ser nuestra. Esas cuatro personas son la clave. Una de ellas nos redimirá. Y una de ellas nos destruirá.",
-  "image": "Way_of_Kings.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 14,
-  "name": "Palabras Radiantes",
-  "price": 60,
-  "category": "Novedades",
-  "description": "Los Caballeros Radiantes deben volver a alzarse. Los antiguos juramentos por fin se han pronunciado. Los hombres buscan lo que se perdió. Temo que la búsqueda los destruya. Es la naturaleza de la magia. Un alma rota tiene grietas donde puede colarse algo más. Las potencias, los poderes de la creación misma, pueden abrazar un alma rota, pero también pueden ampliar sus fisuras. El Corredor del Viento está perdido en una tierra quebrada, en equilibro entre la venganza y el honor. La Tejedora de Luz, lentamente consumida por su pasado, busca la mentira en la que debe convertirse. El Forjador de Vínculos, nacido en la sangre y la muerte, se esfuerza ahora por reconstruir lo que fue destruido. La Exploradora, a caballo entre los destinos de dos pueblos, se ve obligada a elegir entre una muerte lenta y una terrible traición a todo en lo que cree. Ya es hora de despertarlos, pues acecha la eterna tormenta. Y el asesino ha llegado.",
-  "image": "Palabras radiantes.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 15,
-  "name": "Juramentada",
-  "price": 60,
-  "category": "Novedades",
-  "description": "La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada. Entretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización.",
-  "image": "Juramentada.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 16,
-  "name": "El Ritmo de La Guerra",
-  "price": 60,
-  "category": "Novedades",
-  "description": "Hay secretos que hemos guardado mucho tiempo. Vigilantes. Insomnes. Eternos. Y pronto dejarán de ser nuestros. La Una que es Tres busca, sin saberlo, el alma capturada. El spren aprisionado, olvidado hace mucho tiempo. ¿Puede liberar su propia alma a tiempo de hallar el conocimiento que condena a todos los pueblos de Roshar? El Soldado Caído acaricia y ama la lanza, incluso mientras el arma hiende su propia carne. Camina siempre hacia delante, siempre hacia la oscuridad, sin luz. No puede llevar consigo a nadie, salvo aquello que él mismo puede avivar. La Hermana Derrumbada comprende sus errores y piensa que ella misma es un error. Parece muy alejada de sus antepasados, pero no comprende que son quienes la llevan a hombros. Hacia la victoria, y hacia ese silencio, el más importante de todos. Y la Madre de Máquinas, la más crucial de todos ellos, danza con mentirosos en un gran baile. Debe desenmascararlos, alcanzar sus verdades ocultas y entregarlas al mundo. Tiene que reconocer que las peores mentiras son las que se cuenta a sí misma. Si lo hace, nuestros secretos por fin se convertirán en verdades",
-  "image": "Ritmo de la guerra.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 17,
-  "name": "El Imperio final",
-  "price": 60,
-  "category": "Novedades",
-  "description": "Durante mil años han caído cenizas del cielo. Durante mil años nada ha florecido. Durante mil años los skaa han sido esclavizados y viven en la miseria, sumidos en un miedo inevitable. Durante mil años el Lord Legislador ha reinado con poder absoluto, dominando gracias al terror, a sus poderes y a su inmortalidad, ayudado por «obligadores» e «inquisidores», junto a la poderosa magia de la alomancia. Pero los nobles a menudo han tenido trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido y heredado los poderes alománticos: son los «nacidos de la bruma» (mistborn). Ahora, Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, ha encontrado a Vin, una pobre chica skaa con mucha suerte... Tal vez los dos, con el mejor equipo criminal jamás reunido, unidos a la rebelión que los skaa intentan desde hace mil años, logren cambiar el mundo y acabar con la atroz mano de hierro del Lord Legislador.",
-  "image": "Imperio final.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 18,
-  "name": "El Pozo de la Acension",
-  "price": 60,
-  "category": "Novedades",
-  "description": "Durante mil años nada ha cambiado: han caído las cenizas, los skaa han sido esclavizados y el Lord Legislador ha dominado el mundo. Pero lo imposible ha sucedido. El Lord Legislador ha muerto. Sin embargo, vencer y matarlo fue la parte sencilla. El verdadero desafío será sobrevivir a las consecuencias de su caída. Tomar el poder tal vez resultó fácil, pero ¿qué ocurre después?, ¿cómo se utiliza? La tarea de reconstruir el mundo, ahora que Kelsier no está, ha quedado en manos de Vin. Y las brumas, desde que el Lord Legislador cayó, se han vuelto cada vez más impredecibles... A medida que el asedio se intensifica, la antigua leyenda del Pozo de la Ascensión ofrece un único rayo de esperanza. En ese mundo de aventura épica, la estrategia política y religiosa debe lidiar con los siempre misteriosos poderes de la alomancia...",
-  "image": "pozo de la acension.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 19,
-  "name": "El Héroe de Las Eras",
-  "price": 60,
-  "category": "Novedades",
-  "description": "Durante mil años nada ha cambiado: han caído las cenizas, los skaa han sido esclavizados y el Lord Legislador ha dominado el mundo. Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, junto a Vin, una pobre chica skaa, se une a la rebelión. Y por fin lo imposible sucede: por fin la revolución ha triunfado. Pero acabar con el Lord Legislador es la parte sencilla. El verdadero desafío consistirá en sobrevivir a las consecuencias de su caída... sin Kelsier. Vin y el Rey Elend buscan en los últimos escondites de recursos del Lord Legislador y, engañado, el Rey libera del Pozo de la Ascensión algo que debería haber quedado oculto para siempre. Un enorme peligro acecha a la humanidad, y la verdadera pregunta es si conseguirán detenerlo a tiempo. En El héroe de las eras se comprende el porqué de la niebla y las cenizas, las tenebrosas acciones del Lord Legislador y la naturaleza del Pozo de la Ascensión. Esta aventura lleva a la trilogía a un clímax dramático y sorprendente.",
-  "image": "heroe de las eras.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- }
-]
+    {
+     "id": 1,
+     "name": "Book Lovers",
+     "price": 49.515,
+     "category": "Novedades",
+     "description": "Una de mis autoras favoritas.—Colleen Hoover Un éxito de ventas instantáneo, n.° 1 del New York Times perspicaz y delicioso de la autora de Beach Read y People We Meet on Vacation . Nombrado el libro más esperado de 2022 por Oprah Daily ∙ Today ∙ Parade ∙ Marie Claire ∙ Bustle ∙ PopSugar ∙ Katie Couric Media ∙ Book Bub ∙ SheReads ∙ Medium ∙ The Washington Post ∙ ¡y más! Un verano. Dos rivales. Un giro en la trama que no vieron venir... La vida de Nora Stephens son los libros, los ha leído todos, y no ese tipo de heroína. No la valiente, no la relajada chica de los sueños, y especialmente no la novia. De hecho, las únicas personas para las que Nora es una heroína son sus clientes, para quienes consigue grandes acuerdos como agente literaria despiadada, y su querida hermana pequeña Libby. Por eso acepta ir a Sunshine Falls, Carolina del Norte, durante el mes de agosto, cuando Libby le ruega un viaje de hermanas, con visiones de la transformación de una pequeña ciudad para Nora, quien está convencida de que necesita convertirse en la heroína de su propio historia. Pero en lugar de picnics en los prados, o encuentros con un apuesto médico rural o un cantinero de antebrazos abultados, Nora sigue tropezando con Charlie Lastra, un editor melancólico y estudioso de la ciudad. Sería un lindo encuentro si no fuera por el hecho de que se han visto muchas veces y nunca ha sido lindo. Si Nora sabe que ella no es una heroína ideal, Charlie sabe que él no es el héroe de nadie, pero a medida que se juntan una y otra vez, en una serie de coincidencias que ningún editor que se precie permitiría, lo que descubren podría desentrañar las historias cuidadosamente elaboradas. han escrito sobre ellos mismos.",
+     "image": "Book Lovers.jpg",
+     "format": "Tapa dura",
+     "gender": "Romantico"
+    },
+    {
+     "id": 2,
+     "name": "Daughters of the Night Sky",
+     "price": 42.512,
+     "category": "Novedades",
+     "description": "Una novela, inspirada en el regimiento más célebre del Ejército Rojo, sobre el sacrificio, el coraje y el amor de una mujer en tiempos de guerra. Rusia, 1941. Katya Ivanova es una joven piloto en una academia militar remota en los Montes Urales. Desde la infancia, ha soñado con volar a los cielos para escapar de su sombría vida en la montaña. Con los nazis en marcha por toda Europa, se le pide que use sus alas para servir a su país en su hora más oscura. Ni siquiera las súplicas de su nuevo esposo, un artista sensible que teme por su seguridad, pueden disuadirla de hacer su parte como una orgullosa hija de Rusia. Después de años de arduo entrenamiento, Katya es asignada al 588.° Regimiento de Bombarderos Nocturnos, una de las únicas unidades aéreas soviéticas compuesta en su totalidad por mujeres. Los alemanes aprenden rápidamente a temer las incursiones nocturnas de los atrevidos voladores a los que llaman 'brujas nocturnas'. Pero la brutal campaña cobrará un precio amargo en Katya y sus hermanas de armas. Cuando el humo de la guerra se disipe, nada volverá a ser igual, y una de las heroínas militares más condecoradas de Rusia se enfrentará a la elección más angustiosa de todas.",
+     "image": "Daughters of the Night Sky.jpg",
+     "format": "Tapa dura",
+     "gender": "Aventura"
+    },
+    {
+     "id": 3,
+     "name": "Detective Comics",
+     "price": 108.803,
+     "category": "Recomendados",
+     "description": "Con la pérdida de su fortuna y su mansión, la elección del alcalde Nakano y el creciente sentimiento anti-vigilante en Ciudad Gótica, Bruce Wayne debe repensar cómo ser Batman... o arriesgarse a quedarse atrás en su propia ciudad. ¡Presentamos al Sr. Worth! Cuando su hija es asesinada durante la brutal ola de crímenes que se apodera de Gotham City, Roland Worth, un montón de músculos y dinero de dos metros y medio de altura, emprende un camino de venganza hacia el principal sospechoso del crimen: ¡Batman! El Caballero Oscuro ha sido incriminado por asesinato y, para empeorar las cosas, este espeluznante acto parece estar conectado con otra fuerza malvada emergente en el horizonte. ¡Es una explosión de galería de pícaros, y esta vez no hay una mansión en la colina desde la que Bruce Wayne pueda montar su contraataque! La escritora ganadora del premio Eisner, Mariko Tamaki, y el artista superestrella Dan Mora comienzan una nueva historia emocionante, sorprendente y que desafía a la muerte para el detective más grande del mundo.",
+     "image": "Detective Comics.jpg",
+     "format": "Tapa dura",
+     "gender": "Ficcion"
+    },
+    {
+     "id": 4,
+     "name": "Dissonance",
+     "price": 113.886,
+     "category": "Recomendados",
+     "description": "Un nuevo mundo. Mil Amenazas. Bienvenidos al Continente. La vida de Félix en la Tierra se había convertido en una serie de trabajos sin salida, relaciones arruinadas y apartamentos rotativos más pequeños que la mayoría de los sellos postales. Según todos los informes, incluso el suyo propio, era un cobarde. Demasiado miedo de avanzar, de correr riesgos. Sin embargo, cuando se le dio la oportunidad de elegir entre arriesgar su vida o alejarse de un encuentro mortal, no dudó. Momentos antes de su muerte prematura, Félix fue arrancado de la tierra y arrojado a un mundo mágico conocido solo como 'El Continente'. Empoderado por el 'Sistema', aprende que puede fortalecerse a sí mismo a través del combate y la dedicación. Para sobrevivir, tendrá que esforzarse más allá de sus límites o caer ante los monstruos que lo rodean. Niveles, estadísticas y magia. La muerte es el comienzo de un terrible destino, pero si vive... nadie sabe en qué se convertirá.",
+     "image": "Dissonance.jpg",
+     "format": "Tapa Blanda",
+     "gender": "Ficcion"
+    },
+    {
+     "id": 5,
+     "name": "Every Summer After",
+     "price": 53.1,
+     "category": "Recomendados",
+     "description": " 'Un debut radiante': Emily Henry, autora número uno en ventas del New York Times de Tú y yo de vacaciones Cinco veranos para enamorarse. Un momento para desmoronarse. Un fin de semana para hacerlo bien. La escritora de una revista tiene que tomar una decisión cuando regresa al lago en el que creció, y al hombre sin el que pensó que nunca tendría que vivir, en este debut dolorosamente nostálgico. Dicen que nunca puedes volver a casa, y para Persephone Fraser eso se ha sentido demasiado cierto durante la última década, desde que cometió el mayor error de su vida. En lugar de resplandecientes veranos en la orilla del lago de su infancia, los pasa en un elegante apartamento en la ciudad, saliendo con amigos y manteniendo a todos a una distancia segura de su corazón. Hasta el día en que recibe una llamada que la envía de vuelta a Barry's Bay y a la órbita de Sam Florek. Durante cinco veranos, a través de las tardes brumosas en el agua y las cálidas noches de verano trabajando en el restaurante de su familia y acurrucándose con los libros (libros de texto de medicina para él y cuentos de terror en progreso para ella), Percy y Sam habían sido inseparables. Y poco a poco esa amistad se convirtió en algo asombrosamente más, antes de que se desmoronara espectacularmente. Cuando Percy regresa al lago para asistir al funeral de la madre de Sam, su conexión es tan innegable como siempre. Percy debe confrontar las decisiones que ha tomado y los años que ha pasado castigándose por ellas, para determinar, de una vez por todas, si su amor puede ser más grande que los mayores errores de su pasado. Contada a lo largo de cinco años y un fin de semana, Every Summer After es una mirada amplia y arrolladora sobre el amor y las personas y las elecciones que nos marcan para siempre. 'Una dulce historia sobre las segundas oportunidades y cómo el futuro que imaginamos para nosotros mismos nunca es exactamente lo que resulta ser. - Jodi Picoult, autora número 1 en ventas del New York Times de The Book of Two Ways y Wish You Were Here 'Carley Fortune perfecciona la nostalgia del joven amor de verano y las elecciones que nos cambian para siempre en Every Summer After, una novela inteligente y encantadora que tocará tus fibras sensibles y satisfará con creces a los fans de Emily Henry'. Esta es tu próxima lectura en la playa de lectura obligada de una nueva y emocionante voz. ¡Una alegría total para devorar! - Ashley Audrain, autora número uno en ventas de The Push Ambientada en el idílico campo rural de Ontario, el debut de Carley Fortune Every Summer After sigue a una pareja, Persephone (Percy) y Sam, mientras navegan por la pérdida, las promesas rotas y el amor no correspondido. En una narrativa de 'entonces/ahora' que abarca casi dos décadas, Fortune explora hábilmente el tira y afloja de una relación agobiada por errores y malentendidos del pasado, y cómo se trata tanto de elección como del destino. Evocadora y nostálgica, esta novela es perfecta para aquellos que codician los calurosos días de verano en el muelle y las historias de amor de segunda oportunidad. ¡Lo devoré! - Karma Brown, autora número uno en ventas de Receta para una esposa perfecta'Al igual que el verano, no quería que esta épica y nostálgica historia de romance juvenil se terminara. Ambientada en el país de las cabañas de Ontario, uno de mis lugares favoritos en la tierra, este tentador debut es una historia de amor de verano perfectamente hermosa que los fanáticos de Jojo Moyes y Emily Henry deberían agregar a sus listas de deseos de inmediato. - Marissa Stapley, autora superventas de Lucky'",
+     "image": "Every Summer After.jpg",
+     "format": "Tapa Blanda",
+     "gender": "Ficcion"
+    },
+    {
+     "id": 6,
+     "name": "Keep Away",
+     "price": 86.543,
+     "category": "Recomendados",
+     "description": "Ben sabe que si va a triunfar como capitán de una nave estelar, algo tiene que ceder. Después de otro encuentro inesperado con el Sr. Keep, está listo para aceptar que no puede evitar su destino para siempre. Pero el primer paso es increíble, y no está precisamente empezando con las mejores bases. Tiene más que perder que su nave estelar o su vida. Mucho más. Comprar la nave estelar era un negocio. Esto es personal. La aventura de tu vida continúa en la tercera entrega de la serie de ciencia ficción número 1 Starship For Sale. Si te gustan las naves estelares encontradas, los héroes inverosímiles y el caos intergaláctico, te encantará Starship For Sale.",
+     "image": "Keep Away.jpg",
+     "format": "Tapa Blanda",
+     "gender": "Ficcion"
+    },
+    {
+     "id": 7,
+     "name": "La Psicología del Dinero",
+     "price": 43.5,
+     "category": "Novedades",
+     "description": "En cuestiones de dinero, lo que importa no es lo listo que seas sino cómo te comportas. Tendemos a pensar en la inversión o la gestión de las finanzas personales como una disciplina matemática, en la que los datos y las fórmulas nos dicen exactamente qué hacer. Sin embargo, el rasgo que define a las personas que logran enriquecerse no es su destreza con los números, ni su salario o su talento, sino su historia personal, sus motivaciones y su visión única del mundo.Un genio que pierde el control de sus emociones puede ser un desastre financiero. Y lo mismo vale en caso contrario: gente de a pie sin formación en finanzas puede enriquecerse si cuenta con unos cuantos patrones de comportamiento. Esto, impensable en otras disciplinas como la arquitectura o la medicina, es fundamental en el campo de las finanzas.Este libro, llamado a convertirse en un clásico de las finanzas personales, nos provee del conocimiento esencial para entender la psicología del dinero y nos invita a hacernos una pregunta fundamental que raramente nos hacemos, cuál es nuestra relación con el dinero y qué queremos realmente de él.A partir de 18 claves imperecederas, Morgan Housel nos enseña cómo funciona la psicología del dinero y cuáles son los hábitos y conductas que nos ayudarán no solo a generar riqueza, sino, más importante aún, a conservarla.  «Un libro imprescindible para cualquiera que quiera tomar decisiones más inteligentes y vivir una vida más rica.» Daniel Pink, autor de La sorprendente verdad sobre qué nos motiva«Ideas fascinantes y consejos prácticos. Cualquiera que quiera hacerse rico debería tener una copia de este libro.» James Clear, autor de Hábitos atómicos«Uno de los mejores y más originales libros de finanzas de los últimos años.» Jason Zweig, Wall Street Journal«Housel es de esos escritores capaces de hacer digeribles conceptos financieros de lo más complejos. Este es un libro que se devora de principio a fin y que no solo nos explica por qué tomamos malas decisiones con respecto al dinero, sino que nos ayudará a tomar mejores.» Annie Duke, autora de Thinking in BetsLa riqueza no es fruto de nuestra inteligencia, talento o trabajo. Es fruto de nuestro comportamiento.",
+     "image": "psicologia del dinero.jpg",
+     "format": "Tapa Blanda",
+     "gender": "Liderazgo"
+    },
+    {
+     "id": 8,
+     "name": "Hermanos de Sangre",
+     "price": 44,
+     "category": "Recomendados",
+     "description": "Cuenta todos los detalles sobre el asesinato de Carlos Castaño Gil, máximo comandante de las autodefensas colombianas. Fueron 11 años la búsqueda de la persona que apretó el gatillo aquel abril 2004 Manuel Salvador Ospina Cifuentes, la persona que le pone fin a la existencia de Carlos Castaño. Tras casi cuatro de décadas de fidelidad y servicio por parte de Ospina al jefe de las AUC ¿quién se iba a imaginar que este jornalero de una finca iba a convertirse en el asesiso de su comandante? Hermanos de Sangre entreteje las historias paralelas (reconstruidas mediante la reportería, la entrevista y la crónica realizadas por el periodista y abogado (Toño) Sánchez Jr.)",
+     "image": "hermanos de sangre.jpg",
+     "format": "Tapa Blanda",
+     "gender": "Accion"
+    },
+    {
+     "id": 9,
+     "name": "Viva sus Fortalezas",
+     "price": 29,
+     "category": "Novedades",
+     "description": "Basada en una filosofía de fortalezas adoptada por millones de lectores. - Historias personales y consejos viables para las personas comprometidas espiritualmente, todo con base en décadas de investigación. - Incluye un código ID que permite que los lectores ingresen a StrengthsFinder.com, una evaluación de personalidad realizada más de un millón de veces.Incluso en un país tan religioso como los Estados Unidos, muchas personas no se sienten comprometidas con sus comunidades de fe. Más de la mitad declara que, en realidad, sus congregaciones no les brindan la oportunidad de hacer lo que mejor saben hacer. La gente simplemente se siente desconectada.   Quizás se debe a que las comunidades de fe cometen errores involuntarios: los pastores les piden a las personas tímidas que actúen como “anfitriones”, o contratan a personas desorganizadas por naturaleza para que coordinen los eventos de la iglesia.   El problema es simplemente este: muchos de los talentos de las personas pasan desapercibidos. Pero esto no tiene que ser así. “Aprovechar sus fortalezas” le muestra a los lectores la forma de utilizar sus dones innatos para enriquecer a sus comunidades de fe. El libro, escrito por los expastores Albert Winseman, Curt Liesveld, y Donald O. Clifton (coautor del libro récord en ventas nacional Now, Discover Your Strengths [Ahora, descubra sus fortalezas]) les muestra a las personas la forma de identificar y afirmar sus talentos, además de la forma de utilizarlos en pro del crecimiento y el servicio. Pero aún más importante, Aprovechar sus fortalezas ayuda a las personas a descubrir su verdadera vocación.   El libro incluye un código ID que permite que los lectores ingresen a StrengthsFinder.com, una evaluación de personalidad que revela los cinco mayores talentos del usuario. El enriquecimiento espiritual comienza con la conversión de los talentos en fortalezas. “Aprovechar sus fortalezas” es una guía indispensable para ayudar a que los lectores hagan exactamente lo que el título indica.",
+     "image": "viva sus fortalezas.jpg",
+     "format": "Tapa dura",
+     "gender": "Autoayuda"
+    },
+    {
+     "id": 10,
+     "name": "Salvar Vidas en el Mediterráneo",
+     "price": 19,
+     "category": "Recomendados",
+     "description": "El Mediterraneo es escenario de una situacion doblemente vergonzosa: la crisis humanitaria de los inmigrantes a la deriva y el acoso legal que sufren las ONG que intentan rescatarlos. Sandro Veronesi sube a bordo de uno de los barcos de rescate; conversa con el activista Oscar Camps, creador de Proactiva Open Arms; escribe una carta abierta a Roberto Saviano recabando su ayuda y la de otros intelectuales comprometidos y envia incendiarios tuits al ministro Mateo Salvini. Denuncia la postura de su gobierno y de otros gobiernos, las mentiras fake news que circulan con voluntad toxica, el racismo latente y la lamentable situacion de los emigrantes que esperan en Libia; pone sobre la mesa el Derecho Maritimo Internacional y habla de la necesidad de actuar, de hacerse oir y luchar por la dignidad. / The Mediterranean is the scene of two shameful situations: the humanitarian crisis of the drifting immigrants and the legal harassment suffered by the NGOs that try to rescue them. Sandro Veronesi climbs aboard one of the rescue boats to talk with activists.",
+     "image": "salvar vidas en el mediterraneo.jpg",
+     "format": "Tapa Blanda",
+     "gender": "Sociolgia"
+    },
+    {
+     "id": 11,
+     "name": "Boulevard 2 - Después de él",
+     "price": 31.56,
+     "category": "Mas vendidos",
+     "description": "Tras la muerte de Luke, Hasley debe seguir con su vida, pasar página y mirar hacia delante. Cuando su madre le dice que es hora de continuar y dejar el pasado atrás esas palabras se le clavan como puñales en el alma, pero no por ello son menos ciertas. Hasley es joven y tiene todo el tiempo del mundo para rehacer su vida y conocer a alguien más. La vida está llena de oportunidad. Quizás no para Luke, pero sí para Hasley y ella sabe que él hubiese querido que ella continuase su camino y cumpliese sus sueños. Todo cobra un nuevo sentido con la aparición de Harry Beckinsale, licenciado en derecho, dos años mayor que ella y con la vida en orden. ¿Será esta la nueva oportunidad para que los sueños de Hasley puedan descansar en paz junto a la memoria de Luke?",
+     "image": "boulevard 2.jpg",
+     "format": "Tapa dura",
+     "gender": "Literatura"
+    },
+    {
+     "id": 12,
+     "name": "La Riqueza de las Naciones",
+     "price": 56.4,
+     "category": "Mas vendidos",
+     "description": "La riqueza de las naciones, consta de cinco Libros. Con fundamento en que: (la riqueza de una nación deriva del producto anual del trabajo de su gente y de la tierra) el trabajo es el (fondo) del que se derivan todas las riquezas, el principal propósito es cómo aumentarlo: en el libro Primero considera que a partir de la división del trabajo surge el comercio, la distribución, el dinero, el precio el valor, los salarios, los costes, el beneficio y la renta.",
+     "image": "la riqueza de las naciones.jpg",
+     "format": "Tapa dura",
+     "gender": "Economia"
+    },
+    {
+     "id": 13,
+     "name": "El Camino de Los Reyes",
+     "price": 60,
+     "category": "Novedades",
+     "description": "Anhelo los días previos a la Última Desolación. Los días en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aún había magia en el mundo y honor en el corazón de los hombres. El mundo fue nuestro, pero lo perdimos. Probablemente no hay nada más estimulante para las almas de los hombres que la victoria. ¿O tal vez fue la victoria una ilusión durante todo ese tiempo? ¿Comprendieron nuestros enemigos que cuanto más duramente luchaban, más resistíamos nosotros? Quizá vieron que el fuego y el martillo tan solo producían mejores espadas. Pero ignoraron el acero durante el tiempo suficiente para oxidarse. Hay cuatro personas a las que observamos. La primera es el médico, quien dejó de curar para convertirse en soldado durante la guerra más brutal de nuestro tiempo. La segunda es el asesino, un homicida que llora siempre que mata. La tercera es la mentirosa, una joven que viste un manto de erudita sobre un corazón de ladrona. Por último está el alto príncipe, un guerrero que mira al pasado mientras languidece su sed de guerra. El mundo puede cambiar. La potenciación y el uso de las esquirlas pueden aparecer de nuevo, la magia de los días pasados puede volver a ser nuestra. Esas cuatro personas son la clave. Una de ellas nos redimirá. Y una de ellas nos destruirá.",
+     "image": "Way_of_Kings.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    },
+    {
+     "id": 14,
+     "name": "Palabras Radiantes",
+     "price": 60,
+     "category": "Mas vendidos",
+     "description": "Los Caballeros Radiantes deben volver a alzarse. Los antiguos juramentos por fin se han pronunciado. Los hombres buscan lo que se perdió. Temo que la búsqueda los destruya. Es la naturaleza de la magia. Un alma rota tiene grietas donde puede colarse algo más. Las potencias, los poderes de la creación misma, pueden abrazar un alma rota, pero también pueden ampliar sus fisuras. El Corredor del Viento está perdido en una tierra quebrada, en equilibro entre la venganza y el honor. La Tejedora de Luz, lentamente consumida por su pasado, busca la mentira en la que debe convertirse. El Forjador de Vínculos, nacido en la sangre y la muerte, se esfuerza ahora por reconstruir lo que fue destruido. La Exploradora, a caballo entre los destinos de dos pueblos, se ve obligada a elegir entre una muerte lenta y una terrible traición a todo en lo que cree. Ya es hora de despertarlos, pues acecha la eterna tormenta. Y el asesino ha llegado.",
+     "image": "Palabras radiantes.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    },
+    {
+     "id": 15,
+     "name": "Juramentada",
+     "price": 60,
+     "category": "Novedades",
+     "description": "La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada. Entretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización.",
+     "image": "Juramentada.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    },
+    {
+     "id": 16,
+     "name": "El Ritmo de La Guerra",
+     "price": 60,
+     "category": "Mas vendidos",
+     "description": "Hay secretos que hemos guardado mucho tiempo. Vigilantes. Insomnes. Eternos. Y pronto dejarán de ser nuestros. La Una que es Tres busca, sin saberlo, el alma capturada. El spren aprisionado, olvidado hace mucho tiempo. ¿Puede liberar su propia alma a tiempo de hallar el conocimiento que condena a todos los pueblos de Roshar? El Soldado Caído acaricia y ama la lanza, incluso mientras el arma hiende su propia carne. Camina siempre hacia delante, siempre hacia la oscuridad, sin luz. No puede llevar consigo a nadie, salvo aquello que él mismo puede avivar. La Hermana Derrumbada comprende sus errores y piensa que ella misma es un error. Parece muy alejada de sus antepasados, pero no comprende que son quienes la llevan a hombros. Hacia la victoria, y hacia ese silencio, el más importante de todos. Y la Madre de Máquinas, la más crucial de todos ellos, danza con mentirosos en un gran baile. Debe desenmascararlos, alcanzar sus verdades ocultas y entregarlas al mundo. Tiene que reconocer que las peores mentiras son las que se cuenta a sí misma. Si lo hace, nuestros secretos por fin se convertirán en verdades",
+     "image": "Ritmo de la guerra.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    },
+    {
+     "id": 17,
+     "name": "El Imperio final",
+     "price": 60,
+     "category": "Novedades",
+     "description": "Durante mil años han caído cenizas del cielo. Durante mil años nada ha florecido. Durante mil años los skaa han sido esclavizados y viven en la miseria, sumidos en un miedo inevitable. Durante mil años el Lord Legislador ha reinado con poder absoluto, dominando gracias al terror, a sus poderes y a su inmortalidad, ayudado por «obligadores» e «inquisidores», junto a la poderosa magia de la alomancia. Pero los nobles a menudo han tenido trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido y heredado los poderes alománticos: son los «nacidos de la bruma» (mistborn). Ahora, Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, ha encontrado a Vin, una pobre chica skaa con mucha suerte... Tal vez los dos, con el mejor equipo criminal jamás reunido, unidos a la rebelión que los skaa intentan desde hace mil años, logren cambiar el mundo y acabar con la atroz mano de hierro del Lord Legislador.",
+     "image": "Imperio final.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    },
+    {
+     "id": 18,
+     "name": "El Pozo de la Acension",
+     "price": 60,
+     "category": "Mas vendidos",
+     "description": "Durante mil años nada ha cambiado: han caído las cenizas, los skaa han sido esclavizados y el Lord Legislador ha dominado el mundo. Pero lo imposible ha sucedido. El Lord Legislador ha muerto. Sin embargo, vencer y matarlo fue la parte sencilla. El verdadero desafío será sobrevivir a las consecuencias de su caída. Tomar el poder tal vez resultó fácil, pero ¿qué ocurre después?, ¿cómo se utiliza? La tarea de reconstruir el mundo, ahora que Kelsier no está, ha quedado en manos de Vin. Y las brumas, desde que el Lord Legislador cayó, se han vuelto cada vez más impredecibles... A medida que el asedio se intensifica, la antigua leyenda del Pozo de la Ascensión ofrece un único rayo de esperanza. En ese mundo de aventura épica, la estrategia política y religiosa debe lidiar con los siempre misteriosos poderes de la alomancia...",
+     "image": "pozo de la acension.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    },
+    {
+     "id": 19,
+     "name": "El Héroe de Las Eras",
+     "price": 60,
+     "category": "Mas vendidos",
+     "description": "Durante mil años nada ha cambiado: han caído las cenizas, los skaa han sido esclavizados y el Lord Legislador ha dominado el mundo. Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, junto a Vin, una pobre chica skaa, se une a la rebelión. Y por fin lo imposible sucede: por fin la revolución ha triunfado. Pero acabar con el Lord Legislador es la parte sencilla. El verdadero desafío consistirá en sobrevivir a las consecuencias de su caída... sin Kelsier. Vin y el Rey Elend buscan en los últimos escondites de recursos del Lord Legislador y, engañado, el Rey libera del Pozo de la Ascensión algo que debería haber quedado oculto para siempre. Un enorme peligro acecha a la humanidad, y la verdadera pregunta es si conseguirán detenerlo a tiempo. En El héroe de las eras se comprende el porqué de la niebla y las cenizas, las tenebrosas acciones del Lord Legislador y la naturaleza del Pozo de la Ascensión. Esta aventura lleva a la trilogía a un clímax dramático y sorprendente.",
+     "image": "heroe de las eras.jpg",
+     "format": "Tapa dura",
+     "gender": "Fantasia"
+    }
+   ]
