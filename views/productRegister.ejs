@@ -6,41 +6,49 @@
 
 <center>
         <main>
-            <form action="/" class="form">
-                 <h1>Registra tu producto</h1>
-                 <label for="name"><p>Introduce el nombre del producto</p></label>
-                 <input type="text" name="name" id="name" placeholder="Introduce el nombre de tu producto" minlength="2">
+            <form action="/products" class="form" method="post" enctype="multipart/form-data">
+                 <h1>Registra tu libro</h1>
+                 <label for="name"><p>Introduce el nombre</p></label>
+                 <input type="text" name="name" id="name" placeholder="Introduce el nombre">
                  <br>
-                 <label for="description"><p>Introduce la descripcion del producto</p></label>
-                 <input type="description" id="description" name="description" minlength="2">
+                 <label for="description"><p>Introduce la descripcion</p></label>
+                 <input type="description" id="description" name="description">
                 <br>
-                <label for="image"><p>Introduce imagenes del producto</p></label>
-                <input type="file" id="image" name="image" minlength="2">
+                <label for="image"><p>Introduce la portada</p></label>
+                <input type="file" id="image" name="image">
                 <br>                
-                <label for="category"><p>introduce el genero del producto del producto</p></label>
-                <select id="category" name="category">
-                    <option name="category" id="categorY1">Romance</option>
-                    <option name="category" id="category2">Accion</option>
-                    <option name="category" id="category3">Suspenso</option>
-                    <option name="category" id="category4">Biografia</option>
-                    <option name="category" id="category4">Liderazgo</option>
-                    <option name="category" id="category4">Autoayuda</option>
-                    <option name="category" id="category4">Sociologia</option>                   
-                    <option name="category" id="category4">Literatura</option>
-                    <option name="category" id="category4">Economia</option>
-                    
+                <label for="gender"><p>introduce el genero</p></label>
+                <select id="gender" name="gender">
+                    <option name="Romance">Romance</option>
+                    <option name="Accion">Accion</option>
+                    <option name="Suspenso">Suspenso</option>
+                    <option name="Biografia">Biografia</option>
+                    <option name="Liderazgo">Liderazgo</option>
+                    <option name="Autoayuda">Autoayuda</option>
+                    <option name="Sociologia">Sociologia</option>                   
+                    <option name="Literatura">Literatura</option>
+                    <option name="Ficcion">Ficcion</option>
+                    <option name="Economia">Economia</option>   
                 </select>
                  <br>
-                 <label for="categoria">Introduce la categoria del producto</label>
+                 <label for="categoria">Introduce la categoria</label>
                  <br>
-                 <select id="categoria">
-                    <option name="categoria1" id="Novedades">Novedades</option>
-                    <option name="categoria2" id="Publico2">Mas vendidos</option>
-                    <option name="categoria3" id="Publico3">Recomendados</option>
+                 <select id="category" name="category">
+                    <option name="Novedades" id="Novedades">Novedades</option>
+                    <option name="Masvendidos" id="Masvendidos">Mas vendidos</option>
+                    <option name="Recomendados" id="Recomendados">Recomendados</option>
                  </select>
                 <br>
-                <label for="price"><p>Introduce el precio del producto</p></label>
-                <input type="number" id="price" name="price" minlength="1">
+                <label for="format">Introduce el formato</label>
+                 <br>
+                 <select id="format" name="format">
+                    <option name="TapaDura" id="TapaDura">Tapa Dura</option>
+                    <option name="TapaBlanda" id="TapaBlanda">Tapa Blanda</option>
+                    <option name="Digital" id="Digital">Digital</option>
+                 </select>
+                <br>
+                <label for="price"><p>Introduce el precio</p></label>
+                <input type="number" id="price" name="price">
                 
                 
                  <br>   
