@@ -1,23 +1,25 @@
-const productos=[{
-    id:1,
-    nombredelplato:"Carpaccio fresco",
-    descripción:"Entrada Carpaccio de salmón con cítricos",
-    precio:"U$S 65.50",
-    imagen:"Carpaccio-de-salmon.jpg"
-}
-];
+const fs=require('fs');
+
+const fileContents = fs.readFileSync('./data/products.json', 'utf8')
+const products = JSON.parse(fileContents)
 
 const productscontroller={
     index:(req,res)=>{
-        
-        res.render("index")
+        const fileContents = fs.readFileSync('./data/products.json', 'utf8')
+        const products = JSON.parse(fileContents)
+        res.render("index", {products:products})
+
     },
     productDetail:(req,res)=>{
-        
-        res.render("productDetail")
+    const fileContents = fs.readFileSync('./data/products.json', 'utf8')
+    const products = JSON.parse(fileContents)
+    let id = req.params.id
+    let product = products.find(products => products.id == id)
+    res.render("productDetail" ,{product:product})
+    
     },
     productCart:(req,res)=>{
-        
+
         res.render("productCart")
     },
     productRegister:(req,res)=>{
@@ -25,7 +27,9 @@ const productscontroller={
     },
     productModify:(req,res)=>{
         res.render("productModify")
-    }
+    },
+
+   
 
 
 
