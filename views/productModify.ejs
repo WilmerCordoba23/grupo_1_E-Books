@@ -3,45 +3,52 @@
     <%- include('./partials/head')%>
 <body>
     <%- include('./partials/menu')%>
-
-<center>
         <main>
-            <form action="/" class="form">
+            <%- include('./partials/genders')%>
+            <center>
+                <br><br>
+            <h2>Estás editando: <%= productToEdit.name %></h2>
+            <form action="/products/productEdit/<%= productToEdit.id %>?_method=PUT" method="POST" class="form" enctype="multipart/form-data">
                  <h1>Modifica tu producto</h1>
                  <label for="name"><p>Introduce el nuevo nombre del producto</p></label>
-                 <input type="text" name="name" id="name" placeholder="Introduce el nombre de tu producto" minlength="2">
+                 <input type="text" name="name" id="name" value="<%= productToEdit.name %>" minlength="2">
                  <br>
                  <label for="description"><p>Introduce la nueva descripcion de producto</p></label>
-                 <input type="description" id="description" name="description" minlength="2">
+                 <input type="description" id="description" name="description" value="<%= productToEdit.description %>" minlength="2">
                 <br>
                 <label for="image"><p>Introduce las nuevas imagenes del producto</p></label>
                 <input type="file" id="image" name="image" minlength="2">
                 <br>                
                 <label for="category"><p>introduce el nuevo genero del producto</p></label>
-                <select id="category" name="category">
-                    <option name="category" id="categorY1">Romance</option>
-                    <option name="category" id="category2">Accion</option>
-                    <option name="category" id="category3">Suspenso</option>
-                    <option name="category" id="category4">Biografia</option>
-                    <option name="category" id="category4">Liderazgo</option>
-                    <option name="category" id="category4">Autoayuda</option>
-                    <option name="category" id="category4">Sociologia</option>                   
-                    <option name="category" id="category4">Literatura</option>
-                    <option name="category" id="category4">Economia</option>
+                <select id="gender" name="gender">
+                    <option name="category" value="Romance">Romance</option>
+                    <option name="category" value="Accion">Accion</option>
+                    <option name="category" value="Suspenso">Suspenso</option>
+                    <option name="category" value="Biografia">Biografia</option>
+                    <option name="category" value="Liderazgo">Liderazgo</option>
+                    <option name="category" value="Autoayuda">Autoayuda</option>
+                    <option name="category" value="Sociologia">Sociologia</option>                   
+                    <option name="category" value="Literatura">Literatura</option>
+                    <option name="category" value="Economia">Economia</option>
                     
                 </select>
                  <br>
-                 <label for="categoria">Introduce la nueva categoria del producto</label>
                  <br>
-                 <select id="categoria">
-                    <option name="categoria1" id="Novedades">Novedades</option>
-                    <option name="categoria2" id="Publico2">Mas vendidos</option>
-                    <option name="categoria3" id="Publico3">Recomendados</option>
-                 </select>
+                 <label for="Formato">Introduce el nuevo formato del producto</label>
+                 <br>
+                 <br>
+                 Tapa Dura
+                 <input type="checkbox" name="Tapa dura" id="formato" value="True"> 
+                 <br>
+                 Tapa blanda
+                 <input type="checkbox" name="Tapa Blanda" id="formato" value="True"> 
+                 <br>
+                 Libro Digital
+                 <input type="checkbox" name="Digital" id="formato" value="True"> 
                 <br>
                 <br>
                 <label for="price"><p>Introduce el nuevo precio del producto</p></label>
-                <input type="number" id="price" name="price" minlength="1">
+                <input type="number" id="price" name="price" value="<%= productToEdit.price %>" minlength="1">
                 
                 
                  <br>   
@@ -50,7 +57,9 @@
                  <br>   
 
                 </form>
+                <form action="/products/delete/<%= productToEdit.id %>?_method=DELETE" method="POST">
             <input class="form borrar" type="submit" value="Borrar">
+        </form>
             <br>
             <br>
 
