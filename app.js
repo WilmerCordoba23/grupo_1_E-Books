@@ -17,13 +17,10 @@ app.use(express.static('./public'));
 //productos
 
 app.use('/',products);
-<<<<<<< HEAD
 
 //usuarios
 app.use('/',usuarios);
 
-//usuarios
-app.use('/',usuarios);
 
 
 
