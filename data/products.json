@@ -182,33 +182,10 @@
  {
   "id": 19,
   "name": "El Héroe de Las Eras",
-  "price": 60,
-  "category": "Mas vendidos",
   "description": "Durante mil años nada ha cambiado: han caído las cenizas, los skaa han sido esclavizados y el Lord Legislador ha dominado el mundo. Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, junto a Vin, una pobre chica skaa, se une a la rebelión. Y por fin lo imposible sucede: por fin la revolución ha triunfado. Pero acabar con el Lord Legislador es la parte sencilla. El verdadero desafío consistirá en sobrevivir a las consecuencias de su caída... sin Kelsier. Vin y el Rey Elend buscan en los últimos escondites de recursos del Lord Legislador y, engañado, el Rey libera del Pozo de la Ascensión algo que debería haber quedado oculto para siempre. Un enorme peligro acecha a la humanidad, y la verdadera pregunta es si conseguirán detenerlo a tiempo. En El héroe de las eras se comprende el porqué de la niebla y las cenizas, las tenebrosas acciones del Lord Legislador y la naturaleza del Pozo de la Ascensión. Esta aventura lleva a la trilogía a un clímax dramático y sorprendente.",
-  "image": "heroe de las eras.jpg",
-  "format": "Tapa dura",
-  "gender": "Fantasia"
- },
- {
-  "id": 20,
-  "name": "Dragon Ball Z Vol. 11",
-  "description": "¡Con un planeta entero como campo de batalla, Goku y Freezer continúan su enfrentamiento para ver quién es el más fuerte en el universo! Pero la determinación de Goku se convierte en horror cuando se da cuenta de que su enemigo solo ha estado jugando con él... ¡y con solo el 50% de su poder total, Freezer es lo suficientemente fuerte como para vencer a Goku! Gohan, Piccolo y Kuririn distraen a Freezer mientras Goku se enciende para una gigantesca genki-dama, la última técnica de \"esfera de energía\". Pronto, los héroes no tienen más remedio que esperar un milagro...",
-  "gender": "Accion",
-  "category": "Recomendados",
-  "format": "Digital",
-  "price": "30000",
-  "image": "1658087869686_img_.jpg",
-  "imagealt": "Dragon Ball Z Vol. 11.jpg"
- },
- {
-  "id": 21,
-  "name": "Don Quijote de la Mancha",
-  "description": "Hace diez años la Asociación de Academias de la Lengua Española pensó este Quijote para todos. Hoy se reedita -en edición limitada- para conmemorar los 400 años de la muerte de su autor.  Los años 2015 y 2016 conforman un bienio de aniversarios cervantinos. A la celebración del IV Centenario de la publicación de la segunda parte de Don Quijote (2015), le sigue, en 2016, la conmemoración del IV Centenario de la muerte de su autor, Miguel de Cervantes.  Como ocurrió hace más de una década, las Academias de la Lengua Española y la editorial Alfaguara se unen a esta celebración con la reedición de este clásico universal, que llevaba siete años fuera de las librerías.  Esta edición reproduce el texto crítico y las notas de Francisco Rico, a su vez coordinador del volumen, y se completa con estudios de escritores y filólogos de la talla de Mario Vargas Llosa, Francisco Ayala, Martín de Riquer, José Manuel Blecua, Guillermo Rojo, José Antonio Pascual, Margit Frenk y Claudio Guillén.  Como novedad, la presente edición cuenta con un prólogo de Darío Villanueva, director de la Real Academia Española, escrito especialmente para la ocasión.  ------------  Ediciones conmemorativas de la Real Academia Española y la Asociación de Academias de la Lengua Española  En 2004 y coincidiendo con la celebración del IV Centenario de la publicación de la primera parte de Don Quijote de la Mancha , la Real Academia Española y la Asociación de Academias de la Lengua Española dieron inicio a un proyecto de edición de grandes obras de la literatura en español. Concebida como una línea de ediciones conmemorativas ocasionales y de circulación limitada de los grandes clásicos hispanos de todos los tiempos, dichas obras son publicadas y distribuidas en todo el mundo de habla hispana. Esta reedición de Don Quijote de la Macha con ocasión del IV centenario de Cervantes se une ahora a esta colección de la que ya forman parte Rubén Darío. Del símbolo a la realidad ; Cien años de soledad de Gabriel García Márquez ; La región más transparente , de Carlos Fuentes ; Antología general , de Pablo Neruda ; Gabriela Mistral en verso y prosa , una antología de la autora; La ciudad y los perros de Mario Vargas Llosa y La colmena , de Camilo José Cela .  ------------  La crítica ha dicho... «Lo considero un libro para el siglo XXI.» Mario Vargas Llosa  «Uno de los grandes acontecimientos literarios del año.» ABC  «Si no has leído El Quijote, ahora es el momento, [...] un libro perfecto para un confinamiento, ya que además de la sabiduría que contiene en sus páginas, es un libro ameno, divertido, único.» Rosa Martí, Esquire  «El volumen tiene una sobria y elegante presentación y una cuidadísima realización.» José Andrés Rojo, El País",
-  "gender": "Ficcion",
-  "category": "Novedades",
-  "format": "Tapa Blanda",
-  "price": "50.000",
-  "image": "1658532516357_img_.jpg",
-  "imagealt": "Don Quijote de la Mancha.jpg"
+  "gender": "Romance",
+  "price": "60",
+  "image": "1658533834437_img_.jpg",
+  "imagealt": "heroe de las eras.jpg"
  }
 ]

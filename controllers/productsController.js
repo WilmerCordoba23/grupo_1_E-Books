@@ -31,7 +31,9 @@ const productscontroller={
         res.render("productRegister")
     },
     productModify:(req,res)=>{
-        res.render("productModify")
+        let id = req.params.id
+        let productToEdit = products.find(product => product.id == id)
+        res.render("productModify", {productToEdit})
     },
     Createproducts:
     (req, res) => {
@@ -44,6 +46,35 @@ const productscontroller={
         products.push(newProduct)
 		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
 		res.redirect("/");
+    },
+    modify: (req, res) => {
+		let id = req.params.id;
+		let productToEdit = products.find(product => product.id == id)
+		productToEdit = {
+			id: productToEdit.id,
+			...req.body,
+			image:req.file.filename,
+            imagealt:req.file.originalname
+		};
+		
+		let newProducts = products.map(product => {
+			if (product.id == productToEdit.id) {
+				return product = {...productToEdit};
+			}
+			return product;
+		})
+
+		 fs.writeFileSync(productsFilePath, JSON.stringify(newProducts, null, ' '));
+		res.redirect('/'); 
+
+        
+      
+	},
+    destroy : (req, res) => {
+		let id = req.params.id;
+		let finalProducts = products.filter(product => product.id != id);
+		fs.writeFileSync(productsFilePath, JSON.stringify(finalProducts, null, ' '));
+		res.redirect('/'); 
     }
 };
 

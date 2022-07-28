@@ -29,7 +29,11 @@ router.get('/productRegister',productscontroller.productRegister);
 
 router.post('/products',uploadFile.single('image'),productscontroller.Createproducts);
 
-router.get('/productModify',productscontroller.productModify);
+router.get('/productModify/:id',productscontroller.productModify);
+
+router.put('/productEdit/:id', uploadFile.single('image'),productscontroller.modify); 
+
+router.delete('/delete/:id', productscontroller.destroy); 
 
 
 module.exports = router;
