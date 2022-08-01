@@ -7,14 +7,20 @@
 
         <center>
         <main>
-            <form action="/" class="form">
+            <form action="/loginUsers" method="post"  class="form">
                  <h1>Iniciar sesion</h1>
-                 <label for="usuario"><p>Direccion de correo electronico o numero de telefono movil</p></label>
-                 <input type="text" name="usuario" id="usuario" minlength="2">
+                 <label for="usuario"><p>Direccion de correo electronico o numero de telefono</p></label>
+                 <input type="email" name="usuario" id="usuario" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
                  <br>
-                 <label for="contraseña"><p>Contraseña</p></label>
-                 <input type="password" name="contraseña" id="contraseña" minlength="6">
+                 <label for="password"><p>Contraseña</p></label>
+                 <input type="password" name="password" id="contraseña" value="<%=locals.old && old.password ? old.password: '' %>">
                  <br>
+                 <%if(locals.errors) {
+                    errors.forEach(errors => {%>
+                  <p class="arriba"><%=errors.msg%></p>
+                  <% })
+                    }
+                  %>
                  <br>
                  <input type="submit" value="Continuar">
                  <br>   

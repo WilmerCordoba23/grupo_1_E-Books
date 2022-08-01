@@ -25,7 +25,11 @@ body{
     border: 2px solid black ;
     margin-top: 2%;
   }
-
+  .arriba
+    {
+        font-style: bold ;
+        color: red;
+    }
   .form h1 {
     margin: 10px 0;
     text-align: center;

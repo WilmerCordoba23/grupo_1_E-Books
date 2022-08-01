@@ -3,6 +3,7 @@ const router=express.Router();
 const multer=require('multer');
 const path = require('path');
 const productscontroller=require('../controllers/productsController');
+//const adminMiddleware=require('../middlewares/adminMiddleware'); //para que solo los administradores puedan acceder a las rutas
 
 const storage = multer.diskStorage({ 
 	destination: function (req, file, cb) { 
@@ -15,6 +16,7 @@ const storage = multer.diskStorage({
 
   const uploadFile = multer({ storage });
 
+
 router.get('/',productscontroller.index);
 
 router.get('/search', productscontroller.search); 
@@ -25,15 +27,15 @@ router.get('/productDetail/:id',productscontroller.productDetail);
 
 router.get('/productCart',productscontroller.productCart);
 
-router.get('/productRegister',productscontroller.productRegister);
+router.get('/productRegister',/*adminMiddleware,*/productscontroller.productRegister);
 
 router.post('/products',uploadFile.single('image'),productscontroller.Createproducts);
 
-router.get('/productModify/:id',productscontroller.productModify);
+router.get('/productModify/:id',/*adminMiddleware,*/productscontroller.productModify);
 
-router.put('/productEdit/:id', uploadFile.single('image'),productscontroller.modify); 
+router.put('/productEdit/:id',/*adminMiddleware,*/ uploadFile.single('image'),productscontroller.modify); 
 
-router.delete('/delete/:id', productscontroller.destroy); 
+router.delete('/delete/:id',/*adminMiddleware,*/ productscontroller.destroy); 
 
 
 module.exports = router;

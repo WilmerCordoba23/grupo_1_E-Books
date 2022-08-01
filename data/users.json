@@ -1,25 +1,62 @@
 [
  {
-   "Identificador": 23,
-   "Nombre": "Wilmer Alexander",
-   "Apellido": "Cordoba Arroyo",
-   "Email": "alexandercordoba2003@hotmail.com",
-   "Contraseña": "wilmer11"
-
+  "Identificador": 1,
+  "Nombre": "Wilmer Alexander",
+  "Apellido": "Cordoba Arroyo",
+  "Email": "alexandercordoba2003@hotmail.com",
+  "Contraseña": "$2a$10$s./KXxSv1hN6Sz1xug36FeQme3kogSVC3TaF4ziZx.cWfeD51beYa",
+  "Imagen": null,
+  "ImagenAlt": null,
+  "Admin": true
  },
  {
-  "Identificador": 12,
+  "Identificador": 2,
   "Nombre": "Kervin Joshua",
-  "Apellido":"Cordoba Palacios",
-  "Email":"kervincordoba33@gmail.com",
-  "Contraseña": "980719"
+  "Apellido": "Cordoba Palacios",
+  "Email": "kervincordoba33@gmail.com",
+  "Contraseña": "$2a$10$GL/Q7FoiJlCp99xG95mD8e2NUr4nzC6vBQyqw/.9Tr9TrtnV1bHEq",
+  "Imagen": null,
+  "ImagenAlt": null,
+  "Admin": true
  },
  {
-  "Identificador": 8,
+  "Identificador": 3,
   "Nombre": "Sergio Andres",
   "Apellido": "Cordoba Torrez",
   "Email": "sergioandrestorrez@gmail.com",
-  "Contraseña": "sergio8"
-}
+  "Contraseña": "$2a$10$Udn2d/luAy6tH0.B9b8/xuRxjkNpDQVuOwcDfdmv92kFrfjKEccVe",
+  "Imagen": null,
+  "ImagenAlt": null,
+  "Admin": true
+ },
+ {
+  "Identificador": 4,
+  "Nombre": "kervin joshua",
+  "Apelliddo": "ffg",
+  "Email": "kervincordoba33@gmail.com",
+  "Contraseña": "$2a$10$nNILYkogKuhcobHm2HV7jedxj./vdTLh2gIP/HHF5lNjzU4EUu13K",
+  "Image": "Captura de pantalla (10).png",
+  "Imagealt": "",
+  "Admin": false
+ },
+ {
+  "Identificador": 5,
+  "Nombre": "kervin joshua",
+  "Apelliddo": "ffg",
+  "Email": "sergioandrestorrez@gmail.com",
+  "Contraseña": "$2a$10$x7H64hXE6OAzCQssWuiBaevWn0YoenOgEweNtnUX0JOdenp2jKqti",
+  "Image": "1659304668270_img_.png",
+  "Imagealt": "",
+  "Admin": false
+ },
+ {
+  "Identificador": 6,
+  "Nombre": "kervin joshua",
+  "Apelliddo": "ffg",
+  "Email": "kervincordoba33@gmail.com",
+  "Contraseña": "$2a$10$5O.Y7YW6JTtXCX6mz8en2ODgjiImASfCVgRsRdk78YJd0t8OH.JwK",
+  "Image": "1659305659037_img_.png",
+  "Imagealt": "",
+  "Admin": false
+ }
 ]
-
