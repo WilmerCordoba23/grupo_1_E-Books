@@ -9,14 +9,16 @@
            
 
         <section class="seccion">
-            <h4 class="titulo-seccion"><%if(usuario){%>
+            <h4 class="titulo-seccion">
+                <%if(usuario){%>
 
                              <p>Bienvenido a E-Books/p>
                             <p>Hola <%=usuario.nombre%>  <%=usuario.apellido%></p>
-                            <p>Con email <%=usuario.usuario%></p>
+                            <p>Con email <%=usuario.Email%></p>
                             <img src="./images/users/<%=usuario.imagen%>" alt="<%=usuario.nombre%>" width="200px" height="200px">
                             
-                    <%}%></h4>
+                <%}%>
+            </h4>
             <div  class="novedades">
 
                     

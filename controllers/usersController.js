@@ -59,36 +59,34 @@ const usersController={
     CheckUsers:(req,res)=>{
         let errors=validationResult(req)
         //res.send({errors})
-        if(!errors.isEmpty()){
+        if(errors.isEmpty()){
 
-            res.render("login",{errors:errors.array(), old:req.body})
-            
-        }   
-        else
-        {
             for(let i=0; i<users.length; i++)
             {
                 let encriptedPassword = users[i].Contraseña;
                 let contraseña = req.body.password;
                 let validator= bcrypt.compareSync(contraseña, encriptedPassword)  
             
-                if(users[i].Email == req.body.usuario )
-            
-                    
+                if(users[i].Email == req.body.usuario ){
+
                     if(validator == true)
                     {
-                         //cookie recordar color
+                        //session
+                        req.session.Email=users[i].Email;
+                        req.session.Nombre=users[i].Nombre;
+                        req.session.Apellido=users[i].Apellido;
+                        req.session.contraseña=req.body.password;
+                        req.session.imagen=users[i].Imagen;
+                         //cookie recordar usuario
                         if(req.body.recordame != undefined){
-                         res.cookie("recordarusuario",users[i].Email,{maxAge:100000})
-                         res.cookie("recordarNombre",users[i].Nombre,{maxAge:100000})
-                         res.cookie("recordarApellido",users[i].Apellido,{maxAge:100000})
-                         res.cookie("recordarcontraseña",req.body.password,{maxAge:100000})
-                         res.cookie("recordarimagen",users[i].Imagen,{maxAge:100000})
+                         res.cookie("usuario",users[i].Email,{maxAge:100000})
+                         res.cookie("contraseña",req.body.password,{maxAge:100000})  
                         }
                            
-                        // //cookie olvidar color
+                        // //cookie olvidar usuario
                         if(req.body.olvidar == "olvidar"){
-                         res.cookie("recordarusuario",null)
+                         res.cookie("usuario",null)
+                         res.cookie("contraseña",null)
                         }
 
                         
@@ -96,10 +94,26 @@ const usersController={
 
                     
                     }
+                    else{
+                        //return  res.send({errors:errors.array().push('contraseña incorrecta'), old:req.body})
+                        return  res.render("login",{errors:errors.array(), old:req.body})
+                    }
+                }
+            else{
 
             }
-        
-        }
+                     //return  res.send({errors:errors.array().push('usuario incorrecta'), old:req.body})
+                        return  res.render("login",{errors:errors.array(), old:req.body})
+                   
+            }
+
+            
+        }   
+        if(!errors.isEmpty()){
+
+          return  res.render("login",{errors:errors.array(), old:req.body})
+            
+        }  
             //console.log(errors.array()) //vista de los errores
 
         
@@ -109,11 +123,11 @@ const usersController={
     },
     usuario:(req,res)=>{
         let usuario={
-            usuario: req.cookies.recordarusuario,
-            nombre: req.cookies.recordarNombre,
-            apellido: req.cookies.recordarApellido,
-            contraseña: req.cookies.recordarcontraseña,
-            imagen: req.cookies.recordarimagen
+            Email: req.session.Email,
+            nombre: req.session.Nombre,
+            apellido: req.session.Apellido,
+            contraseña: req.session.contraseña,
+            imagen: req.session.imagen
         }
         res.render("usuario",{usuario})
     }     
