@@ -41,10 +41,6 @@ const storage = multer.diskStorage({
 	.notEmpty().withMessage('DEBES INGRESAR DE NUEVO TU CONTRASEÑA').bail()
 	.isLength({min:6}).withMessage("LA CONTRAEÑA DEBE TENER AL MENOS 6 CARACTERES."),
 
-	check('image')
-	.notEmpty().withMessage('DEBES INGRESAR UNA IMAGEN.').bail(),
-
-	//uploadFile.single('image')
 ]
 
 validateLogin=[
@@ -63,7 +59,8 @@ validateLogin=[
 
 router.get('/login',usersController.login);
 router.get('/register',usersController.register);
-router.post('/users',validateRegister,/*uploadFile.single('image'),*/usersController.CreateUsers);
+router.get('/usuario',usersController.usuario);
+router.post('/users',uploadFile.single('image'),validateRegister,usersController.CreateUsers);
 router.post('/loginUsers',validateLogin,usersController.CheckUsers);
 
 //validateLogin

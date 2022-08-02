@@ -77,7 +77,23 @@ const usersController={
                     
                     if(validator == true)
                     {
-                        res.redirect("/")
+                         //cookie recordar color
+                        if(req.body.recordame != undefined){
+                         res.cookie("recordarusuario",users[i].Email,{maxAge:100000})
+                         res.cookie("recordarNombre",users[i].Nombre,{maxAge:100000})
+                         res.cookie("recordarApellido",users[i].Apellido,{maxAge:100000})
+                         res.cookie("recordarcontraseña",req.body.password,{maxAge:100000})
+                         res.cookie("recordarimagen",users[i].Imagen,{maxAge:100000})
+                        }
+                           
+                        // //cookie olvidar color
+                        if(req.body.olvidar == "olvidar"){
+                         res.cookie("recordarusuario",null)
+                        }
+
+                        
+                       res.redirect("/usuario")
+
                     
                     }
 
@@ -90,6 +106,16 @@ const usersController={
             console.log(req.body.usuario," ",req.body.password) //Vista de los datos ingresados
         
 
+    },
+    usuario:(req,res)=>{
+        let usuario={
+            usuario: req.cookies.recordarusuario,
+            nombre: req.cookies.recordarNombre,
+            apellido: req.cookies.recordarApellido,
+            contraseña: req.cookies.recordarcontraseña,
+            imagen: req.cookies.recordarimagen
+        }
+        res.render("usuario",{usuario})
     }     
 
 

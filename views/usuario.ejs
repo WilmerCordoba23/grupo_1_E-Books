@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head')%>
+<body>
+    <%- include('./partials/menu')%>
+    <main>
+        <%- include('./partials/genders')%>
+        
+           
+
+        <section class="seccion">
+            <h4 class="titulo-seccion"><%if(usuario){%>
+
+                             <p>Bienvenido a E-Books/p>
+                            <p>Hola <%=usuario.nombre%>  <%=usuario.apellido%></p>
+                            <p>Con email <%=usuario.usuario%></p>
+                            <img src="./images/users/<%=usuario.imagen%>" alt="<%=usuario.nombre%>" width="200px" height="200px">
+                            
+                    <%}%></h4>
+            <div  class="novedades">
+
+                    
+
+            </div>
+        </section>
+        
+    </main>
+    <%- include('./partials/footer')%>
+</body>
+</html>
