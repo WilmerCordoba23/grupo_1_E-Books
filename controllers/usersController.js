@@ -12,7 +12,10 @@ const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 const usersController={
    
     login:(req,res)=>{
-        res.render("login")
+        if(req.session.Email == undefined){
+            res.render("login")
+        }
+        else{res.redirect("/usuario")}
     },
     register:(req,res)=>{
         res.render("register") 
@@ -28,10 +31,10 @@ const usersController={
         {
           Identificador: total,
             Nombre: req.body.nombre,
-            Apelliddo: req.body.apellido,
+            Apellido: req.body.apellido,
             Email: req.body.usuario,
-            Contraseña: 'bcrypt.hashSync(contraseña, 10)',
-            Image: req.file.filename,//req.file.filename,
+            Contraseña: bcrypt.hashSync(contraseña, 10),
+            Imagen: req.file.filename,//req.file.filename,
             Imagealt: '',//req.file.originalname,
             Admin: false
         }
@@ -66,7 +69,9 @@ const usersController={
                 let encriptedPassword = users[i].Contraseña;
                 let contraseña = req.body.password;
                 let validator= bcrypt.compareSync(contraseña, encriptedPassword)  
-            
+            console.log(encriptedPassword)
+            console.log(contraseña)
+            console.log(validator)
                 if(users[i].Email == req.body.usuario ){
 
                     if(validator == true)
@@ -92,18 +97,18 @@ const usersController={
                         
                        res.redirect("/usuario")
 
-                    
+
                     }
                     else{
                         //return  res.send({errors:errors.array().push('contraseña incorrecta'), old:req.body})
-                        return  res.render("login",{errors:errors.array(), old:req.body})
+                        //  res.render("login",{errors:errors.array(), old:req.body})
                     }
                 }
             else{
 
             }
                      //return  res.send({errors:errors.array().push('usuario incorrecta'), old:req.body})
-                        return  res.render("login",{errors:errors.array(), old:req.body})
+                          //res.render("login",{errors:errors.array(), old:req.body})
                    
             }
 
@@ -122,7 +127,11 @@ const usersController={
 
     },
     usuario:(req,res)=>{
-        let usuario={
+        if(req.session.Email == undefined){
+            res.redirect('/login')
+        }
+        else{
+            let usuario={
             Email: req.session.Email,
             nombre: req.session.Nombre,
             apellido: req.session.Apellido,
@@ -130,6 +139,14 @@ const usersController={
             imagen: req.session.imagen
         }
         res.render("usuario",{usuario})
+        console.log(usuario)
+        }
+    },
+    logOut:(req,res) => {
+        if(req.session.Email != undefined){
+            req.session.Email = undefined
+            res.redirect('/login')
+        }
     }     
 
 

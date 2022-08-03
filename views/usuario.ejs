@@ -12,13 +12,18 @@
             <h4 class="titulo-seccion">
                 <%if(usuario){%>
 
-                             <p>Bienvenido a E-Books/p>
+                             <p>Bienvenido a E-Books</p>
                             <p>Hola <%=usuario.nombre%>  <%=usuario.apellido%></p>
                             <p>Con email <%=usuario.Email%></p>
                             <img src="./images/users/<%=usuario.imagen%>" alt="<%=usuario.nombre%>" width="200px" height="200px">
                             
                 <%}%>
             </h4>
+            <center>
+            <form action="/logOut" method="post"  class="form">
+                <input class="form Borrar " type="submit" value="LogOut">
+            </form>
+        </center>
             <div  class="novedades">
 
                     

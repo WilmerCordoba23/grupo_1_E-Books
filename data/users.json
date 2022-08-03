@@ -40,22 +40,12 @@
   "Admin": false
  },
  {
-  "Identificador": 5,
-  "Nombre": "kervin joshua",
-  "Apelliddo": "ffg",
-  "Email": "sergioandrestorrez@gmail.com",
-  "Contraseña": "$2a$10$x7H64hXE6OAzCQssWuiBaevWn0YoenOgEweNtnUX0JOdenp2jKqti",
-  "Image": "1659304668270_img_.png",
-  "Imagealt": "",
-  "Admin": false
- },
- {
-  "Identificador": 6,
-  "Nombre": "kervin joshua",
-  "Apelliddo": "ffg",
-  "Email": "kervincordoba33@gmail.com",
-  "Contraseña": "$2a$10$5O.Y7YW6JTtXCX6mz8en2ODgjiImASfCVgRsRdk78YJd0t8OH.JwK",
-  "Image": "1659305659037_img_.png",
+  "Identificador": 13,
+  "Nombre": "Hoid",
+  "Apellido": "worldhopper",
+  "Email": "frost@gmail.com",
+  "Contraseña": "$2a$10$89/NFyhMoNv6cWDrkeIMeO65T0pe2jG5NdGn50FkJB2RaiLu8nAMu",
+  "Imagen": "1659546383560_img_.jpg",
   "Imagealt": "",
   "Admin": false
  }

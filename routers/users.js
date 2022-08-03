@@ -62,6 +62,7 @@ router.get('/register',usersController.register);
 router.get('/usuario',usersController.usuario);
 router.post('/users',uploadFile.single('image'),validateRegister,usersController.CreateUsers);
 router.post('/loginUsers',validateLogin,usersController.CheckUsers);
+router.post('/logOut', usersController.logOut)
 
 //validateLogin
 //validateRegister
