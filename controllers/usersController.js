@@ -33,6 +33,11 @@ const usersController={
         let contraseña = req.body.password;
         let total= users.length+1
         let errors=validationResult(req)
+        let imagen = "";
+
+        if (req.file != undefined) {
+            imagen=req.file.filename;
+        }
         let newUser =
         {
           Identificador: total,
@@ -40,7 +45,7 @@ const usersController={
             Apellido: req.body.apellido,
             Email: req.body.usuario,
             Contraseña: bcrypt.hashSync(contraseña, 10),
-            Imagen: req.file.filename,//req.file.filename,
+            Imagen: imagen,//req.file.filename,
             Imagealt: '',//req.file.originalname,
             Admin: false
         }

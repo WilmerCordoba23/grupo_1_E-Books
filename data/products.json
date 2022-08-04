@@ -91,13 +91,12 @@
  },
  {
   "id": 10,
-  "name": "Salvar Vidas en el Mediterráneo",
-  "price": 19,
-  "category": "Recomendados",
+  "name": "Salvar Vidas en el Mediterráneo 2",
   "description": "El Mediterraneo es escenario de una situacion doblemente vergonzosa: la crisis humanitaria de los inmigrantes a la deriva y el acoso legal que sufren las ONG que intentan rescatarlos. Sandro Veronesi sube a bordo de uno de los barcos de rescate; conversa con el activista Oscar Camps, creador de Proactiva Open Arms; escribe una carta abierta a Roberto Saviano recabando su ayuda y la de otros intelectuales comprometidos y envia incendiarios tuits al ministro Mateo Salvini. Denuncia la postura de su gobierno y de otros gobiernos, las mentiras fake news que circulan con voluntad toxica, el racismo latente y la lamentable situacion de los emigrantes que esperan en Libia; pone sobre la mesa el Derecho Maritimo Internacional y habla de la necesidad de actuar, de hacerse oir y luchar por la dignidad. / The Mediterranean is the scene of two shameful situations: the humanitarian crisis of the drifting immigrants and the legal harassment suffered by the NGOs that try to rescue them. Sandro Veronesi climbs aboard one of the rescue boats to talk with activists.",
-  "image": "salvar vidas en el mediterraneo.jpg",
-  "format": "Tapa Blanda",
-  "gender": "Sociolgia"
+  "gender": "Romance",
+  "category": "Novedades",
+  "price": "2000",
+  "image": "salvar vidas en el mediterraneo.jpg"
  },
  {
   "id": 11,
@@ -178,15 +177,5 @@
   "image": "pozo de la acension.jpg",
   "format": "Tapa dura",
   "gender": "Fantasia"
- },
- {
-  "id": 19,
-  "name": "El Héroe de Las Eras",
-  "description": "Durante mil años nada ha cambiado: han caído las cenizas, los skaa han sido esclavizados y el Lord Legislador ha dominado el mundo. Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, junto a Vin, una pobre chica skaa, se une a la rebelión. Y por fin lo imposible sucede: por fin la revolución ha triunfado. Pero acabar con el Lord Legislador es la parte sencilla. El verdadero desafío consistirá en sobrevivir a las consecuencias de su caída... sin Kelsier. Vin y el Rey Elend buscan en los últimos escondites de recursos del Lord Legislador y, engañado, el Rey libera del Pozo de la Ascensión algo que debería haber quedado oculto para siempre. Un enorme peligro acecha a la humanidad, y la verdadera pregunta es si conseguirán detenerlo a tiempo. En El héroe de las eras se comprende el porqué de la niebla y las cenizas, las tenebrosas acciones del Lord Legislador y la naturaleza del Pozo de la Ascensión. Esta aventura lleva a la trilogía a un clímax dramático y sorprendente.",
-  "gender": "Romance",
-  "category": "Mas vendidos",
-  "price": "60",
-  "image": "1659300429823_img_.jpg",
-  "imagealt": "heroe de las eras.jpg"
  }
 ]
