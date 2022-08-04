@@ -11,7 +11,7 @@ Me llamo Sergio Andres Cordoba Torrez y tengo 15 años, futuro estudiante de eco
 
 Me llamo Wilmer Alexander Cordoba Arroyo, tengo 18 años, estoy en el Fundación Universitaria Claretiana, actualmente estoy cursando el quinto semestre de ingenieria de sistemas, me gusta ver deportes, Fc barcelona, algunos videojuegos y la tecnologia.
 
-
+Me llamo Yeick Jacson Moreno Ruiz, tengo 16 años, estoy en la Institucion Educativa Sagrada Familia - Palmira, actualmente curso el grado decimo (año 2022), amante de la tecnologia, la lectura, la musica, la ciencia y el arte...¿mi meta? ser el mejor en todo lo que me proponga.
 
 Buscar inspiración en referentes del mercado
 https://www.booksandbooks.com.co/
