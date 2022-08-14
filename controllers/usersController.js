@@ -15,7 +15,13 @@ const usersController={
         if(req.session.Email == undefined){
             res.render("login")
         }
-        else{res.redirect("/usuario")}
+        if(req.session.Email != undefined){
+            res.redirect("/usuario")
+        }
+        if(req.cookies.contraseña != undefined && req.cookies.usuario != undefined){
+            console.log(req.cookies.contraseña)
+            console.log(req.cookies.usuario)
+        }
     },
     register:(req,res)=>{
         res.render("register") 
@@ -27,6 +33,11 @@ const usersController={
         let contraseña = req.body.password;
         let total= users.length+1
         let errors=validationResult(req)
+        let imagen = "";
+
+        if (req.file != undefined) {
+            imagen=req.file.filename;
+        }
         let newUser =
         {
           Identificador: total,
@@ -34,7 +45,7 @@ const usersController={
             Apellido: req.body.apellido,
             Email: req.body.usuario,
             Contraseña: bcrypt.hashSync(contraseña, 10),
-            Imagen: req.file.filename,//req.file.filename,
+            Imagen: imagen,//req.file.filename,
             Imagealt: '',//req.file.originalname,
             Admin: false
         }
@@ -87,12 +98,6 @@ const usersController={
                          res.cookie("usuario",users[i].Email,{maxAge:100000})
                          res.cookie("contraseña",req.body.password,{maxAge:100000})  
                         }
-                           
-                        // //cookie olvidar usuario
-                        if(req.body.olvidar == "olvidar"){
-                         res.cookie("usuario",null)
-                         res.cookie("contraseña",null)
-                        }
 
                         
                        res.redirect("/usuario")
@@ -144,6 +149,11 @@ const usersController={
     },
     logOut:(req,res) => {
         if(req.session.Email != undefined){
+             // //cookie olvidar usuario
+             if(req.body.olvidar != undefined){
+                res.clearCookie("usuario")
+                res.clearCookie("contraseña")
+               }
             req.session.Email = undefined
             res.redirect('/login')
         }

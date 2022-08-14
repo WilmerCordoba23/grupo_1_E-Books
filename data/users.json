@@ -48,5 +48,15 @@
   "Imagen": "1659546383560_img_.jpg",
   "Imagealt": "",
   "Admin": false
+ },
+ {
+  "Identificador": 6,
+  "Nombre": "wilmer",
+  "Apellido": "cordobaqweq",
+  "Email": "alexandercordoba2003@hotmail.com",
+  "Contraseña": "$2a$10$VcYbUC/2s18XEk5/v7oY..0h8TPrz9LnMfHB8dxct2jGbKdla.2Wq",
+  "Imagen": "",
+  "Imagealt": "",
+  "Admin": false
  }
 ]

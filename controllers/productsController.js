@@ -37,10 +37,15 @@ const productscontroller={
     },
     Createproducts:
     (req, res) => {
+		let imagen = "";
+
+        if (req.file != undefined) {
+            imagen=req.file.filename;
+        }
 		let newProduct = {
 			id: products[products.length - 1].id + 1,
 			...req.body,
-			image:req.file.filename,
+			image:imagen,
             imagealt:req.file.originalname
 		};
         products.push(newProduct)
@@ -50,11 +55,14 @@ const productscontroller={
     modify: (req, res) => {
 		let id = req.params.id;
 		let productToEdit = products.find(product => product.id == id)
+		let imagen = productToEdit.image;
+		if (req.file != undefined) {
+            imagen=req.file.filename;
+        }
 		productToEdit = {
 			id: productToEdit.id,
 			...req.body,
-			image:req.file.filename,
-            imagealt:req.file.originalname
+			image:imagen
 		};
 		
 		let newProducts = products.map(product => {
