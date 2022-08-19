@@ -7,11 +7,16 @@ const usersFilePath = path.join(__dirname, '../data/users.json');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 
 
+const db = require('../database/models');
+const sequelize = db.sequelize;
+
+
 
 
 const usersController={
    
     login:(req,res)=>{
+
         if(req.session.Email == undefined){
             res.render("login")
         }
@@ -21,7 +26,7 @@ const usersController={
         if(req.cookies.contraseña != undefined && req.cookies.usuario != undefined){
             console.log(req.cookies.contraseña)
             console.log(req.cookies.usuario)
-        }
+        } 
     },
     register:(req,res)=>{
         res.render("register") 
