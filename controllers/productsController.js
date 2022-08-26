@@ -31,10 +31,16 @@ const productscontroller = {
             });
     },
     Createproducts: (req,res) =>{ /* Guardado min 31:50  sino funciona es probable que sea porque en el playground tiene el function*/
-       db.product.create({
+    let imagen = "";
+
+    if (req.file != undefined) {
+        imagen=req.file.filename;
+    }
+    console.log(req.body.filename)
+    db.product.create({
             title: req.body.name,
             description: req.body.description,
-            image: req.body.filename,
+            image: imagen,
             genre_id: req.body.gender,
             category_id: req.body.category,
             format_id: req.body.format,
