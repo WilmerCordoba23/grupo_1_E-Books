@@ -34,7 +34,7 @@ const productscontroller = {
        db.product.create({
             title: req.body.name,
             description: req.body.description,
-            image: req.body.image,
+            image: req.body.filename,
             genre_id: req.body.gender,
             category_id: req.body.category,
             format_id: req.body.format,
@@ -61,7 +61,7 @@ const productscontroller = {
             title: req.body.name,
             description: req.body.description,
             image: req.body.image,
-            status_id: req.body.gender,
+            gender_id: req.body.gender,
             category_id: req.body.category,
             format_id: req.body.format,
             price: req.body.price 
@@ -84,19 +84,19 @@ const productscontroller = {
         })
         res.redirect('/')
     },
-    search: (req, res) => { //lo hago mas tarde
+    search: (req, res) => { 
         const Sequelize = require("sequelize");
         const Op = Sequelize.Op;
-
+        const { search } =  req.query.keywords;
         db.product.findAll({
             where: {
-                title: { [Op.like]: `req.body.keywords%` },
+                title: { [Op.like]: `%${req.query.keywords}%` },
                 
               }
           })
           .then(product => { 
             res.render('results.ejs', {product})
-            console.log(req.body)
+            console.log(`req.query.keywords`)
             });
     },
     gender: (req, res) => { 

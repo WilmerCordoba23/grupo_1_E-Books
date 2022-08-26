@@ -11,16 +11,15 @@
             <h4 class="titulo-seccion">Resultado de la busqueda:</h4>
 
             <div  class="novedades"> 
-                            <% for (let i = 0; i < product.length; i++) { %>
-                               <article>
-                                        <img src="../images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">                            <div>
-                                            <h5 class="descripcion"><a href="/productDetail/<%=product[i].id%>" class="detalles"><%=product[i].title%></a></h5>
-                                            
-                                        </div>
-                                    </article>
-                                    <br>
-                                    <br>
-                            <% } %>
+                <% for (let i = 0; i < product.length; i++) { %>
+                    <article>
+                             <img src="../images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">                            <div>
+                                 <h5 class="descripcion"><a href="/productDetail/<%=product[i].id%>" class="detalles"><%=product[i].title%></a></h5>
+                             </div>
+                         </article>
+                         <br>
+                         <br>
+                 <% } %>
                         <br>
                         <br>            
             </div>
