@@ -2,26 +2,26 @@
     <ul class="enlaces-generos">
         <li><a href="/">Libros</a></li>
         <li>
-            <form action="/gender" method="GET">
-            <input type="text" name="keywords" value="Fantasia" hidden>
+            <form action="/gender/8" method="GET">
+            <input type="text" hidden> <!--- 8 es el id del genero 'Aventura' -->
             <button type="submit"><a>Adolescentes y Jóvenes </a></button>
-            </form>
+            </form> 
         </li>
         <li>
-            <form action="/gender" method="GET">
-            <input type="text" name="keywords" value="Ficcion" hidden>
+            <form action="/gender/1" method="GET">
+            <input type="text"  hidden> <!--- 1 es el id del genero 'Fantasia' -->
             <button type="submit"><a>Ficcion </a></button>
             </form>
         </li>
         <li>
-            <form action="/gender" method="GET">
-            <input type="text" name="keywords" value="Audiolibros" hidden>
+            <form action="/gender/#" method="GET">
+            <input type="text" hidden> <!---todavia no contamos con ellos -->
             <button type="submit"><a>Audiolibros </a></button>
             </form>
         </li>
         <li>
-            <form action="/gender" method="GET">
-            <input type="text" name="keywords" value="Accion" hidden>
+            <form action="/gender/5" method="GET">
+            <input type="text" hidden> <!--- 5 es el id del genero 'Accion' -->
             <button type="submit"><a>Accion </a></button>
             </form>
         </li>

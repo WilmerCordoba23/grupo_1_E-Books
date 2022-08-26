@@ -2,33 +2,16 @@
 <html lang="en">
     <%- include('./partials/head')%>
 <body>
-    <header class="home">
-        <nav class="nav-bar">
-            <img src="../images/E-Books_logo.png" alt="E-Books_logo" class="logo">
-            <div class="buscador">
-
-                <form action="/search" method="GET">
-                <input type="text" placeholder=" Buscar productos, marcas" name="keywords">
-                <button type="submit" ><a class="fas fa-search"></a></button>
-                </form>
-                </div>
-            <ul class="enlaces">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/login">Mi cuenta </a></li>
-                <!--<li><a href="">Lista de deseos </a></li>-->
-                <li><a href="/productCart">Carrito </a></li>
-            </ul>
-        </nav>
-    </header>
+    <%- include('./partials/menuParams')%>
     <main>
         <Div id="productDetails">
             <div  class="details">
                 <div>
-                    <img src="../images/products/<%=product.image%>" alt="El camino de los Reyes" >
+                    <img src="../images/products/<%=product.image%>" alt="<%=product.title%>" >
                 </div>
                 <div id="generalDetails">
                     <div id="nameDetails">
-                        <h1><%=product.name%></h1>
+                        <h1><%=product.title%></h1>
                     </div>
                     <hr id="detailsLine">
                     <div id="priceDetails">

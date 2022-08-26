@@ -2,12 +2,12 @@
 <html lang="en">
     <%- include('./partials/head')%>
 <body>
-    <%- include('./partials/menu')%>
+    <%- include('./partials/menuParams')%>
     <main>
         <%- include('./partials/genders')%>
         <div>
             <section class="banner">
-                <img src="images/banner.jpg" alt="Banner de E-Books">
+                <img src="../images/banner.jpg" alt="Banner de E-Books">
             </section>
         </div>
         
@@ -15,14 +15,18 @@
 
                 <h4 class="titulo-seccion">Resultado de la busqueda:</h4>
 
-            <div  class="novedades">          
-                <% for (let i = 0; i < finalProducts.length; i++) { %>
-                        <article>
-                            <img src="images/products/<%=finalProducts[i].image%>" alt="<%=finalProducts[i].image%>" class="img_producto">                            <div>
-                                <h5 class="descripcion"><a href="/productDetail/<%=finalProducts[i].id%>" class="detalles"><%=finalProducts[i].name%></a></h5>
-                            </div>
-                        </article>
-                        <% } %>
+            <div  class="novedades"> 
+                            <% for (let i = 0; i < product.length; i++) { %>
+                               <article>
+                                        <img src="../images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">                            <div>
+                                            <h5 class="descripcion"><a href="/productDetail/<%=product[i].id%>" class="detalles"><%=product[i].title%></a></h5>
+                                        </div>
+                                    </article>
+                                    <br>
+                                    <br>
+                            <% } %>
+                        <br>
+                        <br>
                         <br>
                         <br>            
             </div>

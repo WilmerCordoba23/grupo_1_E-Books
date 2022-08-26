@@ -38,11 +38,11 @@
         <section class="seccion">
             <h4 class="titulo-seccion">Novedades</h4>
             <div  class="novedades">
-                <% for (let i = 0; i < products.length; i++) { %>
-                    <%if(products[i].category=="Novedades"){%>
+                <% for (let i = 0; i < product.length; i++) { %>
+                    <%if(product[i].category_id==2){%>
                         <article>
-                            <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_producto">                            <div>
-                                <h5 class="descripcion"><a href="/productDetail/<%=products[i].id%>" class="detalles"><%=products[i].name%></a></h5>
+                            <img src="images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">                            <div>
+                                <h5 class="descripcion"><a href="/productDetail/<%=product[i].id%>" class="detalles"><%=product[i].title%></a></h5>
                             </div>
                         </article>
                         <br>
@@ -54,12 +54,12 @@
         <section class="seccion">
             <h4 class="titulo-seccion">Mas vendidos</h4>
             <div  class="novedades">
-                <% for (let i = 0; i < products.length; i++) { %>
-                    <%if(products[i].category=="Mas vendidos"){%>
+                <% for (let i = 0; i < product.length; i++) { %>
+                    <%if(product[i].category_id==1){%>
                         <article>
-                            <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_producto">
+                            <img src="images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">
                             <div>
-                                <h5 class="descripcion"><a href="/productDetail/<%=products[i].id%>" class="detalles"><%=products[i].name%></a></h5>
+                                <h5 class="descripcion"><a href="/productDetail/<%=product[i].id%>" class="detalles"><%=product[i].title%></a></h5>
                             </div>
                         </article>
                         <br>
@@ -71,12 +71,12 @@
         <section class="seccion">
             <h4 class="titulo-seccion">Recomendados</h4>
             <div  class="novedades">
-                <% for (let i = 0; i < products.length; i++) { %>
-                    <%if(products[i].category=="Recomendados"){%>
+                <% for (let i = 0; i < product.length; i++) { %>
+                    <%if(product[i].category_id==3){%>
                         <article>
-                            <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_producto">
+                            <img src="images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">
                             <div>
-                                <h5 class="descripcion"><a href="/productDetail/<%=products[i].id%>" class="detalles"><%=products[i].name%></a></h5>
+                                <h5 class="descripcion"><a href="/productDetail/<%=product[i].id%>" class="detalles"><%=product[i].title%></a></h5>
                             </div>
                         </article>
                         <br>

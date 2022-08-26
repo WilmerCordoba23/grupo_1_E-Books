@@ -19,13 +19,13 @@ const storage = multer.diskStorage({
 
 router.get('/',productscontroller.index);
 
-router.get('/search', productscontroller.search); 
+router.get('/search', productscontroller.search);// cambie el search por results
 
-router.get('/gender', productscontroller.gender); 
+router.get('/gender/:id', productscontroller.gender); 
 
-router.get('/productDetail/:id',productscontroller.productDetail);
+router.get('/productDetail/:id',productscontroller.productDetail); 
 
-router.get('/productCart',productscontroller.productCart);
+//router.get('/productCart',productscontroller.productCart);
 
 router.get('/productRegister',/*adminMiddleware,*/productscontroller.productRegister);
 
@@ -33,9 +33,9 @@ router.post('/products',uploadFile.single('image'),productscontroller.Createprod
 
 router.get('/productModify/:id',/*adminMiddleware,*/productscontroller.productModify);
 
-router.put('/productEdit/:id',/*adminMiddleware,*/ uploadFile.single('image'),productscontroller.modify); 
+router.post('/productEdit/:id',/*adminMiddleware,*/ uploadFile.single('image'),productscontroller.modify); 
 
-router.delete('/delete/:id',/*adminMiddleware,*/ productscontroller.destroy); 
+router.post('/delete/:id',/*adminMiddleware,*/ productscontroller.destroy); 
 
 
 module.exports = router;

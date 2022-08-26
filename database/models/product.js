@@ -8,7 +8,7 @@ module.exports = (sequelize, dataTypes) => {
             autoIncrement: true
         },
         title:{
-            type: dataTypes.DECIMAL(10,2),
+            type: dataTypes.STRING(100),
             allowNull: false
         },
         description:{
@@ -23,6 +23,10 @@ module.exports = (sequelize, dataTypes) => {
         },
         category_id:{
             type: dataTypes.BIGINT(10).UNSIGNED,
+            allowNull: false
+        },
+        price:{
+            type: dataTypes.DECIMAL(10,2),
             allowNull: false
         }
     };

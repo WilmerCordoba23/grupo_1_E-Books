@@ -1,90 +1,119 @@
-const fs = require('fs');
-const path = require('path');
+const { name } = require('ejs');
+const { format } = require('mysql2');
+const db = require('../database/models');
+const product = require('../database/models/product');
+const { search } = require('./productosController');
+const sequelize = db.sequelize;
+const Op = sequelize.Op;
 
-const productsFilePath = path.join(__dirname, '../data/products.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+//falta arreglar el problema de las imagenes
 
-
-const productscontroller={
-    index:(req,res)=>{
+const productscontroller = {
+    index: (req, res) => {
+        db.product.findAll()
+            .then(product => {
+                
+                res.render('index', {product})
+            })
+            //console.Console.log(product)
+    },
+    list: (req, res) => { //listar todos los productos, no funcional
+        db.product.findAll()
+            .then(product => {
+                res.render('productList.ejs', {product})
+            })
+    },
+    productDetail: (req, res) => {
+        db.product.findByPk(req.params.id)
         
-        res.render("index", {products:products})
+            .then(product => {
+                res.render('productDetail.ejs', {product});
+            });
     },
-    search: (req, res) => {
-		let finalProducts = products.filter(product => product.name == req.query.keywords);
-		res.render('results',{finalProducts});
-	},
-    gender: (req, res) => {
-		let finalProducts = products.filter(product => product.gender == req.query.keywords);
-		res.render('resultsgender',{finalProducts});
-	},
-    productDetail:(req,res)=>{
-        let id = req.params.id
-        let product = products.find(products => products.id == id)
-        res.render("productDetail" ,{product:product})
+    Createproducts: (req,res) =>{ /* Guardado min 31:50  sino funciona es probable que sea porque en el playground tiene el function*/
+       db.product.create({
+            title: req.body.name,
+            description: req.body.description,
+            image: req.body.image,
+            genre_id: req.body.gender,
+            category_id: req.body.category,
+            format_id: req.body.format,
+            price: req.body.price
+        })
+        res.redirect('/')
     },
-    productCart:(req,res)=>{
-        
-        res.render("productCart")
+    productRegister(req, res){
+        db.product.findAll({includes:[{associacion:'category'},{associacion:'genre'},{associacion:'productformat'}]})
+        .then(product => {
+            res.render('productRegister.ejs', {product})
+            console.log(product)
+        })       
     },
-    productRegister:(req,res)=>{
-        res.render("productRegister")
+    productModify(req, res){
+        db.product.findByPk(req.params.id)
+        .then(product => {
+            res.render('productModify.ejs', {product})
+            console.log(product)
+        })       
     },
-    productModify:(req,res)=>{
-        let id = req.params.id
-        let productToEdit = products.find(product => product.id == id)
-        res.render("productModify", {productToEdit})
+    modify: (req,res) =>{ 
+        db.product.update({
+            title: req.body.name,
+            description: req.body.description,
+            image: req.body.image,
+            status_id: req.body.gender,
+            category_id: req.body.category,
+            format_id: req.body.format,
+            price: req.body.price 
+            //no he implementado el genre_id porque no esta en la vista del formulario
+        },{
+            where: {
+                id: req.params.id
+            }
+        })
+        .then(product => {
+            res.render('productRegister.ejs', {product})
+        })
+        res.redirect('/')
     },
-    Createproducts:
-    (req, res) => {
-		let imagen = "";
+    destroy: (req,res) =>{
+        db.product.destroy({
+            where: {
+                id: req.params.id
+            }
+        })
+        res.redirect('/')
+    },
+    search: (req, res) => { //lo hago mas tarde
+        const Sequelize = require("sequelize");
+        const Op = Sequelize.Op;
 
-        if (req.file != undefined) {
-            imagen=req.file.filename;
-        }
-		let newProduct = {
-			id: products[products.length - 1].id + 1,
-			...req.body,
-			image:imagen,
-            imagealt:req.file.originalname
-		};
-        products.push(newProduct)
-		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
-		res.redirect("/");
+        db.product.findAll({
+            where: {
+                title: { [Op.like]: `req.body.keywords%` },
+                
+              }
+          })
+          .then(product => { 
+            res.render('results.ejs', {product})
+            console.log(req.body)
+            });
     },
-    modify: (req, res) => {
-		let id = req.params.id;
-		let productToEdit = products.find(product => product.id == id)
-		let imagen = productToEdit.image;
-		if (req.file != undefined) {
-            imagen=req.file.filename;
-        }
-		productToEdit = {
-			id: productToEdit.id,
-			...req.body,
-			image:imagen
-		};
-		
-		let newProducts = products.map(product => {
-			if (product.id == productToEdit.id) {
-				return product = {...productToEdit};
-			}
-			return product;
-		})
+    gender: (req, res) => { 
+        db.product.findAll({
+            where: {
+                genre_id: req.params.id
+            }
+        })
+            .then(product => {
+                res.render('resultsgender.ejs', { product })
+            })
+    },
+    
+    
+            
 
-		 fs.writeFileSync(productsFilePath, JSON.stringify(newProducts, null, ' '));
-		res.redirect('/'); 
 
-        
-      
-	},
-    destroy : (req, res) => {
-		let id = req.params.id;
-		let finalProducts = products.filter(product => product.id != id);
-		fs.writeFileSync(productsFilePath, JSON.stringify(finalProducts, null, ' '));
-		res.redirect('/'); 
-    }
-};
 
-module.exports=productscontroller;
-
+}
+module.exports = productscontroller;
