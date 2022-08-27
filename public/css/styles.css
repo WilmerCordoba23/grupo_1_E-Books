@@ -11,7 +11,7 @@ header.home{
 }
 body{
     color: #333333;
-    background-color: #dfd9c3;
+    background-color: #f8f9fa;
     font-size: 15px !important;
     line-height: 20px;
 }
@@ -139,6 +139,7 @@ header  .buscador button{
     border: none;
     background-color: #ffff;
     height: 30px;
+    width: 30px;
     position: relative;
     top: 8px;
     right: 4px;
@@ -1060,7 +1061,7 @@ margin: 8px auto;
 
      header  .buscador input{
          margin-top: 5px;
-        width: 300px;
+        width: 400px;
         height: 30px;
         }
 
