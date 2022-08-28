@@ -289,12 +289,13 @@ button.pago{
     flex-direction: row;   
     flex-wrap: wrap;
     width: 100%;
+  
 }
 .novedades article{
     text-align: center;
     border: solid #ffffff;
     border-radius: 10px;
-    padding: 8px 5px 2px 4px;
+    padding: 8px 4px 4px 4px;
     width: 15%;
     margin: 20px auto 0 auto;
 }
@@ -315,7 +316,7 @@ div.novedades article:hover .detalles{
     font-family: 'poynter','georgia', serif;
     }
 .img_producto{
-    height: 200px;
+    height: 82%;
     width: 100%;
 }
 /*secciones*/
