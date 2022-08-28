@@ -280,7 +280,9 @@ button.pago{
 .titulo-seccion{
     text-align: center;
     margin-bottom: 20px;
-    background-color: white;
+    /* background-color: white; */
+    font-family: 'Lucida Bright','optica';
+    font-size: 25px;
 }
 .novedades{
     display: flex;
