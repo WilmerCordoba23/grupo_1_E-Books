@@ -301,6 +301,7 @@ button.pago{
 
 div.novedades article{
 margin: 0 auto;
+margin-top: 8px;
 background-color: white;
 }
 div.novedades article:hover .detalles{
