@@ -294,8 +294,8 @@ button.pago{
     text-align: center;
     border: solid #ffffff;
     border-radius: 10px;
-    padding: 8px 0 2px 0;
-    width: 14%;
+    padding: 8px 5px 2px 4px;
+    width: 15%;
     margin: 20px auto 0 auto;
 }
 
