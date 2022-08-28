@@ -251,9 +251,9 @@ button.pago{
     flex-direction: row;
 }
 .generos{
-    background-color: #f4f2e9;
+    background-color: #D9E4EC;
     color: #222222;
-    padding: 5px 0;
+    padding: 6px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;   
@@ -264,6 +264,7 @@ button.pago{
     list-style: none;
     text-decoration: none;
     color: #222222;
+    font-family: 'Lucida Bright',serif;
 }
 .enlaces-generos li{
 
@@ -293,7 +294,7 @@ button.pago{
 }
 .novedades article{
     text-align: center;
-    border: solid #ffffff;
+    /* border: solid #ffffff; */
     border-radius: 10px;
     padding: 8px 4px 4px 4px;
     width: 15%;
@@ -303,7 +304,7 @@ button.pago{
 div.novedades article{
 margin: 0 auto;
 margin-top: 8px;
-background-color: white;
+/* background-color: white; */
 }
 div.novedades article:hover .detalles{
    font-size: 14px;
@@ -317,7 +318,7 @@ div.novedades article:hover .detalles{
     }
 .img_producto{
     height: 82%;
-    width: 100%;
+    width:85%;
 }
 /*secciones*/
 /*main*/
