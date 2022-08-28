@@ -323,7 +323,7 @@ div.footer-section a{
 }
 .footer-section,div.footer-section li{
     margin:  auto;
-    background-color: #f4f2e9;
+    background-color: #6AABD2;
     color: #181818;
     display: flex;
     flex-wrap: wrap;
@@ -340,7 +340,7 @@ margin: 8px auto;
 
 }
 .footer-copy{
-    background-color: #f4f2e9;
+    background-color: #6AABD2;
     color: #181818;
     text-align: center;
     padding: 10px 0;
