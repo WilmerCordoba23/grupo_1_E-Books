@@ -309,6 +309,7 @@ div.novedades article:hover .detalles{
 .detalles{
     text-decoration: none;
     color: #333333;
+    font-family: 'poynter','georgia', serif;
     }
 .img_producto{
     height: 200px;
