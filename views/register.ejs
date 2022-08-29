@@ -8,13 +8,13 @@
         <main>
             <form action="/users" class="form" method="post" enctype="multipart/form-data" >
                  <h1>Registrate</h1>
-                 <label for="nombre"><p>Tu nombre</p></label>
+                 <label for="nombre"><p>Nombre</p></label>
                  <input type="text" name="nombre" id="nombre" placeholder="Nombres" value="<%= locals.old && old.nombre ? old.nombre : '' %>">
                  <br>
                  <label for="apellido"><p>Apellido</p></label>
                  <input type="text" name="apellido" id="nombre" placeholder="Apellido" value="<%=locals.old && old.apellido ? old.apellido : ''%>">
                  <br>
-                 <label for="usuario"><p>Direccion de correo electronico o numero de telefono</p></label>
+                 <label for="usuario"><p>Correo electronico o numero de telefono</p></label>
                  <input type="email" id="usuario" name="usuario" value="<%=locals.old && old.usuario ? old.usuario: ''%>">
                  <br>
                 <label for="image"><p>Introduce tu foto</p></label>
@@ -22,7 +22,7 @@
                  <br>
                  <label for="password"><p>Contraseña</p></label>
                  <input type="password" id="password" name="password" placeholder="Como minimo 6 caracteres" value="<%=locals.old && old.password ? old.password : '' %>">
-                 <p id="arriba">!La contraseña debe contener al menos 6 caracteres</p>
+                 <p id="arriba">¡La contraseña debe contener al menos 6 caracteres!</p>
 
                  <label for="verificarcontraseña"><p >Vuelve a repetir la contraseña</p></label>
                  <input type="password" name="verificaPassword" id="verifiquedpassword" value="<%=locals.old && old.verificaPassword ? old.verificaPassword : '' %>" >
