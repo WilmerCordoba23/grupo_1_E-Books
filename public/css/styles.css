@@ -18,10 +18,9 @@ body{
 .form { 
     background-color: #f4f2e9;
     width: 30%;
-    border:1px solid #c4c4c4;
+    border:none;
     padding: 12px;
     border-radius: 5px;
-    border: 2px solid black ;
     margin-top: 2%;
   }
   .arriba
@@ -35,14 +34,17 @@ body{
   }
   
   .form input {
-    border: 1px solid #c4c4c4;
-    
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #c4c4c4;
+    outline: none;
     padding: 8px;
-    border-radius: 5px;
+    /* border-radius: 3px; */
     width: 85%;
     margin-right: 5%;
 
 }
+
 .borrar{
     transition: background-color 300ms;
 }
