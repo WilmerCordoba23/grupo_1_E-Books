@@ -21,6 +21,10 @@
                   <% })
                     }
                   %>
+                  <%if(incorrecto) { %>
+                    <p class="arriba"><%=incorrecto%></p>
+                    <% }%>
+                  
                   <label for="recordame"><p>Recordar usuario</p></label>
                   <input type="checkbox" name="recordame">
                  <br>

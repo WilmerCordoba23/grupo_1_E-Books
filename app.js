@@ -6,7 +6,9 @@ const path = require('path');
 const methodOverride =  require('method-override'); 
 const session = require('express-session');
 const cookieparser = require('cookie-parser');
+const morgan = require('morgan')
 
+app.use(morgan('dev'));
 
 app.use(express.urlencoded({ extended: false }));
 

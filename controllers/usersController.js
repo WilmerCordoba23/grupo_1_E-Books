@@ -62,7 +62,7 @@ const userscontroller = {
     },
     CheckUsers:(req,res)=>{
         let errors=validationResult(req)
-
+        console.log(errors)
         //res.send({errors})
         if(errors.isEmpty()){
             db.user.findAll({
@@ -111,7 +111,8 @@ const userscontroller = {
                         
                     }
                     if (validator==false){
-                        res.render("login",{errors:errors.array(), old:req.body})
+                        let incorrecto ="Su correo o contraseña es incorrecto";
+                        res.render("login",{incorrecto})
                     }
                    
         }).catch(errors => {
@@ -121,10 +122,10 @@ const userscontroller = {
             })
 
         }
-
-
-            
-
+        if(!errors.isEmpty()){
+            let incorrecto
+            res.render("login",{errors:errors.array(), old:req.body,incorrecto})
+        }       
         
 
     },
@@ -135,9 +136,9 @@ const userscontroller = {
         res.render("createImage")
     },
     login:(req,res)=>{
-
+        let incorrecto
         if(req.session.Email == undefined){
-            res.render("login")
+            res.render("login",{incorrecto})
         }
         if(req.session.Email != undefined){
             res.redirect("/usuario")

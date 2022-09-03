@@ -11,13 +11,13 @@
             <form action="/productEdit/<%= product.id %>" method="POST" class="form" enctype="multipart/form-data">
                  <h1>Modifica tu producto</h1>
                  <label for="name"><p>Introduce el nuevo nombre del producto</p></label>
-                 <input type="text" name="name" id="name" value="<%= product.title %>" minlength="2">
+                 <input type="text" name="name" id="name" value="<%= product.title %>">
                  <br>
                  <label for="description"><p>Introduce la nueva descripcion de producto</p></label>
-                 <input type="description" id="description" name="description" value="<%= product.description %>" minlength="2">
+                 <input type="description" id="description" name="description" value="<%= product.description %>">
                 <br>
                 <label for="image"><p>Introduce las nuevas imagenes del producto</p></label>
-                <input type="file" id="image" name="image" minlength="2">
+                <input type="file" id="image" name="image">
                 <br>                
                 <label for="category"><p>introduce el nuevo genero del producto</p></label>
                 <select id="gender" name="gender">
@@ -59,6 +59,12 @@
                 
                 
                  <br>   
+                 <%if(locals.errors) {
+                    errors.forEach(errors => {%>
+                  <p class="arriba"><%=errors.msg%></p>
+                  <% })
+                    }
+                  %>
                  <br>
                  <input type="submit" value="Continuar">
                  <br>   

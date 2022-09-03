@@ -1,20 +1,9 @@
+//modulos, multer, controladores
 const express = require('express');
 const router=express.Router();
-const multer=require('multer');
-const path = require('path');
 const productscontroller=require('../controllers/productsController');
-//const adminMiddleware=require('../middlewares/adminMiddleware'); //para que solo los administradores puedan acceder a las rutas
-
-const storage = multer.diskStorage({ 
-	destination: function (req, file, cb) { 
-	   cb(null, './public/images/products'); 
-	}, 
-	filename: function (req, file, cb) { 
-        console.log(file)
-	   cb(null, `${Date.now()}_img_${path.extname(file.originalname)}`);  } 
-  })
-
-  const uploadFile = multer({ storage });
+const Multer=require("../middlewares/MulterMiddlewares");
+const validaciones=require('../middlewares/ProductMiddleware');
 
 
 router.get('/',productscontroller.index);
@@ -25,17 +14,17 @@ router.get('/gender/:id', productscontroller.gender);
 
 router.get('/productDetail/:id',productscontroller.productDetail); 
 
-//router.get('/productCart',productscontroller.productCart);
+/*router.get('/productCart',productscontroller.productCart); */
 
-router.get('/productRegister',/*adminMiddleware,*/productscontroller.productRegister);
+router.get('/productRegister',productscontroller.productRegister);
 
-router.post('/products',uploadFile.single('image'),productscontroller.Createproducts);
+router.post('/products',Multer,validaciones.validacion,productscontroller.Createproducts);
 
-router.get('/productModify/:id',/*adminMiddleware,*/productscontroller.productModify);
+router.get('/productModify/:id',productscontroller.productModify);
 
-router.post('/productEdit/:id',/*adminMiddleware,*/ uploadFile.single('image'),productscontroller.modify); 
+router.post('/productEdit/:id',Multer,validaciones.validacion,productscontroller.modify); 
 
-router.post('/delete/:id',/*adminMiddleware,*/ productscontroller.destroy); 
+router.post('/delete/:id',productscontroller.destroy); 
 
 
 module.exports = router;

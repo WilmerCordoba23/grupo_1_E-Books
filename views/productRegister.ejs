@@ -9,10 +9,10 @@
             <form action="/products" class="form" method="post" enctype="multipart/form-data" >
                  <h1>Registra tu libro</h1>
                  <label for="name"><p>Introduce el nombre</p></label>
-                 <input type="text" name="name" id="name" placeholder="Introduce el nombre">
+                 <input type="text" name="name" id="name" placeholder="Introduce el nombre" value="<%= locals.old && old.name ? old.name : '' %>">
                  <br>
                  <label for="description"><p>Introduce la descripcion</p></label>
-                 <input type="description" id="description" name="description">
+                 <input type="description" id="description" name="description" value="<%= locals.old && old.description ? old.description : '' %>">
                 <br>
                 <label for="image"><p>Introduce la portada</p></label>
                 <input type="file" id="image" name="image">
@@ -48,10 +48,16 @@
                  </select>
                 <br>
                 <label for="price"><p>Introduce el precio</p></label>
-                <input type="number" id="price" name="price">
+                <input type="number" id="price" name="price" value="<%= locals.old && old.price ? old.price : '' %>">
                 
                 
-                 <br>   
+                 <br> 
+                 <%if(locals.errors) {
+                    errors.forEach(errors => {%>
+                  <p class="arriba"><%=errors.msg%></p>
+                  <% })
+                    }
+                  %>  
                  <br>
                  <input type="submit" value="Continuar">
                  <br>   
