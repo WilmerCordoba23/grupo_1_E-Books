@@ -75,7 +75,13 @@ const productscontroller = {
     },
     modify: (req,res) =>{ 
         let errors=validationResult(req)
-        let params=req.params.id;
+
+        //cambiar imagenes, si no se envia la imagen sigue siendo la pasada
+        let imagen =req.body.imagereserva;
+        if (req.file != undefined) {
+            imagen=req.file.filename;
+        }
+
         if(!errors.isEmpty()){
             db.product.findByPk(req.params.id)
         .then(product => {
@@ -87,7 +93,7 @@ const productscontroller = {
             db.product.update({
                 title: req.body.name,
                 description: req.body.description,
-                image: req.body.image,
+                image: imagen,
                 gender_id: req.body.gender,
                 category_id: req.body.category,
                 format_id: req.body.format,

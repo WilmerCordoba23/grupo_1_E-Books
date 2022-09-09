@@ -2,7 +2,7 @@
 const express = require('express');
 const router=express.Router();
 const productscontroller=require('../controllers/productsController');
-const Multer=require("../middlewares/MulterMiddlewares");
+const Multer=require("../middlewares/MulterproductMiddlewares");
 const validaciones=require('../middlewares/ProductMiddleware');
 
 

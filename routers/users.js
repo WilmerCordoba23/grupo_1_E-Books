@@ -2,7 +2,7 @@
 const express = require('express');
 const router=express.Router();
 const validaciones=require("../middlewares/UserMiddleware");
-const Multer=require("../middlewares/MulterMiddlewares");
+const Multer=require("../middlewares/MulteruserMiddlewares");
 const usersController=require('../controllers/usersController');
 
 //rutas
