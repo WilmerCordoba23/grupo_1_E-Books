@@ -112,7 +112,8 @@ const userscontroller = {
                     }
                     if (validator==false){
                         let incorrecto ="Su correo o contraseña es incorrecto";
-                        res.render("login",{incorrecto})
+
+                       res.render("login",{errors:errors.array(), old:req.body,incorrecto})
                     }
                    
         }).catch(errors => {

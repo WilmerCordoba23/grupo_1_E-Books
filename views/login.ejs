@@ -13,7 +13,7 @@
                  <input type="email" name="usuario" id="usuario" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
                  <br>
                  <label for="password"><p>Contraseña</p></label>
-                 <input type="password" name="password" id="contraseña" value="<%=locals.old && old.password ? old.password: '' %>">
+                 <input type="password" name="password" id="contraseña">
                  <br>
                  <%if(locals.errors) {
                     errors.forEach(errors => {%>
