@@ -13,3 +13,22 @@ Empezar a hacer:
 Dejar de hacer:
 -Retrasar hasta la ultima fecha posible las actividades que debemos realizar.
 -No mejorar en lo que nos hemos propuesto en la retro.
+
+-------------------------------------------------------------------------------
+Sprint 6
+
+Que hicimos mal: 
+-Poca disponibilidad entre nuestros horarios.
+
+Que realizamos mejor:
+-Buena distribuccion las actividades correspondientes de cada uno entre fecha de apertura y culminacion.
+-Dividirnos de manera mas eficaz las tareas.
+-Mejoramiento de nuestros horarios para trabajar de maner mas efectiva y produtiva.
+
+Empezar a hacer: 
+-Mejorar disponibilidad entre nuestros horarios.
+
+Dejar de hacer:
+-Procrastinar menos.
+
+
