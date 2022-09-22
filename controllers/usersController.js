@@ -16,7 +16,7 @@ const userscontroller = {
         }
         else
         {
-            let imagen = "";
+            let imagen = "default.jpg";
 
             if (req.file != undefined) {
                 imagen=req.file.filename;
@@ -26,10 +26,10 @@ const userscontroller = {
                 first_name: req.body.nombre,
                 last_name: req.body.apellido,
                 email: req.body.usuario,
-                image: imagen,//no funciona
+                image: imagen,
                 password: bcrypt.hashSync(req.body.password, 10),
             })
-            res.redirect('/')
+            res.redirect('/login')
         }
     },
 

@@ -22,7 +22,7 @@ module.exports = (sequelize, dataTypes) => {
     }
     const productformat = sequelize.define(alias,cols,config);
 
-    productformat.associate = function (models) {
+    /* productformat.associate = function (models) {
         productformat.belongsTo(models.format, { 
             as: "format",
             foreignKey: "format_id"
@@ -31,7 +31,7 @@ module.exports = (sequelize, dataTypes) => {
             as: "product",
             foreignKey: "product_id"
         })
-    }
+    } */
 
     return productformat
 };

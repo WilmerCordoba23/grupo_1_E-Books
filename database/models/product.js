@@ -9,7 +9,6 @@ module.exports = (sequelize, dataTypes) => {
         },
         title:{
             type: dataTypes.STRING(100),
-            allowNull: false
         },
         description:{
             type: dataTypes.STRING(1000),
@@ -45,10 +44,10 @@ module.exports = (sequelize, dataTypes) => {
             as: "genre",
             foreignKey: "genre_id"
         })
-        product.hasMany(models.productformat, { 
+/*         product.hasMany(models.productformat, { 
             as: "productformat",
             foreignKey: "product_id"
-        })
+        }) */
     }
    
 

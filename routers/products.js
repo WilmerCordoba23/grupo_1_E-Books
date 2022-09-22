@@ -14,7 +14,7 @@ router.get('/gender/:id', productscontroller.gender);
 
 router.get('/productDetail/:id',productscontroller.productDetail); 
 
-/*router.get('/productCart',productscontroller.productCart); */
+router.get('/productCart',productscontroller.productCart);
 
 router.get('/productRegister',productscontroller.productRegister);
 

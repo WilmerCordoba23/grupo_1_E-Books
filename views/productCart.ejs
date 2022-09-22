@@ -15,98 +15,38 @@
             </div>
             <hr id="cart-line" color="#c8c8c8" size="1px" >
            <div class="productOrganization">
+            <% for (let i = 0; i < 4; i++) { %>
             <div id="Carrito">
                <div id="productDesc">
                 <div>
-                    <img src="./images/products/Way_of_Kings.jpg" alt="El camino de los Reyes" class="img_cart">
+                    <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_cart">
                 </div>
                 <div>
                     <div id="productName">
                         <h2>
-                            El camino de los reyes (El Archivo de las Tormentas 1)
+                            <%=products[i].title%>
                         </h2>
                     </div>
                     <div id="productInfo">
-                        <p>Autor: Brandon Sanderson</p>
-                        <p>Formato: Tapadura</p>
+                        <p>Categoria: <%=products[i].category.name%></p>
+                        <p>Genero: <%=products[i].genre.name%></p>
                     </div>
                 </div>
                 <div class="price">
-                    <h1>$49.04</h1>
+                    <h1>$<%=products[i].price%></h1>
                 </div>
                </div>
                 
             </div>
+            <% } %>
+            
+              
+            
+        
+
            
 
-            <div id="Carrito">
-                <div id="productDesc">
-                 <div>
-                     <img src="./images/products/Way_of_Kings.jpg" alt="El camino de los Reyes" class="img_cart">
-                 </div>
-                 <div>
-                     <div id="productName">
-                         <h2>
-                             El camino de los reyes (El Archivo de las Tormentas 1)
-                         </h2>
-                     </div>
-                     <div id="productInfo">
-                         <p>Autor: Brandon Sanderson</p>
-                         <p>Formato: Tapadura</p>
-                     </div>
-                 </div>
-                 <div class="price">
-                     <h1>$49.04</h1>
-                 </div>
-                </div>
-                 
-             </div>
-
-             <div id="Carrito">
-                <div id="productDesc">
-                 <div>
-                     <img src="./images/products/Way_of_Kings.jpg" alt="El camino de los Reyes" class="img_cart">
-                 </div>
-                 <div>
-                     <div id="productName">
-                         <h2>
-                             El camino de los reyes (El Archivo de las Tormentas 1)
-                         </h2>
-                     </div>
-                     <div id="productInfo">
-                         <p>Autor: Brandon Sanderson</p>
-                         <p>Formato: Tapadura</p>
-                     </div>
-                 </div>
-                 <div class="price">
-                     <h1>$49.04</h1>
-                 </div>
-                </div>
-                 
-             </div>
-
-            <div id="Carrito">
-               <div id="productDesc">
-                <div>
-                    <img src="./images/products/Way_of_Kings.jpg" alt="El camino de los Reyes" class="img_cart">
-                </div>
-                <div>
-                    <div id="productName">
-                        <h2>
-                            El camino de los reyes (El Archivo de las Tormentas 1)
-                        </h2>
-                    </div>
-                    <div id="productInfo">
-                        <p>Autor: Brandon Sanderson</p>
-                        <p>Formato: Tapadura</p>
-                    </div>
-                </div>
-                <div class="price">
-                    <h1>$49.04</h1>
-                </div>
-               </div>
-                
-            </div>
+            
            </div>  
             <div class="subtotal">
                 <h2 >Subtotal (4 productos):$196.16</h2>

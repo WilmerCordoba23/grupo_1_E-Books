@@ -19,36 +19,38 @@
                 <br>                
                 <label for="gender"><p>introduce el genero</p></label>
                 <select id="gender" name="gender">
-                    <option name="Fantasia" value=1>Fantasia</option>
-                    <option name="Economia" value=2>Economia</option>
-                    <option name="Literatura" value=3>Literatura</option>
-                    <option name="Autoayuda" value=4>Autoayuda</option>
-                    <option name="Liderazgo" value=5>Liderazgo</option>
-                    <option name="Ficcion" value=6>Ficcion</option>
-                    <option name="Aventura" value=7>Aventura</option>                   
-                    <option name="Romance" value=8>Romance</option>
-                    <option name="Drama" value=9>Drama</option>
-                    <option name="Economia" value=10>Economia</option>   
+
+                    <%if(genre){%>
+                        <% for (let i = 0; i < genre.length; i++) { %>
+                                <option name="<%=genre[i].name%>" value=<%=genre[i].id%>><%=genre[i].name%></option>           
+                        <% } %>
+                         <%}%>
+                    
                 </select>
                  <br>
                  <label for="categoria">Introduce la categoria</label>
                  <br>
                  <select id="category" name="category">
-                    <option name="Novedades" id="Novedades" value=2>Novedades</option>
-                    <option name="Masvendidos" id="Masvendidos" value=1>Mas vendidos</option>
-                    <option name="Recomendados" id="Recomendados" value=3>Recomendados</option>
+                    <%if(category){%>
+                    <% for (let i = 0; i < category.length; i++) { %>
+                        
+
+                            <option name="<%=category[i].name%>" id="<%=category[i].name%>" value=<%=category[i].id%>><%=category[i].name%></option>
+                       
+                    <% } %>
+                     <%}%>
                  </select>
                 <br>
-                <label for="format">Introduce el formato</label>
+                <!-- <label for="format">Introduce el formato</label>
                  <br>
                  <select id="format" name="format">
                     <option name="TapaDura" id="TapaDura" value=2 >Tapa Dura</option>
                     <option name="TapaBlanda" id="TapaBlanda" value=3 >Tapa Blanda</option>
                     <option name="Digital" id="Digital" value=1 >Digital</option>
-                 </select>
+                 </select> -->
                 <br>
                 <label for="price"><p>Introduce el precio</p></label>
-                <input type="number" id="price" name="price" value="<%= locals.old && old.price ? old.price : '' %>">
+                <input type="text" id="price" name="price" value="<%= locals.old && old.price ? old.price : '' %>">
                 
                 
                  <br> 
@@ -58,6 +60,7 @@
                   <% })
                     }
                   %>  
+                  
                  <br>
                  <input type="submit" value="Continuar">
                  <br>   

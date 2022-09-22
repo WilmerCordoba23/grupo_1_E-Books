@@ -6,17 +6,22 @@ const { search } = require('./productosController');
 const sequelize = db.sequelize;
 const Op = sequelize.Op;
 const { validationResult } = require('express-validator');
+const { Association } = require('sequelize');
 
 //falta arreglar el problema de las imagenes
 
 const productscontroller = {
     index: (req, res) => {
-        db.product.findAll()
+        db.product.findAll({include: {
+            all: true,
+            nested: true
+        }})
             .then(product => {
                 
                 res.render('index', {product})
+                //console.log(product)
             })
-            //console.Console.log(product)
+            
     },
     list: (req, res) => { //listar todos los productos, no funcional
         db.product.findAll()
@@ -25,53 +30,95 @@ const productscontroller = {
             })
     },
     productDetail: (req, res) => {
-        db.product.findByPk(req.params.id)
+        db.product.findByPk(
+            req.params.id,{
+                include : [{
+                    all: true,
+                    nested: true}] })
         
             .then(product => {
                 res.render('productDetail.ejs', {product});
+                console.log(product)
             });
     },
+    productCart:(req,res)=>{
+        
+        db.product.findAll({
+            include : [{
+                all: true,
+                nested: true}] })
+        .then(products=>{
+            res.render("productCart",{products})
+            console.log(products)
+        })
+        
+    },
     Createproducts: (req,res) =>{ /* Guardado min 31:50  sino funciona es probable que sea porque en el playground tiene el function*/
+    let genres =db.genre.findAll();
+    let categorys=db.category.findAll();
+    let products=db.product.findAll({include: { all: true,nested: true}});     
+    console.log(products)
     let imagen = "";
     let errors=validationResult(req)
         
 
     if(!errors.isEmpty()){
-        res.render("productRegister",{errors:errors.array(), old:req.body})    
+        Promise.all([genres, categorys, products])
+    .then(([genre, category, product]) => {
+        res.render("productRegister",{errors:errors.array(), old:req.body,product,genre,category})    
+    })  
     }
     else
     {
+        
         if (req.file != undefined) {
             imagen=req.file.filename;
         }
-        console.log(req.body.filename)
+        console.log(imagen)
         db.product.create({
                 title: req.body.name,
                 description: req.body.description,
                 image: imagen,
                 genre_id: req.body.gender,
                 category_id: req.body.category,
-                format_id: req.body.format,
+                /* format_id: req.body.format, */
                 price: req.body.price
             })
             res.redirect('/')  
+            console.log({
+                title: req.body.name,
+                description: req.body.description,
+                image: imagen,
+                genre_id: req.body.gender,
+                category_id: req.body.category,
+                /* format_id: req.body.format, */
+                price: req.body.price
+            })
     }
     
     },
     productRegister(req, res){
-        db.product.findAll({includes:[{associacion:'category'},{associacion:'genre'},{associacion:'productformat'}]})
-        .then(product => {
-            res.render('productRegister.ejs', {product})
-            console.log(product)
-        })       
+        let genres =db.genre.findAll();
+        let categorys=db.category.findAll();
+        let products=db.product.findAll({include: { all: true,nested: true}});
+        
+             
+        Promise.all([genres, categorys, products])
+        .then(([genre, category, product]) => {
+            res.render('productRegister.ejs', {product,genre,category})
+        })  
     },
     productModify(req, res){
-
-        db.product.findByPk(req.params.id)
-        .then(product => {
-            res.render('productModify.ejs', {product})
-            console.log(product)
-        })       
+        let genres =db.genre.findAll();
+        let categorys=db.category.findAll();
+        let products=db.product.findByPk(req.params.id);
+        
+             
+        Promise.all([genres, categorys, products])
+        .then(([genre, category, product]) => {
+            res.render('productModify.ejs', {product,genre,category})
+        })  
+           
     },
     modify: (req,res) =>{ 
         let errors=validationResult(req)
@@ -83,9 +130,13 @@ const productscontroller = {
         }
 
         if(!errors.isEmpty()){
-            db.product.findByPk(req.params.id)
+            db.product.findByPk(req.params.id,{include: {
+                all: true,
+                nested: true
+            }})
         .then(product => {
             res.render('productModify.ejs', {product,errors:errors.array(), old:req.body})
+            console.log(product);
         })   
         }
         else
