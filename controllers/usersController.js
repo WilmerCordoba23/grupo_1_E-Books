@@ -21,15 +21,15 @@ const userscontroller = {
             if (req.file != undefined) {
                 imagen=req.file.filename;
             }
-            db.user.create({
+           /*  db.user.create({
                 
                 first_name: req.body.nombre,
                 last_name: req.body.apellido,
                 email: req.body.usuario,
                 image: imagen,
                 password: bcrypt.hashSync(req.body.password, 10),
-            })
-            res.redirect('/login')
+            }) */
+           /*  res.redirect('/login') */
         }
     },
 

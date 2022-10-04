@@ -6,26 +6,29 @@
 
 <center>
         <main>
-            <form action="/users" class="form" method="post" enctype="multipart/form-data" >
+            <div class="alert alert-danger" hidden id="errorsDiv"></div>
+
+            <form action="/users" class="form" method="post" enctype="multipart/form-data" id="UserForm" >
+                
                  <h1>Registrate</h1>
                  <label for="nombre"><p>Nombre</p></label>
-                 <input type="text" name="nombre" id="nombre" placeholder="" value="<%= locals.old && old.nombre ? old.nombre : '' %>">
+                 <input type="text" name="nombre" id="nombre" placeholder="" data-label="Nombre" value="<%= locals.old && old.nombre ? old.nombre : '' %>">
                  <br>
                  <label for="apellido"><p>Apellidos</p></label>
-                 <input type="text" name="apellido" id="nombre" placeholder="" value="<%=locals.old && old.apellido ? old.apellido : ''%>">
+                 <input type="text" name="apellido" id="apellido" placeholder="" data-label="Apellido"value="<%=locals.old && old.apellido ? old.apellido : ''%>">
                  <br>
                  <label for="usuario"><p>Correo electronico o numero de telefono</p></label>
-                 <input type="email" id="usuario" name="usuario" value="<%=locals.old && old.usuario ? old.usuario: ''%>">
+                 <input type="email" id="usuario" name="usuario" data-label="Correo" value="<%=locals.old && old.usuario ? old.usuario: ''%>">
                  <br>
                 <label for="image"><p>Introduce tu foto</p></label>
-                <input type="file" id="image" name="image" value="//<%=locals.old && old.image ? old.image: '' %>" >
+                <input type="file" id="image" name="image" data-label="Imagen" value="//<%=locals.old && old.image ? old.image: '' %>" >
                  <br>
                  <label for="password"><p>Contraseña</p></label>
-                 <input type="password" id="password" name="password" placeholder="Minimo 6 caracteres" value="<%=locals.old && old.password ? old.password : '' %>">
+                 <input type="password" id="password" name="password" data-label="Contraseña" placeholder="Minimo 6 caracteres" value="<%=locals.old && old.password ? old.password : '' %>">
                  <p id="arriba">¡La contraseña debe contener al menos 6 caracteres!</p>
 
                  <label for="verificarcontraseña"><p >Vuelve a repetir la contraseña</p></label>
-                 <input type="password" name="verificaPassword" id="verifiquedpassword" value="<%=locals.old && old.verificaPassword ? old.verificaPassword : '' %>" >
+                 <input type="password" name="verificaPassword" id="verifiquedpassword" data-label="Repetir Contraseña"value="<%=locals.old && old.verificaPassword ? old.verificaPassword : '' %>" >
                  <br>
                     <%if(locals.errors) 
                     {
@@ -34,6 +37,8 @@
                     <% })
                     }
                     %>
+                    <div class="alert alert-danger" hidden id="errorsDiv"></div>
+
                  <br>
                  
                  <input type="submit" value="Continuar">
@@ -53,4 +58,6 @@
     <%- include('./partials/footer')%>
 
 </body>
+
+<script src="/javascripts/formValidator.js"></script>
 </html>

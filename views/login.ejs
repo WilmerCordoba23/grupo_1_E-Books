@@ -8,13 +8,14 @@
 
         <center>
         <main>
-            <form action="/loginUsers" method="post"  class="form">
+          <div class="alert alert-danger" hidden id="errorsDiv"></div>
+            <form action="/loginUsers" method="post" id="UserForm" class="form">
                  <h1>Iniciar sesion</h1>
                  <label for="usuario"><p>Correo electronico o numero de telefono</p></label>
-                 <input type="email" name="usuario" id="usuario" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
+                 <input type="email" name="usuario" id="usuario" data-label="Correo" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
                  <br>
                  <label for="password"><p>Contraseña</p></label>
-                 <input type="password" name="password" id="contraseña">
+                 <input type="password" data-label="Contraseña" name="password" id="contraseña">
                  <br>
                  <%if(locals.errors) {
                     errors.forEach(errors => {%>
@@ -25,7 +26,8 @@
                   <%if(incorrecto) { %>
                     <p class="arriba"><%=incorrecto%></p>
                     <% }%>
-                  
+                    <div class="alert alert-danger" hidden id="errorsDiv"></div>
+
                   <label for="recordame"><p>Recordar usuario</p></label>
                   <input type="checkbox" name="recordame">
                  <br>
@@ -47,4 +49,5 @@
        <%- include('./partials/footer')%>
 
 </body>
+<script src="/javascripts/formValidator.js"></script>
 </html>
