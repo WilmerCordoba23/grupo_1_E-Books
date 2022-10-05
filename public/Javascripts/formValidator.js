@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             });
 
         }
-        console.log(errorsArray);
-        console.log(element.dataset.label);
+        //console.log(errorsArray);
+        //console.log(element.dataset.label);
     });
 
 
