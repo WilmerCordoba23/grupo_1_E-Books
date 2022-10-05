@@ -6,19 +6,21 @@
 
 <center>
         <main>
-            <form action="/products" class="form" method="post" enctype="multipart/form-data" >
+            <div class="alert alert-danger" hidden id="errorsDiv"></div>
+
+            <form action="/products" class="form" method="post" enctype="multipart/form-data" id="UserForm" >
                  <h1>Registra tu libro</h1>
                  <label for="name"><p>Introduce el nombre</p></label>
-                 <input type="text" name="name" id="name" placeholder="Introduce el nombre" value="<%= locals.old && old.name ? old.name : '' %>">
+                 <input type="text" name="name" id="name" data-label="Nombre" placeholder="Introduce el nombre" value="<%= locals.old && old.name ? old.name : '' %>">
                  <br>
                  <label for="description"><p>Introduce la descripcion</p></label>
-                 <input type="description" id="description" name="description" value="<%= locals.old && old.description ? old.description : '' %>">
+                 <input type="description" id="description" data-label="Descripcion" name="description" value="<%= locals.old && old.description ? old.description : '' %>">
                 <br>
                 <label for="image"><p>Introduce la portada</p></label>
-                <input type="file" id="image" name="image">
+                <input type="file" id="image" data-label="Imagen" name="image">
                 <br>                
                 <label for="gender"><p>introduce el genero</p></label>
-                <select id="gender" name="gender">
+                <select id="gender" data-label="Genero" name="gender">
 
                     <%if(genre){%>
                         <% for (let i = 0; i < genre.length; i++) { %>
@@ -30,7 +32,7 @@
                  <br>
                  <label for="categoria">Introduce la categoria</label>
                  <br>
-                 <select id="category" name="category">
+                 <select id="category" data-label="Categoria" name="category">
                     <%if(category){%>
                     <% for (let i = 0; i < category.length; i++) { %>
                         
@@ -41,16 +43,9 @@
                      <%}%>
                  </select>
                 <br>
-                <!-- <label for="format">Introduce el formato</label>
-                 <br>
-                 <select id="format" name="format">
-                    <option name="TapaDura" id="TapaDura" value=2 >Tapa Dura</option>
-                    <option name="TapaBlanda" id="TapaBlanda" value=3 >Tapa Blanda</option>
-                    <option name="Digital" id="Digital" value=1 >Digital</option>
-                 </select> -->
                 <br>
                 <label for="price"><p>Introduce el precio</p></label>
-                <input type="text" id="price" name="price" value="<%= locals.old && old.price ? old.price : '' %>">
+                <input type="text" id="price" name="price" data-label="Precio" value="<%= locals.old && old.price ? old.price : '' %>">
                 
                 
                  <br> 
@@ -59,7 +54,9 @@
                   <p class="arriba"><%=errors.msg%></p>
                   <% })
                     }
-                  %>  
+                  %>
+
+                             
                   
                  <br>
                  <input type="submit" value="Continuar">
@@ -76,4 +73,6 @@
     <%- include('./partials/footer')%>
 
 </body>
+
+<script src="/javascripts/formValidator.js"></script>
 </html>

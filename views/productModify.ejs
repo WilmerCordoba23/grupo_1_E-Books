@@ -6,18 +6,20 @@
         <main>
             <%- include('./partials/genders')%>
             <center>
+                <div class="alert alert-danger" hidden id="errorsDiv"></div>
+
                 <br><br>
-            <h2>Estás editando: <%= product.title %></h2>
-            <form action="/productEdit/<%= product.id %>" method="POST" class="form" enctype="multipart/form-data">
+            <h2>Estás editando: <%=product.title%></h2>
+            <form action="/productEdit/<%= product.id %>" method="POST" class="form" enctype="multipart/form-data" id="UserForm">
                  <h1>Modifica tu producto</h1>
                  <label for="name"><p>Introduce el nuevo nombre del producto</p></label>
-                 <input type="text" name="name" id="name" value="<%= product.title %>">
+                 <input type="text" name="name" id="name" data-label="Nombre" value="<%= product.title %>">
                  <br>
                  <label for="description"><p>Introduce la nueva descripcion de producto</p></label>
-                 <input type="description" id="description" name="description" value="<%= product.description %>">
+                 <input type="description" id="description" data-label="Descripcion" name="description" value="<%= product.description %>">
                 <br>
                 <label for="gender"><p>introduce el genero</p></label>
-                <select id="gender" name="gender">
+                <select id="gender" name="gender" data-label="Genero">
 
                     <%if(genre){%>
                         <% for (let i = 0; i < genre.length; i++) { %>
@@ -29,7 +31,7 @@
                  <br>
                  <label for="categoria">Introduce la categoria</label>
                  <br>
-                 <select id="category" name="category">
+                 <select id="category" data-label="Categoria" name="category">
                     <%if(category){%>
                     <% for (let i = 0; i < category.length; i++) { %>
                         
@@ -40,16 +42,10 @@
                      <%}%>
                  </select>
                 <br>
-                <!-- <label for="format">Introduce el formato</label>
-                 <br>
-                 <select id="format" name="format">
-                    <option name="TapaDura" id="TapaDura" value=2 >Tapa Dura</option>
-                    <option name="TapaBlanda" id="TapaBlanda" value=3 >Tapa Blanda</option>
-                    <option name="Digital" id="Digital" value=1 >Digital</option>
-                 </select> -->
+                
                 <br>
                 <label for="price"><p>Introduce el nuevo precio del producto</p></label>
-                <input type="number" id="price" name="price" value="<%= product.price %>" minlength="1">
+                <input type="number" id="price" data-label="Precio" name="price" value="<%= product.price %>" minlength="1">
                 
                 
                  <br> 
@@ -59,6 +55,7 @@
                   <% })
                     }
                   %>  
+                  <div class="alert alert-danger" hidden id="errorsDiv"></div>
                   
                  <br>
                  <input type="submit" value="Continuar">
@@ -78,4 +75,6 @@
     <%- include('./partials/footer')%>
 
 </body>
+<script src="/javascripts/formValidator.js"></script>
+
 </html>
