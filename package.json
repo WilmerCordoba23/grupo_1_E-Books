@@ -1,7 +1,7 @@
 {
   "name": "sprint",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este sitio brinda un servicio de ventas de libros tanto fisicos como digitales, esta diseñado para todo tipo de público y audiencia niños,adolecentes,adultos y personas mayores de edad; contamos con todo tipo de generos como: novelas, ficción, diccionarios, libros universitarios y cuentos infantiles.",
   "main": "app.js",
   "start": "app.js",
   "scripts": {
@@ -27,5 +27,13 @@
     "sequelize": "^6.21.3",
     "sequelize-cli": "^6.4.1",
     "session": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilmerCordoba23/grupo_1_E-Books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WilmerCordoba23/grupo_1_E-Books/issues"
+  },
+  "homepage": "https://github.com/WilmerCordoba23/grupo_1_E-Books#readme"
 }
