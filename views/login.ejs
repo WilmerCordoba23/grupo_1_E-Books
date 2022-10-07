@@ -11,8 +11,8 @@
           <div class="alert alert-danger" hidden id="errorsDiv"></div>
             <form action="/loginUsers" method="post" id="UserForm" class="form">
                  <h1>Iniciar sesion</h1>
-                 <label for="usuario"><p>Correo electronico o numero de telefono</p></label>
-                 <input type="email" name="usuario" id="usuario" data-label="Correo" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
+                 <label for="usuario"><p>Correo electronico</p></label>
+                 <input type="text" name="usuario" id="usuario" data-label="Correo" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
                  <br>
                  <label for="password"><p>Contraseña</p></label>
                  <input type="password" data-label="Contraseña" name="password" id="contraseña">
