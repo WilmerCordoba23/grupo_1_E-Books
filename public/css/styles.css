@@ -896,21 +896,20 @@ margin: 8px auto;
     .cart{
         background-color: #f4f2e9;
         margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+        margin-right: 1%;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     #productInfo{
-        margin-left: 1%;
-    font-size: 20px;
+        font-size: 20px;
     }
     .price{
         margin-left: 53%;
     }
     #productName{
         margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 1%;
+        margin-bottom: 15px;
+    
     }
     #cart-line{
         margin-left: 2%;
@@ -931,8 +930,8 @@ margin: 8px auto;
     }
     #Carrito{
         margin-top: 15px;
-    margin-left: 2%;
-    margin-right: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     h2#subtotalCarrito{
         margin-top: 50px;
