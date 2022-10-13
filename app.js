@@ -3,6 +3,7 @@ const app = express();
 const products=require('./routers/products');
 const usuarios=require('./routers/users');
 const usuariosApi=require('./routers/Api/users');
+const productosApi=require('./routers/Api/products');
 const path = require('path');
 const methodOverride =  require('method-override'); 
 const session = require('express-session');
@@ -36,6 +37,8 @@ app.use('/',usuarios);
 //api usuario
 app.use('/api',usuariosApi);
 
+//api productos
+app.use('/api',productosApi);
 
 
 
