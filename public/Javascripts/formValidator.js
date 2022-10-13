@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
 
-
     const UserForm = document.querySelector('#UserForm');
     const email = document.getElementById('usuario');
-
 
     UserForm.addEventListener('submit', (event) => {
         const errorsArray = [];
@@ -18,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
             }
         }
-        
+     
     
        
         Array.from(UserForm.elements).forEach(element => {
