@@ -1081,12 +1081,13 @@ margin: 8px auto;
     }
     .logo{
         height: 70px;
-        width: 35%;
-        margin: 0 65px;
+        width: 60%;
+        margin: 0 25px;
         position: relative;
         top: 4px;
     }
     .buscador{
+        width: 40%;
         margin: 0 auto;
         position: relative;
         top: 8px;
@@ -1095,7 +1096,7 @@ margin: 8px auto;
 
      header  .buscador input{
         margin-top: 5px;
-        width: 400px;
+        width: 80%;
         height: 30px;
         }
 
@@ -1104,6 +1105,9 @@ margin: 8px auto;
          top: 16px;
          left: 0;
          font-size: 12px;
+    }
+    .enlaces li{
+        width: auto;
     }
     .enlaces{
         margin-top: 10px;
