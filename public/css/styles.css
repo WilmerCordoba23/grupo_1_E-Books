@@ -1,20 +1,23 @@
 *{
-
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', 'Roboto', sans-serif;
     }
-    /*header*/
+
+ /*header*/
+
 header.home{
     background-color: #6AABD2;
 }
+
 body{
     color: #333333;
     background-color:#D9E4EC;
     font-size: 15px !important;
     line-height: 20px;
 }
+
 .alert-danger {
     color: #721c24;
     background-color: #f8d7da;
@@ -28,6 +31,7 @@ body{
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
+
 .form {
     background-color: #EAEEEF;
     width: 30%;
@@ -36,11 +40,13 @@ body{
     border-radius: 5px;
     margin-top: 3%;
   }
+
   .arriba
     {
         font-style: bold ;
         color: red;
     }
+
   .form h1 {
     margin: 10px 0;
     text-align: center;
@@ -85,9 +91,8 @@ body{
     cursor: pointer;
     border-radius: 5px;
     width: 30%;
-
-
   }
+
   .form p {
     margin-left: 5%;
     text-align: left;
@@ -100,6 +105,7 @@ body{
     text-decoration: none;
     color: #222222  ;
   }
+
 .enlaces, nav ul li a{
     display: flex;
     list-style: none;
@@ -112,20 +118,23 @@ body{
     margin-left: 20px;
     font-size: 15px;
 }
+
 .logo{
     height: 40px;
     width: 20%;
 }
+
 .logo-header{
     margin-top: 2%;
     height: 100px;
     width: 50%;
-
 }
+
 .logo-footer{
     height: 100px;
     width: 100%;
 }
+
 .nav-bar {
     font-size: 17px;
     display: flex;
@@ -136,6 +145,7 @@ body{
     right: 20px;
     padding-bottom: 10px;
 }
+
 header  .buscador input{
  width: 400px;
  height: 30px;
@@ -159,8 +169,10 @@ header  .buscador button{
     top: 8px;
     right: 4px;
 }
+
 /*header*/
 /*banner*/
+
 section.banner img{
     width: 100%;
 }
@@ -168,8 +180,10 @@ section.banner{
     width: 100%;
     background-color: #f4f2e9;
 }
+
 /*banner*/
 /*informacion-relacionada*/
+
 .informacion-relacionada{
     display: flex;
     flex-direction: row;
@@ -194,20 +208,20 @@ section.informacion-lista  ul li a{
 }
 
 section.informacion-encuentra h4,section.informacion-encuentra p{
-
     margin-top: 30px;
 }
-.informacion-visual{
 
+.informacion-visual{
     width: 30%;
     margin: 0 auto;
     text-align: center;
 }
+
 section.informacion-visual img{
     width:250px;
     height:250px;
-
 }
+
 /*informacion-relacionada*/
 /*main*/
 
@@ -217,10 +231,10 @@ Div.cart{
     flex-grow: 1;
     flex-shrink: 1;
 }
+
 .productOrganization{
     display: flex;
     flex-direction:column ;
-
 }
 #productDesc{
     display: flex;
@@ -230,10 +244,12 @@ Div.cart{
 #productInfo{
     flex-basis: auto;
 }
-.price{
+
+#productName{
     flex-basis: auto;
 }
-#productName{
+
+.price{
     flex-basis: auto;
 }
 
@@ -254,18 +270,20 @@ button.pago{
     border: none;
     border-radius: 5px;
     background-color: #cecaca;
-
 }
+
 .total{
     background-color: #f4f2e9;
     flex-grow: 1;
     flex-basis: auto;
 }
+
 .products{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .generos{
     background-color: #D9E4EC;
     color: #222222;
@@ -273,8 +291,8 @@ button.pago{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
 }
+
 .enlaces-generos,main div ul li a{
     display: flex;
     list-style: none;
@@ -282,15 +300,17 @@ button.pago{
     color: #222222;
     font-family: 'Lucida Bright',serif;
 }
-.enlaces-generos li{
 
+.enlaces-generos li{
     margin: 0 auto;
 }
-.enlaces-generos button{
 
+.enlaces-generos button{
     border: none;
 }
+
 /*secciones*/
+
 .seccion{
     margin: 40px auto;
 }
@@ -301,13 +321,14 @@ button.pago{
     font-family: 'Lucida Bright','optica';
     font-size: 25px;
 }
+
 .novedades{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-
 }
+
 .novedades article{
     text-align: center;
     /* border: solid #ffffff; */
@@ -332,17 +353,21 @@ div.novedades article:hover .detalles{
     color: #333333;
     font-family: 'poynter','georgia', serif;
     }
+
 .img_producto{
     height: 300px;
     width:70%;
 }
+
 /*secciones*/
 /*main*/
 /*footer*/
+
 div.footer-section a{
     color: #181818;
     text-decoration: none;
 }
+
 .footer-section,div.footer-section li{
     margin:  auto;
     background-color: #6AABD2;
@@ -353,12 +378,12 @@ div.footer-section a{
     list-style: none;
     text-decoration: none;
     padding-top: 20px;
-
 }
+
 .footer-seccion{
     color: #181818;
     display: block;
-margin: 8px auto;
+    margin: 8px auto;
 
 }
 .footer-copy{
