@@ -793,47 +793,49 @@ margin: 8px auto;
         width: 100%;
         margin: 0 auto;
         position: relative;
-        top: 3px;   
-        /* right: 10px; */ 
+        /* top: 3px;    */
+        
     }
 
 /* Buscador */
 
     .buscador{
-        width: 45%;
+        width: 80%;
         position: relative;
         top: 5px;
       }
 
      header  .buscador input{
         font-size: 10px;
-        width: 120px;
-        height: 20px;
-
+        width: 80%;
+        height: 30px;
+        
 
         }
         header  .buscador button{
             border-radius: 0px 10px 10px 0px;
             border: none;
             background-color: #ffff;
-            height: 20px;
+            height: 30px;
             position: relative;
             top: 9px;
-            /* right: -1px; */
+            
 
         }
     .enlaces{
-     width: 40%;
-     /* padding: 0px 10px; */
+     width: 80%;
+     padding: 0px 10px;
+     margin: 8px 3px;
     }
     .enlaces li{
         width: 20%;
-        margin-left: 10px;  
+        display: flex;
+         justify-content: center;
         font-size: 13px;
     }
-
+ 
     .enlaces{
-        margin-top: 0;
+        right: 0;
     }
 
 
@@ -858,7 +860,7 @@ margin: 8px auto;
         justify-content:space-between;
         position: relative;
         right: 0;
-        padding:0px 4px;
+        padding:4px;
     }
 .generos{
     font-size: 12px;
