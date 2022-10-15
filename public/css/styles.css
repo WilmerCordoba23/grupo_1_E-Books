@@ -1,5 +1,5 @@
 *{
-    
+
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -28,7 +28,7 @@ body{
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
-.form { 
+.form {
     background-color: #EAEEEF;
     width: 30%;
     border:none;
@@ -45,7 +45,7 @@ body{
     margin: 10px 0;
     text-align: center;
   }
-  
+
   .form input {
     background: transparent;
     border: none;
@@ -64,7 +64,7 @@ body{
     color: white;
     background-color: black;
 }
-  
+
   .form input[type="submit"] {
     background: black;
     border: none;
@@ -75,7 +75,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
   }
-  #login-boton  { 
+  #login-boton  {
     background: black;
     border: none;
     color: white;
@@ -85,7 +85,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
     width: 30%;
-  
+
 
   }
   .form p {
@@ -94,7 +94,7 @@ body{
     padding-top: 10px;
     font-family: 'roboto',sans-serif;
   }
-  
+
   .form a {
       text-align: center ;
     text-decoration: none;
@@ -206,7 +206,7 @@ section.informacion-encuentra h4,section.informacion-encuentra p{
 section.informacion-visual img{
     width:250px;
     height:250px;
-    
+
 }
 /*informacion-relacionada*/
 /*main*/
@@ -220,7 +220,7 @@ Div.cart{
 .productOrganization{
     display: flex;
     flex-direction:column ;
-    
+
 }
 #productDesc{
     display: flex;
@@ -231,7 +231,7 @@ Div.cart{
     flex-basis: auto;
 }
 .price{
-    flex-basis: auto; 
+    flex-basis: auto;
 }
 #productName{
     flex-basis: auto;
@@ -254,7 +254,7 @@ button.pago{
     border: none;
     border-radius: 5px;
     background-color: #cecaca;
-    
+
 }
 .total{
     background-color: #f4f2e9;
@@ -272,7 +272,7 @@ button.pago{
     padding: 6px 0;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;   
+    flex-direction: column;
 
 }
 .enlaces-generos,main div ul li a{
@@ -285,11 +285,11 @@ button.pago{
 .enlaces-generos li{
 
     margin: 0 auto;
-} 
+}
 .enlaces-generos button{
 
     border: none;
-} 
+}
 /*secciones*/
 .seccion{
     margin: 40px auto;
@@ -303,10 +303,10 @@ button.pago{
 }
 .novedades{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-  
+
 }
 .novedades article{
     text-align: center;
@@ -324,8 +324,8 @@ margin-top: 8px;
 }
 div.novedades article:hover .detalles{
    font-size: 14px;
-    transition: 
-    font-size,0.8s; 
+    transition:
+    font-size,0.8s;
     }
 .detalles{
     text-decoration: none;
@@ -353,7 +353,7 @@ div.footer-section a{
     list-style: none;
     text-decoration: none;
     padding-top: 20px;
-    
+
 }
 .footer-seccion{
     color: #181818;
@@ -391,7 +391,7 @@ margin: 8px auto;
         margin: 0 auto;
         position: relative;
         top: 8px;
-       
+
         }
 
      header  .buscador input{
@@ -404,7 +404,7 @@ margin: 8px auto;
          position: relative;
          top: -70px;
          left: 70px;
-         font-size: 14px; 
+         font-size: 14px;
          margin-top: 10px;
     }
 
@@ -423,7 +423,7 @@ margin: 8px auto;
         flex-wrap: wrap;
         margin: 0 auto;
     }
-    .informacion-lista{ 
+    .informacion-lista{
         width: 10%;
     }
     section.informacion-lista  ul li a{
@@ -437,7 +437,7 @@ margin: 8px auto;
         margin-top: 20px;
     }
     section.informacion-encuentra p{
-        margin-top: 0;    
+        margin-top: 0;
     }
     .informacion-visual{
 
@@ -466,7 +466,7 @@ margin: 8px auto;
         flex-direction: column;
     }
     .cart{
-        
+
         order: 1;
     }
     .total{
@@ -511,7 +511,7 @@ margin: 8px auto;
     }
     .price{
         font-size: 10px;
-         
+
     }
     #productName{
     margin-left: 1%;
@@ -570,7 +570,7 @@ margin: 8px auto;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        height: 40px;    
+        height: 40px;
         cursor: pointer;
     }
     #payDetails{
@@ -611,7 +611,7 @@ margin: 8px auto;
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 15px;
-          
+
     }
     #sinopsisDetails{
         display: none;
@@ -677,7 +677,7 @@ margin: 8px auto;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        height: 40px;    
+        height: 40px;
         cursor: pointer;
     }
     #payDetails{
@@ -718,7 +718,7 @@ margin: 8px auto;
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 15px;
-          
+
     }
     #sinopsisDetails{
         display: none;
@@ -730,7 +730,7 @@ margin: 8px auto;
         flex-direction: column;
     }
     .cart{
-        
+
         order: 1;
     }
     .total{
@@ -775,7 +775,7 @@ margin: 8px auto;
     }
     .price{
         font-size: 10px;
-         
+
     }
     #productName{
     margin-left: 1%;
@@ -787,24 +787,30 @@ margin: 8px auto;
     #login-boton {
         width: 90%;
     }
+
     .logo{
         height: 45px;
-        width: 45px;
+        width: 100%;
         margin: 0 auto;
         position: relative;
-        top: 3px;
-        right: 10px;
+        top: 3px;   
+        /* right: 10px; */ 
     }
+
+/* Buscador */
+
     .buscador{
-        width: 35%;
+        width: 45%;
         position: relative;
         top: 5px;
       }
 
      header  .buscador input{
-        font-size: 10px; 
+        font-size: 10px;
         width: 120px;
         height: 20px;
+
+
         }
         header  .buscador button{
             border-radius: 0px 10px 10px 0px;
@@ -813,24 +819,28 @@ margin: 8px auto;
             height: 20px;
             position: relative;
             top: 9px;
-            right: -1;
+            /* right: -1px; */
 
         }
     .enlaces{
      width: 40%;
+     /* padding: 0px 10px; */
     }
     .enlaces li{
+        width: 20%;
         margin-left: 10px;  
-        font-size: 14px; 
+        font-size: 13px;
     }
 
     .enlaces{
         margin-top: 0;
     }
+
+
     .generos{
 
         font-size: 12px;
-  
+
     }
     .img_producto{
         height: 200px !important;
@@ -848,17 +858,17 @@ margin: 8px auto;
         justify-content:space-between;
         position: relative;
         right: 0;
-        padding-bottom: 0;
+        padding:0px 4px;
     }
 .generos{
-    font-size: 12px; 
+    font-size: 12px;
     padding-top: 10px;
 }
     section.informacion-lista  ul li a{
         margin: 20px 0px 10px 0 ;
     }
 
-    
+
     .novedades article{
         width: 40%;
         margin: 30px auto 0 auto !important;
@@ -876,14 +886,14 @@ margin: 8px auto;
     section.informacion-visual img{
         width:200px;
         height:200px;
-        
+
     }
     .informacion-lista{
 
         width: 10%;
         margin: 8px auto  0 auto;
     }
-    
+
     .informacion-encuentra{
         width: 80%;
         margin: 0 auto;
@@ -909,12 +919,12 @@ margin: 8px auto;
     #productName{
         margin-top: 10px;
         margin-bottom: 15px;
-    
+
     }
     #cart-line{
         margin-left: 2%;
         margin-right: 2%;
-        
+
     }
     .img_cart{
         margin-top: 10px;
@@ -926,7 +936,7 @@ margin: 8px auto;
         margin-left: 2%;
         margin-bottom: 10px;
         padding-top: 20px;
-        
+
     }
     #Carrito{
         margin-top: 15px;
@@ -1038,7 +1048,7 @@ margin: 8px auto;
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 10px;
-        margin-left: 2%;   
+        margin-left: 2%;
     }
     #sinopsisDetails{
         margin-top: 80px;
@@ -1057,8 +1067,8 @@ margin: 8px auto;
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: justify;
-        
-    
+
+
     }
     .detailsMobile{
         display: none;
@@ -1077,7 +1087,7 @@ margin: 8px auto;
         margin: 0 auto;
         position: relative;
         top: 8px;
-       
+
         }
 
      header  .buscador input{
