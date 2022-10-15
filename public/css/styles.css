@@ -1003,42 +1003,48 @@ div.footer-section a{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     #productInfo{
         font-size: 20px;
     }
+
     .price{
         margin-left: 55%;
     }
+
     #productName{
         margin-top: 10px;
         margin-bottom: 15px;
-
     }
+
     #cart-line{
         margin-left: 2%;
         margin-right: 2%;
-
     }
+
     .img_cart{
         margin-top: 10px;
         margin-left: 50px;
         height: 150px;
         width: 100px;
     }
+
     #title_cart{
         margin-left: 2%;
         margin-bottom: 10px;
         padding-top: 20px;
-
     }
+
     #Carrito{
         margin-top: 15px;
         margin-left: 2%;
         margin-right: 2%;
     }
+
     h2#subtotalCarrito{
         margin-top: 50px;
     }
+
     button.pago{
         margin-left: 10%;
         margin-right: 10%;
@@ -1046,19 +1052,23 @@ div.footer-section a{
         width: 80%;
         height: 30px;
     }
+
     div.pago{
         padding-bottom: 30px;
     }
+
     .subtotal{
         padding-bottom: 30px;
         margin-top: 10px;
         margin-left: 80%;
     }
+
     .total{
         margin-top: 50px;
         margin-right: 1%;
         margin-bottom: 40px;
     }
+
     #productDetails{
         display: flex;
         flex-direction: column;
@@ -1066,26 +1076,31 @@ div.footer-section a{
         flex-wrap: wrap;
         margin-top: 40px;
     }
+
     .details{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between
     }
+
     #generalDetails{
         margin-left: 100px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
+
     #nameDetails{
         margin-top: 20px;
         flex-grow: 0.08;
     }
+
     #priceDetails{
         flex-grow: 0.02;
         margin-top: 20px;
     }
+
     #format{
         flex-grow: 1;
         display: flex;
@@ -1093,6 +1108,7 @@ div.footer-section a{
         flex-direction: row;
         margin-top: 10px;
     }
+
     #formatDetails{
         background-color:#f4f4f4;
         border: solid;
@@ -1103,10 +1119,12 @@ div.footer-section a{
         margin-right: 10px;
         cursor: pointer;
     }
+
     #payDetails{
         flex-grow: 0.2;
         align-self: flex-start;
     }
+
     #payButton1{
         background-color:#181818;
         border: none;
@@ -1117,6 +1135,7 @@ div.footer-section a{
         color: #ffffff;
         cursor: pointer;
     }
+
     #payButton2{
         background-color:#f4f4f4;
         border: solid;
@@ -1127,48 +1146,56 @@ div.footer-section a{
         margin-right: 10px;
         cursor: pointer;
     }
+
     #formatDetails:hover{
         background-color: #c4c4c4;
         border-color: #181818;
     }
+
     #payButton1:hover{
         background-color: #2a2a2a;
     }
+
     #payButton2:hover{
         background-color: #c4c4c4;
         border-color: #181818;
     }
+
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 10px;
         margin-left: 2%;
     }
+
     #sinopsisDetails{
         margin-top: 80px;
         margin-left: 20%;
         margin-right: 20%;
         margin-bottom: 40px;
     }
+
     div#sinopsis{
         border: solid;
         border-color: #c8c8c8;
         border-width: 1px;
     }
+
     #sinopsis{
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: justify;
-
-
     }
+
     .detailsMobile{
         display: none;
     }
+
     #sinopsisDetailsMobile{
         display: none;
     }
+
     .logo{
         height: 70px;
         width: 60%;
@@ -1176,19 +1203,19 @@ div.footer-section a{
         position: relative;
         top: 4px;
     }
+
     .buscador{
         width: 40%;
         margin: 0 auto;
         position: relative;
         top: 8px;
-
-        }
+    }
 
      header  .buscador input{
         margin-top: 5px;
         width: 80%;
         height: 30px;
-        }
+    }
 
     .enlaces{
          position: relative;
@@ -1196,12 +1223,15 @@ div.footer-section a{
          left: 0;
          font-size: 12px;
     }
+
     .enlaces li{
         width: auto;
     }
+
     .enlaces{
         margin-top: 10px;
     }
+
     .novedades{
         width: 100%;
     }
