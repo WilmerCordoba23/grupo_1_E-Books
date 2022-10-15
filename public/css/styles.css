@@ -392,6 +392,7 @@ div.footer-section a{
     text-align: center;
     padding: 10px 0;
 }
+
 /*footer*/
 
 @media (min-width: 0px) and (max-width: 389px) {
@@ -416,14 +417,13 @@ div.footer-section a{
         margin: 0 auto;
         position: relative;
         top: 8px;
-
-        }
+    }
 
      header  .buscador input{
-         margin-top: 5px;
+        margin-top: 5px;
         width: 300px;
         height: 30px;
-        }
+    }
 
     .enlaces{
          position: relative;
@@ -437,68 +437,82 @@ div.footer-section a{
         height: 100px;
         width: 80%;
     }
+
     .nav-bar{
         position: relative;
         left: 0;
     }
+
     body{
         font-size: 12px !important;
     }
+
     .informacion-relacionada{
         flex-wrap: wrap;
         margin: 0 auto;
     }
+
     .informacion-lista{
         width: 10%;
     }
+
     section.informacion-lista  ul li a{
         margin: 20px 0px 10px 0 ;
     }
+
     .informacion-encuentra{
         width: 70%;
         text-align: justify;
     }
+
     section.informacion-encuentra h4{
         margin-top: 20px;
     }
+
     section.informacion-encuentra p{
         margin-top: 0;
     }
-    .informacion-visual{
 
+    .informacion-visual{
         width: 100%;
         margin: 0 auto;
         text-align: center;
     }
+
     section.informacion-visual img{
         width:200px;
         height:200px;
     }
+
     header  .buscador input{
      width: 300px;
      height: 30px;
-
     }
+
     .novedades article{
         width: 40%;
         margin: 30px auto 0 auto !important;
     }
+
     .img_producto{
         height: 200px;
         width: 100%;
     }
+
     .products{
         flex-direction: column;
     }
-    .cart{
 
+    .cart{
         order: 1;
     }
+
     .total{
         margin-top: 15px;
         width: 100%;
         padding-bottom: 20px;
     }
+
     button.pago{
         margin-left: 5%;
         margin-right: 5%;
@@ -506,17 +520,21 @@ div.footer-section a{
         width: 90%;
         height: 30px;
     }
+
     h2#subtotalCarrito{
         margin-top: 15px;
     }
+
     #Carrito{
         background-color: #f4f2e9;
         margin-top: 10px;
         border: none;
     }
+
     #title_cart{
         display: none;
     }
+
     .img_cart{
         margin-top: 10px;
         margin-bottom: 10px;
@@ -524,33 +542,40 @@ div.footer-section a{
         height: 140px;
         width: 90px;
     }
+
     .subtotal{
         visibility: hidden;
     }
+
     #cart-line{
         display: none;
     }
+
     #productInfo{
         margin-left: 1%;
     font-size: 15px;
     }
+
     .price{
         font-size: 10px;
-
     }
+
     #productName{
     margin-left: 1%;
     font-size: 10px;
     }
+
     .details{
         display: none;
     }
+
     .detailsMobile{
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
     }
+
     #productDetails{
         display: flex;
         flex-direction: column;
@@ -558,12 +583,14 @@ div.footer-section a{
         flex-wrap: wrap;
         margin-top: 20px;
     }
+
     #viewDetails{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
+
     #imgDetails{
         align-self: center;
         margin-top: 15px;
@@ -571,17 +598,20 @@ div.footer-section a{
         height: 300px;
         margin-bottom: 15px;
     }
+
     #detailsLineMobile{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
+
     #detailsLineMobileFinal{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 30px;
     }
+
     #generalDetails{
         margin-top: 15px;
         align-self: stretch;
@@ -590,6 +620,7 @@ div.footer-section a{
         align-items: flex-start;
         margin-bottom: 15px;
     }
+
     #formatComboBox{
         background-color: #e2e2e2;
         width: 90%;
@@ -598,12 +629,14 @@ div.footer-section a{
         height: 40px;
         cursor: pointer;
     }
+
     #payDetails{
         margin-top: 15px;
         display: flex;
         flex-direction: column;
         align-self: stretch;
     }
+
     #payButton1{
         background-color:#181818;
         border: none;
@@ -615,6 +648,7 @@ div.footer-section a{
         color: #ffffff;
         cursor: pointer;
     }
+
     #payButton2{
         margin-top: 10px;
         background-color:#f4f4f4;
@@ -627,24 +661,28 @@ div.footer-section a{
         height: 40px;
         cursor: pointer;
     }
+
     #sinopsisDetailsMobile{
         margin-top: 30px;
         margin-left: 7%;
         margin-right: 7%;
         margin-bottom: 30px;
     }
+
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 15px;
-
     }
+
     #sinopsisDetails{
         display: none;
     }
+
     #sinopsis{
         text-align: justify;
     }
 }
+
 @media (min-width: 390px) and (max-width: 767px) {
     .form{
         width: 90%;
