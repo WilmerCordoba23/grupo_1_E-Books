@@ -105,7 +105,7 @@ body{
     list-style: none;
     text-decoration: none;
     position: relative;
-    top: 8px;
+    /* top: 8px; */
     color: #222222;
 }
 .enlaces li{
@@ -823,12 +823,13 @@ margin: 8px auto;
 
         }
     .enlaces{
-     width: 80%;
-     padding: 0px 10px;
-     margin: 8px 3px;
+     width: 100%;
+     padding: 0px 5px;
+     margin: 8px 4px;
+     
     }
     .enlaces li{
-        width: 20%;
+        width: 33.50%;
         display: flex;
          justify-content: center;
         font-size: 13px;
@@ -1080,7 +1081,7 @@ margin: 8px auto;
     }
     .logo{
         height: 70px;
-        width: 70px;
+        width: 35%;
         margin: 0 65px;
         position: relative;
         top: 4px;
@@ -1093,14 +1094,14 @@ margin: 8px auto;
         }
 
      header  .buscador input{
-         margin-top: 5px;
+        margin-top: 5px;
         width: 400px;
         height: 30px;
         }
 
     .enlaces{
          position: relative;
-         top: 5px;
+         top: 16px;
          left: 0;
          font-size: 12px;
     }
