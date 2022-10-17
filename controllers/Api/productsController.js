@@ -2,13 +2,6 @@ const db = require('../../database/models');
 const { producto } = require('../productsController');
 const sequelize = db.sequelize;
 
-const productscontroller = {
-   
-   
-    products:(req,res)=>{
-       
-        db.product.findAll()     
-        .then(productDB => {
         //Contador de Generos
         let countFantasia=0
         let countEconomia=0
@@ -27,6 +20,15 @@ const productscontroller = {
         //Idenficador de Generos y Categorias
         let genero
         let categoria
+
+const productscontroller = {
+   
+   
+    products:(req,res)=>{
+       
+        db.product.findAll()     
+        .then(productDB => {
+
         
         let totalproduct = productDB.length;     
         let products= productDB.map(product=>{
@@ -183,6 +185,49 @@ const productscontroller = {
         productsdetail:(req,res)=>{
         db.product.findOne({where:{id:req.params.id}})
         .then(productDB => {
+            if(productDB.genre_id==1){
+                genero="Fantasia"
+            }
+            if(productDB.genre_id==2){
+                genero="Economia"
+            }
+            if(productDB.genre_id==3){
+                genero="Literatura"
+            }
+            if(productDB.genre_id==4){
+                genero="Autoayuda"
+            }
+            if(productDB.genre_id==5){
+                genero="Accion"
+            }
+            if(productDB.genre_id==6){
+                genero="Liderazgo"
+            }
+            if(productDB.genre_id==7){
+                genero="Ficcion"
+            }
+            if(productDB.genre_id==8){
+                genero="Aventura"
+            }
+            if(productDB.genre_id==9){
+                genero="Romance"
+            }
+            if(productDB.genre_id==10){
+                genero="Drama"
+            }
+
+
+
+            if(productDB.category_id==1){
+                categoria="Mas Vendidos"
+            }
+            if(productDB.category_id==2){
+                categoria="Novedades"
+            }
+            if(productDB.category_id==3){
+                categoria="Recomendados"
+            }
+    
         
         if(productDB){
             res.status(200).json({
@@ -192,10 +237,10 @@ const productscontroller = {
                 price:productDB.price,
                 categoria:{
                     'name':categoria,
-                    'id':product.category_id},
+                    'id':productDB.category_id},
                 genero:{
                     'name':genero,
-                    'id':product.genre_id
+                    'id':productDB.genre_id
                 },
                 image:`https://grupo-1-e-books.herokuapp.com/images/products/${productDB.image}`,
                 "status":200,
