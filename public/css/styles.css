@@ -1,20 +1,23 @@
 *{
-    
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', 'Roboto', sans-serif;
     }
-    /*header*/
+
+ /*header*/
+
 header.home{
     background-color: #6AABD2;
 }
+
 body{
     color: #333333;
     background-color:#D9E4EC;
     font-size: 15px !important;
     line-height: 20px;
 }
+
 .alert-danger {
     color: #721c24;
     background-color: #f8d7da;
@@ -28,7 +31,8 @@ body{
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
-.form { 
+
+.form {
     background-color: #EAEEEF;
     width: 30%;
     border:none;
@@ -36,16 +40,18 @@ body{
     border-radius: 5px;
     margin-top: 3%;
   }
+
   .arriba
     {
         font-style: bold ;
         color: red;
     }
+
   .form h1 {
     margin: 10px 0;
     text-align: center;
   }
-  
+
   .form input {
     background: transparent;
     border: none;
@@ -64,7 +70,7 @@ body{
     color: white;
     background-color: black;
 }
-  
+
   .form input[type="submit"] {
     background: black;
     border: none;
@@ -75,7 +81,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
   }
-  #login-boton  { 
+  #login-boton  {
     background: black;
     border: none;
     color: white;
@@ -85,47 +91,50 @@ body{
     cursor: pointer;
     border-radius: 5px;
     width: 30%;
-  
-
   }
+
   .form p {
     margin-left: 5%;
     text-align: left;
     padding-top: 10px;
     font-family: 'roboto',sans-serif;
   }
-  
+
   .form a {
       text-align: center ;
     text-decoration: none;
     color: #222222  ;
   }
+
 .enlaces, nav ul li a{
     display: flex;
     list-style: none;
     text-decoration: none;
     position: relative;
-    top: 8px;
+    /* top: 8px; */
     color: #222222;
 }
 .enlaces li{
     margin-left: 20px;
     font-size: 15px;
 }
+
 .logo{
     height: 40px;
     width: 20%;
 }
+
 .logo-header{
     margin-top: 2%;
     height: 100px;
     width: 50%;
-
 }
+
 .logo-footer{
     height: 100px;
     width: 100%;
 }
+
 .nav-bar {
     font-size: 17px;
     display: flex;
@@ -136,6 +145,7 @@ body{
     right: 20px;
     padding-bottom: 10px;
 }
+
 header  .buscador input{
  width: 400px;
  height: 30px;
@@ -159,8 +169,10 @@ header  .buscador button{
     top: 8px;
     right: 4px;
 }
+
 /*header*/
 /*banner*/
+
 section.banner img{
     width: 100%;
 }
@@ -168,8 +180,10 @@ section.banner{
     width: 100%;
     background-color: #f4f2e9;
 }
+
 /*banner*/
 /*informacion-relacionada*/
+
 .informacion-relacionada{
     display: flex;
     flex-direction: row;
@@ -194,20 +208,20 @@ section.informacion-lista  ul li a{
 }
 
 section.informacion-encuentra h4,section.informacion-encuentra p{
-
     margin-top: 30px;
 }
-.informacion-visual{
 
+.informacion-visual{
     width: 30%;
     margin: 0 auto;
     text-align: center;
 }
+
 section.informacion-visual img{
     width:250px;
     height:250px;
-    
 }
+
 /*informacion-relacionada*/
 /*main*/
 
@@ -217,10 +231,10 @@ Div.cart{
     flex-grow: 1;
     flex-shrink: 1;
 }
+
 .productOrganization{
     display: flex;
     flex-direction:column ;
-    
 }
 #productDesc{
     display: flex;
@@ -230,10 +244,12 @@ Div.cart{
 #productInfo{
     flex-basis: auto;
 }
-.price{
-    flex-basis: auto; 
-}
+
 #productName{
+    flex-basis: auto;
+}
+
+.price{
     flex-basis: auto;
 }
 
@@ -254,27 +270,29 @@ button.pago{
     border: none;
     border-radius: 5px;
     background-color: #cecaca;
-    
 }
+
 .total{
     background-color: #f4f2e9;
     flex-grow: 1;
     flex-basis: auto;
 }
+
 .products{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .generos{
     background-color: #D9E4EC;
     color: #222222;
     padding: 6px 0;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;   
-
+    flex-direction: column;
 }
+
 .enlaces-generos,main div ul li a{
     display: flex;
     list-style: none;
@@ -282,15 +300,17 @@ button.pago{
     color: #222222;
     font-family: 'Lucida Bright',serif;
 }
+
 .enlaces-generos li{
-
     margin: 0 auto;
-} 
-.enlaces-generos button{
+}
 
+.enlaces-generos button{
     border: none;
-} 
+}
+
 /*secciones*/
+
 .seccion{
     margin: 40px auto;
 }
@@ -301,13 +321,14 @@ button.pago{
     font-family: 'Lucida Bright','optica';
     font-size: 25px;
 }
+
 .novedades{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-  
 }
+
 .novedades article{
     text-align: center;
     /* border: solid #ffffff; */
@@ -324,25 +345,29 @@ margin-top: 8px;
 }
 div.novedades article:hover .detalles{
    font-size: 14px;
-    transition: 
-    font-size,0.8s; 
+    transition:
+    font-size,0.8s;
     }
 .detalles{
     text-decoration: none;
     color: #333333;
     font-family: 'poynter','georgia', serif;
     }
+
 .img_producto{
     height: 300px;
     width:70%;
 }
+
 /*secciones*/
 /*main*/
 /*footer*/
+
 div.footer-section a{
     color: #181818;
     text-decoration: none;
 }
+
 .footer-section,div.footer-section li{
     margin:  auto;
     background-color: #6AABD2;
@@ -353,12 +378,12 @@ div.footer-section a{
     list-style: none;
     text-decoration: none;
     padding-top: 20px;
-    
 }
+
 .footer-seccion{
     color: #181818;
     display: block;
-margin: 8px auto;
+    margin: 8px auto;
 
 }
 .footer-copy{
@@ -367,6 +392,7 @@ margin: 8px auto;
     text-align: center;
     padding: 10px 0;
 }
+
 /*footer*/
 
 @media (min-width: 0px) and (max-width: 389px) {
@@ -391,20 +417,19 @@ margin: 8px auto;
         margin: 0 auto;
         position: relative;
         top: 8px;
-       
-        }
+    }
 
      header  .buscador input{
-         margin-top: 5px;
+        margin-top: 5px;
         width: 300px;
         height: 30px;
-        }
+    }
 
     .enlaces{
          position: relative;
          top: -70px;
          left: 70px;
-         font-size: 14px; 
+         font-size: 14px;
          margin-top: 10px;
     }
 
@@ -412,68 +437,82 @@ margin: 8px auto;
         height: 100px;
         width: 80%;
     }
+
     .nav-bar{
         position: relative;
         left: 0;
     }
+
     body{
         font-size: 12px !important;
     }
+
     .informacion-relacionada{
         flex-wrap: wrap;
         margin: 0 auto;
     }
-    .informacion-lista{ 
+
+    .informacion-lista{
         width: 10%;
     }
+
     section.informacion-lista  ul li a{
         margin: 20px 0px 10px 0 ;
     }
+
     .informacion-encuentra{
         width: 70%;
         text-align: justify;
     }
+
     section.informacion-encuentra h4{
         margin-top: 20px;
     }
-    section.informacion-encuentra p{
-        margin-top: 0;    
-    }
-    .informacion-visual{
 
+    section.informacion-encuentra p{
+        margin-top: 0;
+    }
+
+    .informacion-visual{
         width: 100%;
         margin: 0 auto;
         text-align: center;
     }
+
     section.informacion-visual img{
         width:200px;
         height:200px;
     }
+
     header  .buscador input{
      width: 300px;
      height: 30px;
-
     }
+
     .novedades article{
         width: 40%;
         margin: 30px auto 0 auto !important;
     }
+
     .img_producto{
         height: 200px;
         width: 100%;
     }
+
     .products{
         flex-direction: column;
     }
+
     .cart{
-        
         order: 1;
     }
+
     .total{
         margin-top: 15px;
         width: 100%;
         padding-bottom: 20px;
     }
+
     button.pago{
         margin-left: 5%;
         margin-right: 5%;
@@ -481,17 +520,21 @@ margin: 8px auto;
         width: 90%;
         height: 30px;
     }
+
     h2#subtotalCarrito{
         margin-top: 15px;
     }
+
     #Carrito{
         background-color: #f4f2e9;
         margin-top: 10px;
         border: none;
     }
+
     #title_cart{
         display: none;
     }
+
     .img_cart{
         margin-top: 10px;
         margin-bottom: 10px;
@@ -499,33 +542,40 @@ margin: 8px auto;
         height: 140px;
         width: 90px;
     }
+
     .subtotal{
         visibility: hidden;
     }
+
     #cart-line{
         display: none;
     }
+
     #productInfo{
         margin-left: 1%;
     font-size: 15px;
     }
+
     .price{
         font-size: 10px;
-         
     }
+
     #productName{
     margin-left: 1%;
     font-size: 10px;
     }
+
     .details{
         display: none;
     }
+
     .detailsMobile{
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
     }
+
     #productDetails{
         display: flex;
         flex-direction: column;
@@ -533,12 +583,14 @@ margin: 8px auto;
         flex-wrap: wrap;
         margin-top: 20px;
     }
+
     #viewDetails{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
+
     #imgDetails{
         align-self: center;
         margin-top: 15px;
@@ -546,17 +598,20 @@ margin: 8px auto;
         height: 300px;
         margin-bottom: 15px;
     }
+
     #detailsLineMobile{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
+
     #detailsLineMobileFinal{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 30px;
     }
+
     #generalDetails{
         margin-top: 15px;
         align-self: stretch;
@@ -565,20 +620,23 @@ margin: 8px auto;
         align-items: flex-start;
         margin-bottom: 15px;
     }
+
     #formatComboBox{
         background-color: #e2e2e2;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        height: 40px;    
+        height: 40px;
         cursor: pointer;
     }
+
     #payDetails{
         margin-top: 15px;
         display: flex;
         flex-direction: column;
         align-self: stretch;
     }
+
     #payButton1{
         background-color:#181818;
         border: none;
@@ -590,6 +648,7 @@ margin: 8px auto;
         color: #ffffff;
         cursor: pointer;
     }
+
     #payButton2{
         margin-top: 10px;
         background-color:#f4f4f4;
@@ -602,37 +661,45 @@ margin: 8px auto;
         height: 40px;
         cursor: pointer;
     }
+
     #sinopsisDetailsMobile{
         margin-top: 30px;
         margin-left: 7%;
         margin-right: 7%;
         margin-bottom: 30px;
     }
+
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 15px;
-          
     }
+
     #sinopsisDetails{
         display: none;
     }
+
     #sinopsis{
         text-align: justify;
     }
 }
+
 @media (min-width: 390px) and (max-width: 767px) {
+
     .form{
         width: 90%;
     }
+
     .details{
         display: none;
     }
+
     .detailsMobile{
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
     }
+
     #productDetails{
         display: flex;
         flex-direction: column;
@@ -640,12 +707,14 @@ margin: 8px auto;
         flex-wrap: wrap;
         margin-top: 20px;
     }
+
     #viewDetails{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
+
     #imgDetails{
         align-self: center;
         margin-top: 15px;
@@ -653,17 +722,20 @@ margin: 8px auto;
         height: 300px;
         margin-bottom: 15px;
     }
+
     #detailsLineMobile{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
+
     #detailsLineMobileFinal{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 30px;
     }
+
     #generalDetails{
         margin-top: 15px;
         align-self: stretch;
@@ -672,20 +744,23 @@ margin: 8px auto;
         align-items: flex-start;
         margin-bottom: 15px;
     }
+
     #formatComboBox{
         background-color: #e2e2e2;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        height: 40px;    
+        height: 40px;
         cursor: pointer;
     }
+
     #payDetails{
         margin-top: 15px;
         display: flex;
         flex-direction: column;
         align-self: stretch;
     }
+
     #payButton1{
         background-color:#181818;
         border: none;
@@ -697,6 +772,7 @@ margin: 8px auto;
         color: #ffffff;
         cursor: pointer;
     }
+
     #payButton2{
         margin-top: 10px;
         background-color:#f4f4f4;
@@ -709,35 +785,41 @@ margin: 8px auto;
         height: 40px;
         cursor: pointer;
     }
+
     #sinopsisDetailsMobile{
         margin-top: 30px;
         margin-left: 7%;
         margin-right: 7%;
         margin-bottom: 30px;
     }
+
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 15px;
-          
     }
+
     #sinopsisDetails{
         display: none;
     }
+
     #sinopsis{
         text-align: justify;
     }
+
     .products{
         flex-direction: column;
     }
+
     .cart{
-        
         order: 1;
     }
+
     .total{
         margin-top: 15px;
         width: 100%;
         padding-bottom: 20px;
     }
+
     button.pago{
         margin-left: 5%;
         margin-right: 5%;
@@ -745,17 +827,21 @@ margin: 8px auto;
         width: 90%;
         height: 30px;
     }
+
     h2#subtotalCarrito{
         margin-top: 15px;
     }
+
     #Carrito{
         background-color: #f4f2e9;
         margin-top: 10px;
         border: none;
     }
+
     #title_cart{
         display: none;
     }
+
     .img_cart{
         margin-top: 10px;
         margin-bottom: 10px;
@@ -763,83 +849,97 @@ margin: 8px auto;
         height: 140px;
         width: 90px;
     }
+
     .subtotal{
         visibility: hidden;
     }
+
     #cart-line{
         display: none;
     }
+
     #productInfo{
         margin-left: 1%;
     font-size: 15px;
     }
+
     .price{
         font-size: 10px;
-         
     }
+
     #productName{
     margin-left: 1%;
     font-size: 10px;
     }
+
     #login {
         width: 95%;
     }
+
     #login-boton {
         width: 90%;
     }
+
     .logo{
         height: 45px;
-        width: 45px;
+        width: 100%;
         margin: 0 auto;
-        position: relative;
-        top: 3px;
-        right: 10px;
     }
+
+/* Buscador */
+
     .buscador{
-        width: 35%;
+        width: 80%;
         position: relative;
         top: 5px;
       }
 
      header  .buscador input{
-        font-size: 10px; 
-        width: 120px;
-        height: 20px;
+        font-size: 10px;
+        width: 80%;
+        height: 30px;
         }
-        header  .buscador button{
-            border-radius: 0px 10px 10px 0px;
-            border: none;
-            background-color: #ffff;
-            height: 20px;
-            position: relative;
-            top: 9px;
-            right: -1;
 
+    header  .buscador button{
+        border-radius: 0px 10px 10px 0px;
+        border: none;
+        background-color: #ffff;
+        height: 30px;
+        position: relative;
+        top: 9px;
         }
+
     .enlaces{
-     width: 40%;
+     width: 100%;
+     padding: 0px 5px;
+     margin: 8px 4px;
     }
+
     .enlaces li{
-        margin-left: 10px;  
-        font-size: 14px; 
+        width: 33.50%;
+        display: flex;
+         justify-content: center;
+        font-size: 13px;
     }
-
+ 
     .enlaces{
-        margin-top: 0;
+        right: 0;
     }
-    .generos{
 
+    .generos{
         font-size: 12px;
-  
     }
+
     .img_producto{
         height: 200px !important;
         width: 100% !important;
     }
+
     .logo-footer{
         height: 100px;
         width: 80%;
     }
+
     .nav-bar {
         font-size: 12px;
         display: flex;
@@ -848,42 +948,44 @@ margin: 8px auto;
         justify-content:space-between;
         position: relative;
         right: 0;
-        padding-bottom: 0;
+        padding:4px;
     }
-.generos{
-    font-size: 12px; 
-    padding-top: 10px;
-}
+    
+    .generos{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
     section.informacion-lista  ul li a{
         margin: 20px 0px 10px 0 ;
     }
 
-    
     .novedades article{
         width: 40%;
         margin: 30px auto 0 auto !important;
     }
+
     .informacion-relacionada{
         flex-wrap: wrap;
         margin: 0 0;
     }
-    .informacion-visual{
 
+    .informacion-visual{
         width: 100%;
         margin: 0 auto;
         text-align: center;
     }
+
     section.informacion-visual img{
         width:200px;
         height:200px;
-        
     }
-    .informacion-lista{
 
+    .informacion-lista{
         width: 10%;
         margin: 8px auto  0 auto;
     }
-    
+
     .informacion-encuentra{
         width: 80%;
         margin: 0 auto;
@@ -891,6 +993,7 @@ margin: 8px auto;
         text-align: justify;
     }
 }
+
 @media (min-width: 768px){
 
     .cart{
@@ -900,42 +1003,48 @@ margin: 8px auto;
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     #productInfo{
         font-size: 20px;
     }
+
     .price{
         margin-left: 55%;
     }
+
     #productName{
         margin-top: 10px;
         margin-bottom: 15px;
-    
     }
+
     #cart-line{
         margin-left: 2%;
         margin-right: 2%;
-        
     }
+
     .img_cart{
         margin-top: 10px;
         margin-left: 50px;
         height: 150px;
         width: 100px;
     }
+
     #title_cart{
         margin-left: 2%;
         margin-bottom: 10px;
         padding-top: 20px;
-        
     }
+
     #Carrito{
         margin-top: 15px;
         margin-left: 2%;
         margin-right: 2%;
     }
+
     h2#subtotalCarrito{
         margin-top: 50px;
     }
+
     button.pago{
         margin-left: 10%;
         margin-right: 10%;
@@ -943,19 +1052,23 @@ margin: 8px auto;
         width: 80%;
         height: 30px;
     }
+
     div.pago{
         padding-bottom: 30px;
     }
+
     .subtotal{
         padding-bottom: 30px;
         margin-top: 10px;
         margin-left: 80%;
     }
+
     .total{
         margin-top: 50px;
         margin-right: 1%;
         margin-bottom: 40px;
     }
+
     #productDetails{
         display: flex;
         flex-direction: column;
@@ -963,26 +1076,31 @@ margin: 8px auto;
         flex-wrap: wrap;
         margin-top: 40px;
     }
+
     .details{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between
     }
+
     #generalDetails{
         margin-left: 100px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
+
     #nameDetails{
         margin-top: 20px;
         flex-grow: 0.08;
     }
+
     #priceDetails{
         flex-grow: 0.02;
         margin-top: 20px;
     }
+
     #format{
         flex-grow: 1;
         display: flex;
@@ -990,6 +1108,7 @@ margin: 8px auto;
         flex-direction: row;
         margin-top: 10px;
     }
+
     #formatDetails{
         background-color:#f4f4f4;
         border: solid;
@@ -1000,10 +1119,12 @@ margin: 8px auto;
         margin-right: 10px;
         cursor: pointer;
     }
+
     #payDetails{
         flex-grow: 0.2;
         align-self: flex-start;
     }
+
     #payButton1{
         background-color:#181818;
         border: none;
@@ -1014,6 +1135,7 @@ margin: 8px auto;
         color: #ffffff;
         cursor: pointer;
     }
+
     #payButton2{
         background-color:#f4f4f4;
         border: solid;
@@ -1024,77 +1146,92 @@ margin: 8px auto;
         margin-right: 10px;
         cursor: pointer;
     }
+
     #formatDetails:hover{
         background-color: #c4c4c4;
         border-color: #181818;
     }
+
     #payButton1:hover{
         background-color: #2a2a2a;
     }
+
     #payButton2:hover{
         background-color: #c4c4c4;
         border-color: #181818;
     }
+
     #sinopsisName{
         font-size: 25px;
         margin-bottom: 10px;
-        margin-left: 2%;   
+        margin-left: 2%;
     }
+
     #sinopsisDetails{
         margin-top: 80px;
         margin-left: 20%;
         margin-right: 20%;
         margin-bottom: 40px;
     }
+
     div#sinopsis{
         border: solid;
         border-color: #c8c8c8;
         border-width: 1px;
     }
+
     #sinopsis{
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: justify;
-        
-    
     }
+
     .detailsMobile{
         display: none;
     }
+
     #sinopsisDetailsMobile{
         display: none;
     }
+
     .logo{
         height: 70px;
-        width: 70px;
-        margin: 0 65px;
+        width: 60%;
+        margin: 0 25px;
         position: relative;
         top: 4px;
     }
+
     .buscador{
+        width: 40%;
         margin: 0 auto;
         position: relative;
         top: 8px;
-       
-        }
+    }
 
      header  .buscador input{
-         margin-top: 5px;
-        width: 400px;
+        margin-top: 5px;
+        width: 80%;
         height: 30px;
-        }
+    }
 
     .enlaces{
          position: relative;
-         top: 5px;
+         top: 16px;
          left: 0;
          font-size: 12px;
     }
+
+    .enlaces li{
+        width: auto;
+    }
+
     .enlaces{
         margin-top: 10px;
     }
+
     .novedades{
         width: 100%;
     }
