@@ -18,7 +18,7 @@
                   <input type="password" data-label="Contraseña" name="password" id="contraseña">
                  <br>
 
-                 <%if(locWals.errors) {
+                 <%if(locals.errors) {
                     errors.forEach(errors => {%>
                   <p class="arriba"><%=errors.msg%></p>
                   <% })

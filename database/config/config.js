@@ -1,4 +1,4 @@
-//deploy
+/* //deploy
 module.exports = {
   "development": {
     "username": "bfa00fb3ed90a8",
@@ -21,10 +21,10 @@ module.exports = {
     "host": "us-cdbr-east-06.cleardb.net",
     "dialect": "mysql"
   }
-}
+} */
 
 //local
-/* module.exports = {
+module.exports = {
   "development": {
     "username": "root",
     "password": '',
@@ -46,5 +46,5 @@ module.exports = {
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
-} */
+}
 

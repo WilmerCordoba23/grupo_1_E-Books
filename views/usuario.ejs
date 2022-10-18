@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head')%>
-<body>
-    <%- include('./partials/menu')%>
-    <main>
-        <%- include('./partials/genders')%>
-        
-           
+<%- include('./partials/head')%>
 
-        <section class="seccion">
-            <h4 class="titulo-seccion">
-                <%if(usuario){%>
+    <body>
+        <%- include('./partials/menu')%>
+            <main>
+                <%- include('./partials/genders')%>
 
-                             <p>Bienvenido a E-Books</p>
-                            <p>Hola <%=usuario.nombre%>  <%=usuario.apellido%></p>
-                            <p>Con email <%=usuario.Email%></p>
-                            <img src="./images/users/<%=usuario.imagen%>" alt="<%=usuario.nombre%>" width="200px" height="200px">
-                            
-                <%}%>
-            </h4>
-            <center>
-            <form action="/logOut" method="post"  class="form">
-                <label for="olvidar"><p>Olvidar usuario</p></label>
-                  <input type="checkbox" name="olvidar">
-                <input class="form Borrar " type="submit" value="Cerrar sesión">
-            </form>
-        </center>
-            <div  class="novedades">
 
-                    
 
-            </div>
-        </section>
-        
-    </main>
-    <%- include('./partials/footer')%>
-</body>
+                    <section class="seccion">
+                        
+                        <center>
+                            <%if(usuario){%>
+                                <div class="tarjeta">
+                                    <div class="titulo">Bienvenido a E-Books</div>
+                                    <div class="cuerpo">
+                                    <img src="./images/users/<%=usuario.imagen%>" alt="<%=usuario.nombre%>" width="200px"
+                                    height="200px" style="margin: 0 auto;"></div>
+                                    <div class="pie">
+                                        <p>Hola <%=usuario.nombre%> <%=usuario.apellido%></p>
+                                    
+                                    </div>
+                                    </div>
+
+                                <%}%>
+                        
+                        
+                            <form action="/logOut" method="post" class="form">
+                                <label for="olvidar">
+                                    <p>Olvidar usuario</p>
+                                </label>
+                                <input type="checkbox" name="olvidar">
+                                <input class="form Borrar " type="submit" value="Cerrar sesión">
+                            </form>
+                        </center>
+
+                    </section>
+
+            </main>
+            <%- include('./partials/footer')%>
+    </body>
+
 </html>

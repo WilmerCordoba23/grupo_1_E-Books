@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head')%>
-<body>
-    <%- include('./partials/menuParams')%>
+<%- include('./partials/head')%>
 
-    <main>
-        <%- include('./partials/genders')%>
+    <body>
+        <%- include('./partials/menuParams')%>
         
-        <section class="seccion">
-            <h4 class="titulo-seccion">Resultado de la busqueda:</h4>
+            <main>
+                <%- include('./partials/genders')%>
+                <%- include('./partials/banner')%>
+                    <section class="seccion">
+                        <h4 class="titulo-seccion">Resultado de la busqueda:</h4>
 
-            <div  class="novedades"> 
-                <% for (let i = 0; i < product.length; i++) { %>
-                    <article>
-                        <a href="/productDetail/<%=product[i].id%>" class="detalles">
-                             <img src="../images/products/<%=product[i].image%>" alt="<%=product[i].image%>" class="img_producto">                           
-                              <div>
-                                 <h5 class="descripcion"><%=product[i].title%></h5>
-                             </div>
-                        </a>
-                         </article>
-                         <br>
-                         <br>
-                 <% } %>
-                        <br>
-                        <br>            
-            </div>
-            
-        </section>
-      
-    </main>
-    <%- include('./partials/footer')%>
-</body>
+                        <% if(product.length === 0){ %>
+                            <h2 class="titulo-seccion">
+                                No se encuentra el libro buscado
+                            </h2>
+                            <% } %>
+
+                        <div class="novedades">
+                            
+                                    <% for (let i=0; i < product.length; i++) { %>
+                                        <article>
+                                            <a href="/productDetail/<%=product[i].id%>" class="detalles">
+                                                <img src="../images/products/<%=product[i].image%>"
+                                                    alt="<%=product[i].image%>" class="img_producto">
+                                                <div>
+                                                    <h5 class="descripcion">
+                                                        <%=product[i].title%>
+                                                    </h5>
+                                                </div>
+                                            </a>
+                                        </article>
+                                        <br>
+                                        <br>
+                                        <% } %>
+                                            <br>
+                                            <br>
+                        </div>
+
+                    </section>
+
+            </main>
+            <%- include('./partials/footer')%>
+    </body>
+
 </html>

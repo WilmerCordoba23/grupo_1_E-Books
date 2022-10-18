@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <%- include('./partials/head')%>
-<body>
-    <%- include('./partials/menu')%>
-
-<center>
-        <main>
+    <body>
+        <%- include('./partials/menuParams')%>
+            <main>
+                <%- include('./partials/genders')%>
+                <center>
             <div class="alert alert-danger" hidden id="errorsDiv"></div>
 
             <form action="/products" class="form" method="post" enctype="multipart/form-data" id="UserForm" >

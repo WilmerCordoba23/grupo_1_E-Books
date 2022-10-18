@@ -8,7 +8,9 @@ const Op = sequelize.Op;
 const { validationResult } = require('express-validator');
 const { Association } = require('sequelize');
 
-//falta arreglar el problema de las imagenes
+const aleatorio = (array) => {
+    array.sort(()=> Math.random() - 0.5);
+}
 
 const productscontroller = {
     index: (req, res) => {
@@ -48,8 +50,9 @@ const productscontroller = {
                 all: true,
                 nested: true}] })
         .then(products=>{
+            aleatorio(products);
             res.render("productCart",{products})
-            console.log(products)
+            console.log(products);
         })
         
     },

@@ -16,6 +16,9 @@ body{
     background-color:#D9E4EC;
     font-size: 15px !important;
     line-height: 20px;
+    position: relative;
+    padding-bottom: 16em;
+    min-height: 100vh;
 }
 
 .alert-danger {
@@ -379,11 +382,16 @@ div.footer-section a{
     text-decoration: none;
     padding-top: 20px;
 }
-
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 .footer-seccion{
     color: #181818;
     display: block;
     margin: 8px auto;
+    
 
 }
 .footer-copy{
@@ -1235,4 +1243,41 @@ div.footer-section a{
     .novedades{
         width: 100%;
     }
+}
+
+.tarjeta{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width:420px;
+border: 1px solid lightgray;
+box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+
+font-family: sans-serif;
+}
+.titulo{
+font-size: 24px;
+padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+padding: 10px;
+}
+.pie{
+background: #6699ff;
+
+padding: 10px;
+text-align:center;
+}
+.pie p{
+text-decoration: none;
+color: white;
+}
+.pie p:after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+content: ""
 }
