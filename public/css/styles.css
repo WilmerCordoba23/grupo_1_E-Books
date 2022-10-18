@@ -404,6 +404,9 @@ footer{
 /*footer*/
 
 @media (min-width: 0px) and (max-width: 389px) {
+    .tarjeta{
+        width:220px !important;
+    }
     .form{
         width: 90%;
     }
@@ -453,6 +456,9 @@ footer{
 
     body{
         font-size: 12px !important;
+
+        padding-bottom: 30em !important;
+   
     }
 
     .informacion-relacionada{
@@ -692,6 +698,15 @@ footer{
 }
 
 @media (min-width: 390px) and (max-width: 767px) {
+    .tarjeta{
+        width:360px !important;
+    }
+    body{
+        font-size: 12px !important;
+
+        padding-bottom: 28em !important;
+
+    }
 
     .form{
         width: 90%;
@@ -1271,13 +1286,4 @@ text-align:center;
 .pie p{
 text-decoration: none;
 color: white;
-}
-.pie p:after {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-z-index: 1;
-content: ""
 }
