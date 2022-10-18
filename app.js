@@ -9,17 +9,9 @@ const methodOverride =  require('method-override');
 const session = require('express-session');
 const cookieparser = require('cookie-parser');
 const morgan = require('morgan')
+const cors = require('cors');
 
-//Cors Configuration - Start
-app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*")
-    res.header("Access-Control-Allow-Credentials", true)
-    res.header("Access-Control-Allow-Headers","Origin, X-Requested, Content-Type, Accept Authorization")
-    res.header("Access-Control-Allow-Methods","POST, PUT, PATCH, GET, DELETE")
-      
-    next()
-  })
-  //Cors Configuration - End
+app.use(cors());
 
 app.use(morgan('dev'));
 
