@@ -138,28 +138,26 @@ const productscontroller = {
                         }
                     }
 
-                    let totalcategory = [
-                        {Masvendidos: { name: "Mas vendidos", total: countmasVendidos }},
-                       { Novedades: { name: "Novedades", total: countnovedades }},
-                        {Recomendados: { name: "Recomendados", total: countrecomendados }}
-                        ]
+                    let totalcategory = {
+                        Masvendidos: { name: "Mas vendidos", total: countmasVendidos },
+                        Novedades: { name: "Novedades", total: countnovedades },
+                        Recomendados: { name: "Recomendados", total: countrecomendados }
 
-                    
+                    }
 
 
-                    let totalgender = [
-                        
-                        {Fantasia: { name: "Fantasia", total: countFantasia }},
-                        {Economia: { name: "Economia", total: countEconomia }},
-                        {Literatura: { name: "Literatura", total: countLiteratura }},
-                        {Autoayuda: { name: "Autoayuda", total: countAutoayuda }},
-                        {Accion: { name: "Accion", total: countAccion }},
-                        {Liderazgo: { name: "Liderazgo", total: countLiderazgo }},
-                        {Ficcion: { name: "Ficcion", total: countFiccion }},
-                        {Aventura: { name: "Aventura", total: countAventura }},
-                        {Romance: { name: "Romance", total: countRomance }},
-                        {Drama: { name: "Drama", total: countDrama }}
-                    ]
+                    let totalgender = {
+                        Fantasia: { name: "Fantasia", total: countFantasia },
+                        Economia: { name: "Economia", total: countEconomia },
+                        Literatura: { name: "Literatura", total: countLiteratura },
+                        Autoayuda: { name: "Autoayuda", total: countAutoayuda },
+                        Accion: { name: "Accion", total: countAccion },
+                        Liderazgo: { name: "Liderazgo", total: countLiderazgo },
+                        Ficcion: { name: "Ficcion", total: countFiccion },
+                        Aventura: { name: "Aventura", total: countAventura },
+                        Romance: { name: "Romance", total: countRomance },
+                        Drama: { name: "Drama", total: countDrama }
+                    }
 
 
 
