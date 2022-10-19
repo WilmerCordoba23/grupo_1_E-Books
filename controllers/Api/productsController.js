@@ -2,32 +2,33 @@ const db = require('../../database/models');
 const { producto } = require('../productsController');
 const sequelize = db.sequelize;
 
-//Contador de Generos
-let countFantasia = 0
-let countEconomia = 0
-let countLiteratura = 0
-let countAutoayuda = 0
-let countAccion = 0
-let countLiderazgo = 0
-let countFiccion = 0
-let countAventura = 0
-let countRomance = 0
-let countDrama = 0
-//Contador de Categorias
-let masVendidos = 0
-let novedades = 0
-let recomendados = 0
-//Idenficador de Generos y Categorias
-let genero
-let categoria
+
 
 const productscontroller = {
 
 
     products: async (req, res) => {
+        //Contador de Generos
+        let countFantasia = 0
+        let countEconomia = 0
+        let countLiteratura = 0
+        let countAutoayuda = 0
+        let countAccion = 0
+        let countLiderazgo = 0
+        let countFiccion = 0
+        let countAventura = 0
+        let countRomance = 0
+        let countDrama = 0
+        //Contador de Categorias
+        let countmasVendidos = 0
+        let countnovedades = 0
+        let countrecomendados = 0
+        //Idenficador de Generos y Categorias
+        let genero
+        let categoria
 
         try {
-            await db.product.findAll()
+            await db.product.findAll({ include: { all: true, nested: true } })
                 .then(productDB => {
 
 
@@ -76,8 +77,6 @@ const productscontroller = {
                         if (product.category_id == 3) {
                             categoria = "Recomendados"
                         }
-
-
 
                         return {
                             id: product.id,
@@ -129,34 +128,35 @@ const productscontroller = {
 
                     for (let i = 0; i < productDB.length; i++) {
                         if (productDB[i].category_id == 1) {
-                            masVendidos++
+                            countmasVendidos++
                         }
                         if (productDB[i].category_id == 2) {
-                            novedades++
+                            countnovedades++
                         }
                         if (productDB[i].category_id == 3) {
-                            recomendados++
+                            countrecomendados++
                         }
                     }
 
                     let totalcategory = {
-                        'Mas vendidos': masVendidos,
-                        'Novedades': novedades,
-                        'Recomendados': recomendados
+                        Masvendidos: { name: "Mas vendidos", total: countmasVendidos },
+                        Novedades: { name: "Novedades", total: countnovedades },
+                        Recomendados: { name: "Recomendados", total: countrecomendados }
+
                     }
 
 
                     let totalgender = {
-                        "Fantasia": countFantasia,
-                        "Economia": countEconomia,
-                        "Literatura": countLiteratura,
-                        "Autoayuda": countAutoayuda,
-                        "Accion": countAccion,
-                        "Liderazgo": countLiderazgo,
-                        "Ficcion": countFiccion,
-                        "Aventura": countAventura,
-                        "Romance": countRomance,
-                        "Drama": countDrama
+                        Fantasia: { name: "Fantasia", total: countFantasia },
+                        Economia: { name: "Economia", total: countEconomia },
+                        Literatura: { name: "Literatura", total: countLiteratura },
+                        Autoayuda: { name: "Autoayuda", total: countAutoayuda },
+                        Accion: { name: "Accion", total: countAccion },
+                        Liderazgo: { name: "Liderazgo", total: countLiderazgo },
+                        Ficcion: { name: "Ficcion", total: countFiccion },
+                        Aventura: { name: "Aventura", total: countAventura },
+                        Romance: { name: "Romance", total: countRomance },
+                        Drama: { name: "Drama", total: countDrama }
                     }
 
 
@@ -185,51 +185,8 @@ const productscontroller = {
     },
     productsdetail: async (req, res) => {
         try {
-            await db.product.findOne({ where: { id: req.params.id } })
+            await db.product.findOne({ include: { all: true, nested: true }, where: { id: req.params.id } })
                 .then(productDB => {
-                    if (productDB.genre_id == 1) {
-                        genero = "Fantasia"
-                    }
-                    if (productDB.genre_id == 2) {
-                        genero = "Economia"
-                    }
-                    if (productDB.genre_id == 3) {
-                        genero = "Literatura"
-                    }
-                    if (productDB.genre_id == 4) {
-                        genero = "Autoayuda"
-                    }
-                    if (productDB.genre_id == 5) {
-                        genero = "Accion"
-                    }
-                    if (productDB.genre_id == 6) {
-                        genero = "Liderazgo"
-                    }
-                    if (productDB.genre_id == 7) {
-                        genero = "Ficcion"
-                    }
-                    if (productDB.genre_id == 8) {
-                        genero = "Aventura"
-                    }
-                    if (productDB.genre_id == 9) {
-                        genero = "Romance"
-                    }
-                    if (productDB.genre_id == 10) {
-                        genero = "Drama"
-                    }
-
-
-
-                    if (productDB.category_id == 1) {
-                        categoria = "Mas Vendidos"
-                    }
-                    if (productDB.category_id == 2) {
-                        categoria = "Novedades"
-                    }
-                    if (productDB.category_id == 3) {
-                        categoria = "Recomendados"
-                    }
-
 
                     if (productDB) {
                         res.status(200).json({
@@ -238,12 +195,12 @@ const productscontroller = {
                             description: productDB.description,
                             price: productDB.price,
                             categoria: {
-                                'name': categoria,
-                                'id': productDB.category_id
+                                'name': productDB.category.name,
+                                'id': productDB.category.id
                             },
                             genero: {
-                                'name': genero,
-                                'id': productDB.genre_id
+                                'name': productDB.genre.name,
+                                'id': productDB.genre.id
                             },
                             image: `https://grupo-1-e-books.herokuapp.com/images/products/${productDB.image}`,
                             "status": 200,
