@@ -14,7 +14,8 @@
                  <input type="text" name="name" id="name" data-label="Nombre" placeholder="Introduce el nombre" value="<%= locals.old && old.name ? old.name : '' %>">
                  <br>
                  <label for="description"><p>Introduce la descripcion</p></label>
-                 <input type="description" id="description" data-label="Descripcion" name="description" value="<%= locals.old && old.description ? old.description : '' %>">
+                 <textarea name="description" id="description" cols="30" rows="10" data-label="Descripcion" value="<%= locals.old && old.description ? old.description : '' %>" placeholder="Escribe aqui tu Descripcion(Sinopsis)."></textarea>
+                   <!-- <input type="description" id="description" data-label="Descripcion" name="description" value=""> -->
                 <br>
                 <label for="image"><p>Introduce la portada</p></label>
                 <input type="file" id="image" data-label="Imagen" name="image">

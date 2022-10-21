@@ -66,6 +66,18 @@ body{
     margin-right: 5%;
 }
 
+.form textarea{
+    background: transparent;
+    border: none;
+    border: 2px solid #c4c4c4;
+    border-radius: 4px;
+    /* outline: none; */
+    padding: 7px 8px 3px 5px;
+    /* border-radius: 3px; */
+    width: 85%;
+    margin-right: 5%;
+}
+
 .borrar{
     transition: background-color 300ms;
 }
@@ -293,7 +305,7 @@ button.pago{
 
 .generos{
     width: 100%;
-    background-color: #F4F2E9;
+    background-color: #EAEEEF;
     color: #222222;
     padding: 0px 0;
     display: flex;
@@ -305,12 +317,12 @@ button.pago{
     display: flex;
     list-style: none;
     text-decoration: none;
-    background-color: #f4f2e9;
+    /* background-color: #EAEEEF ; #f4f2e9 */
     padding: 1px 0;
     color: #222222;
     font-family: 'Lucida Bright',serif;
     font-size: 12pt;
-    margin: 1.5px 0px;
+    margin: 2px 0px;
 }
 
 .enlaces-generos li{
@@ -339,7 +351,6 @@ button.pago{
     background-color:#F2F2F2  ;
     padding: 10px;
     font-family: 'Lucida Bright','optica';
-    /* font-size: 25px; */
     /* border: 2px solid black; */
     border-radius: 10px 10px 3px 3px;
 
@@ -366,10 +377,17 @@ margin: 0 auto;
 margin-top: 8px;
 /* background-color: white; */
 }
+
+div.novedades article:hover .img_producto {
+    transition-duration: 0.8s;
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+}
+
+/* div.novedades {overflow:hidden;} */
+
 div.novedades article:hover .detalles{
    font-size: 14px;
-    transition:
-    font-size,0.8s;
+    transition:0.8s;
     }
 .detalles{
     text-decoration: none;

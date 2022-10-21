@@ -16,7 +16,9 @@
                  <input type="text" name="name" id="name" data-label="Nombre" value="<%= product.title %>">
                  <br>
                  <label for="description"><p>Introduce la nueva descripcion de producto</p></label>
-                 <input type="description" id="description" data-label="Descripcion" name="description" value="<%= product.description %>">
+                 <textarea name="description" id="description" cols="30" rows="10" data-label="Descripcion" value="<%= locals.old && old.description ? old.description : '' %>" placeholder="Escribe aqui tu Descripcion(Sinopsis)."></textarea>
+
+                 <!-- <input type="description" id="description" data-label="Descripcion" name="description" value=""> -->
                 <br>
                 <label for="gender"><p>introduce el genero</p></label>
                 <select id="gender" name="gender" data-label="Genero">
