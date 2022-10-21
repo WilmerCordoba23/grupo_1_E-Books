@@ -1,59 +1,66 @@
-                                                                                                              <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head')%>
-<body>
+<%- include('./partials/head')%>
 
-	<%- include('./partials/menu')%>
+    <body>
 
-	<main>
+        <%- include('./partials/menu')%>
+        <%- include('./partials/genders')%>
 
-    
-      <div class="products">
-        <div class="cart">
-            <div>
-                <h1 id="title_cart">Carrito</h1>
-            </div>
-            <hr id="cart-line" color="#c8c8c8" size="1px" >                       
-           <div class="productOrganization">
-                <% for (let i = 0; i < 4; i++) { %>
-                    <div id="Carrito">
-                        <div id="productDesc">
-                            <div>
-                                <img src="images/products/<%=products[i].image%>" alt="<%=products[i].image%>" class="img_cart">
-                            </div>
-                            <div>
-                                <div id="productName">
-                                    <h2>
-                                        <%=products[i].title%>
-                                    </h2>
+            <main>
+
+
+                <div class="products">
+                    <div class="cart">
+                        <div>
+                            <h1 id="title_cart">Carrito</h1>
+                        </div>
+                        <hr id="cart-line" color="#c8c8c8" size="1px">
+                        <div class="productOrganization">
+                            <% for (let i=0; i < 4; i++) { %>
+                                <div id="Carrito">
+                                    <div id="productDesc">
+                                        <div>
+                                            <img src="images/products/<%=products[i].image%>"
+                                                alt="<%=products[i].image%>" class="img_cart">
+                                        </div>
+                                        <div>
+                                            <div id="productName">
+                                                <h2>
+                                                    <%=products[i].title%>
+                                                </h2>
+                                            </div>
+                                            <div id="productInfo">
+                                                <p>Categoria: <%=products[i].category.name%>
+                                                </p>
+                                                <p>Genero: <%=products[i].genre.name%>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <h1>$<%=products[i].price%>
+                                            </h1>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div id="productInfo">
-                                    <p>Categoria: <%=products[i].category.name%></p>
-                                    <p>Genero: <%=products[i].genre.name%></p>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <h1>$<%=products[i].price%></h1>
-                            </div>
+                                <% } %>
+                        </div>
+
+
+                        <div class="subtotal">
+                            <h2>Subtotal (4 productos):$196.16</h2>
                         </div>
                     </div>
-                <% } %>
-           </div>  
 
+                    <div class="total">
+                        <h2 id="subtotalCarrito">Subtotal (4 productos):$196.16</h2>
+                        <div class="pago"><button class="pago">Proceder al pago</button></div>
+                    </div>
+                </div>
+            </main>
 
-            <div class="subtotal">
-                <h2 >Subtotal (4 productos):$196.16</h2>
-            </div>
-        </div>
+            <%- include('./partials/footer')%>
 
-        <div class="total">
-            <h2 id="subtotalCarrito">Subtotal (4 productos):$196.16</h2>
-             <div class="pago" ><button class="pago">Proceder al pago</button></div>
-        </div>
-       </div>
-	</main>
+    </body>
 
-	<%- include('./partials/footer')%>
-
-</body>
 </html>

@@ -9,23 +9,14 @@ const productscontroller = {
 
     products: async (req, res) => {
         //Contador de Generos
-        let countFantasia = 0
-        let countEconomia = 0
-        let countLiteratura = 0
-        let countAutoayuda = 0
-        let countAccion = 0
-        let countLiderazgo = 0
-        let countFiccion = 0
-        let countAventura = 0
-        let countRomance = 0
-        let countDrama = 0
+        let countFantasia = 0; let countEconomia = 0; let countLiteratura = 0; let countAutoayuda = 0;
+        let countAccion = 0; let countLiderazgo = 0; let countFiccion = 0; let countAventura = 0;
+        let countRomance = 0; let countDrama = 0;
         //Contador de Categorias
-        let countmasVendidos = 0
-        let countnovedades = 0
-        let countrecomendados = 0
+        let countmasVendidos = 0; let countnovedades = 0; let countrecomendados = 0;
         //Idenficador de Generos y Categorias
-        let genero
-        let categoria
+        let genero; let categoria;
+         
 
         try {
             await db.product.findAll({ include: { all: true, nested: true } })
@@ -65,9 +56,6 @@ const productscontroller = {
                         if (product.genre_id == 10) {
                             genero = "Drama"
                         }
-
-
-
                         if (product.category_id == 1) {
                             categoria = "Mas Vendidos"
                         }

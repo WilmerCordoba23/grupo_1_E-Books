@@ -290,7 +290,7 @@ button.pago{
 .generos{
     background-color: #D9E4EC;
     color: #222222;
-    padding: 6px 0;
+    padding: 0px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -300,6 +300,8 @@ button.pago{
     display: flex;
     list-style: none;
     text-decoration: none;
+    background-color: #f4f2e9;
+    padding: 1px 0;
     color: #222222;
     font-family: 'Lucida Bright',serif;
 }
@@ -380,7 +382,7 @@ div.footer-section a{
     flex-direction: row;
     list-style: none;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 footer{
     position: absolute;
@@ -390,7 +392,7 @@ footer{
 .footer-seccion{
     color: #181818;
     display: block;
-    margin: 8px auto;
+    margin: 2px auto;
     
 
 }
