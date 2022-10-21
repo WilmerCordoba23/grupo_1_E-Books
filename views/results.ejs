@@ -9,7 +9,7 @@
                 <%- include('./partials/genders')%>
                 <%- include('./partials/banner')%>
                     <section class="seccion">
-                        <h4 class="titulo-seccion">Resultado de la busqueda:</h4>
+                        <h2 class="titulo-seccion">Resultado de la busqueda:</h2>
 
                         <% if(product.length === 0){ %>
                             <h2 class="titulo-seccion">
@@ -25,9 +25,9 @@
                                                 <img src="../images/products/<%=product[i].image%>"
                                                     alt="<%=product[i].image%>" class="img_producto">
                                                 <div>
-                                                    <h5 class="descripcion">
+                                                    <h4 class="descripcion">
                                                         <%=product[i].title%>
-                                                    </h5>
+                                                    </h4>
                                                 </div>
                                             </a>
                                         </article>

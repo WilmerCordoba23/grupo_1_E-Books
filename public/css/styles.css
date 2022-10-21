@@ -152,7 +152,7 @@ body{
 header  .buscador input{
  width: 400px;
  height: 30px;
- border-radius: 10px 0px 0px 10px;
+ border-radius: 7px 0px 0px 7px;
  border: none;
  background-color: #ffff;
  position: relative;
@@ -163,18 +163,20 @@ header  .buscador a{
     color: #222222;
    }
 header  .buscador button{
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 7px 7px 0px;
     border: none;
     background-color: #ffff;
     height: 30px;
     width: 30px;
     position: relative;
     top: 8px;
-    right: 4px;
+    right: 5px;
 }
 
 /*header*/
 /*banner*/
+
+
 
 section.banner img{
     width: 100%;
@@ -208,10 +210,12 @@ section.informacion-lista  ul li a{
 .informacion-encuentra{
     width: 50%;
     margin: 0 auto;
+    
 }
 
 section.informacion-encuentra h4,section.informacion-encuentra p{
     margin-top: 30px;
+    font-size: 15px;
 }
 
 .informacion-visual{
@@ -288,7 +292,8 @@ button.pago{
 }
 
 .generos{
-    background-color: #D9E4EC;
+    width: 100%;
+    background-color: #F4F2E9;
     color: #222222;
     padding: 6px 0;
     display: flex;
@@ -302,6 +307,8 @@ button.pago{
     text-decoration: none;
     color: #222222;
     font-family: 'Lucida Bright',serif;
+    font-size: 12pt;
+    margin: 1.5px 0px;
 }
 
 .enlaces-generos li{
@@ -310,19 +317,30 @@ button.pago{
 
 .enlaces-generos button{
     border: none;
+    background: none;
+    cursor: pointer;
 }
 
 /*secciones*/
 
 .seccion{
     margin: 40px auto;
+    padding-bottom:2%;
+    background-color:  #ebeff3  ;
+    margin: 3% 7%;
+    border-radius: 10px 10px 3px 3px;
 }
 .titulo-seccion{
+    margin-top: 0px;
     text-align: center;
     margin-bottom: 20px;
-    /* background-color: white; */
+    background-color:#F2F2F2  ;
+    padding: 10px;
     font-family: 'Lucida Bright','optica';
-    font-size: 25px;
+    /* font-size: 25px; */
+    /* border: 2px solid black; */
+    border-radius: 10px 10px 3px 3px;
+
 }
 
 .novedades{
@@ -439,10 +457,16 @@ footer{
     .enlaces{
          position: relative;
          top: -70px;
-         left: 70px;
+         left: 85px;
          font-size: 14px;
          margin-top: 10px;
     }
+
+    .enlaces-generos, main div ul li a{
+        font-size: 10pt;
+        margin: 2.1px 6.8px;
+    }
+
 
     .logo-footer{
         height: 100px;
@@ -485,6 +509,7 @@ footer{
 
     section.informacion-encuentra p{
         margin-top: 0;
+        font-size: 12px;
     }
 
     .informacion-visual{
@@ -941,16 +966,12 @@ footer{
     .enlaces li{
         width: 33.50%;
         display: flex;
-         justify-content: center;
+        justify-content: center;
         font-size: 13px;
     }
  
     .enlaces{
         right: 0;
-    }
-
-    .generos{
-        font-size: 12px;
     }
 
     .img_producto{
@@ -976,7 +997,11 @@ footer{
     
     .generos{
         font-size: 12px;
-        padding-top: 10px;
+        margin: 1.5px 0px;
+    }
+    .enlaces-generos, main div ul li a{
+        font-size: 10pt;
+        margin: 1.5px 9.5px;
     }
 
     section.informacion-lista  ul li a{
