@@ -2,7 +2,7 @@
 <html lang="en">
     <%- include('./partials/head')%>
 <body>
-    <%- include('./partials/menu')%>
+    <%- include('./partials/menuParams')%>
         <main>
             <%- include('./partials/genders')%>
             <center>
@@ -16,7 +16,7 @@
                  <input type="text" name="name" id="name" data-label="Nombre" value="<%= product.title %>">
                  <br>
                  <label for="description"><p>Introduce la nueva descripcion de producto</p></label>
-                 <textarea name="description" id="description" cols="30" rows="10" data-label="Descripcion" value="<%= locals.old && old.description ? old.description : '' %>" placeholder="Escribe aqui tu Descripcion(Sinopsis)."></textarea>
+                 <textarea name="description" id="description" cols="30" rows="10"  data-label="Descripcion" value="<%= product.description %>" placeholder="Escribe aqui tu Descripcion(Sinopsis)."><%= product.description %></textarea>
 
                  <!-- <input type="description" id="description" data-label="Descripcion" name="description" value=""> -->
                 <br>
@@ -74,7 +74,7 @@
 
     </center>
    
-    <%- include('./partials/footer')%>
+    <%- include('./partials/footerParams')%>
 
 </body>
 <script src="/js/formValidator.js"></script>
