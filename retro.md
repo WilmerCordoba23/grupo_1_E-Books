@@ -16,6 +16,6 @@ Empezar a hacer:
 Dejar de hacer:
 -Ser menos confiados.
 
-Todos estamos de acuerdo que mejoramos mucho, teniando en cuenta como iniciamos desde el primer sprint ;)
+Todos estamos de acuerdo que mejoramos mucho, teniando en cuenta como iniciamos desde el primer sprint.
 
 
