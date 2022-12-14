@@ -78,7 +78,7 @@ const productscontroller = {
                                 'name': genero,
                                 'id': product.genre_id
                             },
-                            detail: `https://grupo-1-e-books.herokuapp.com/api/products/${product.id}`
+                            detail: `https://e-books.onrender.com/api/products/${product.id}`
                         }
                     });
                     for (let i = 0; i < productDB.length; i++) {
@@ -190,7 +190,7 @@ const productscontroller = {
                                 'name': productDB.genre.name,
                                 'id': productDB.genre.id
                             },
-                            image: `https://grupo-1-e-books.herokuapp.com/images/products/${productDB.image}`,
+                            image: `https://e-books.onrender.com/images/products/${productDB.image}`,
                             "status": 200,
                             "msg": "ok",
                             "endpoint": `/api/products/${productDB.id}`

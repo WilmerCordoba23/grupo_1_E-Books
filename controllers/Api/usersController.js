@@ -20,7 +20,7 @@ const userscontroller = {
                         first_name: user.first_name,
                         last_name: user.last_name,
                         email: user.email,
-                        detail: `https://grupo-1-e-books.herokuapp.com/api/user/${user.id}`
+                        detail: `https://e-books.onrender.com/api/user/${user.id}`
                     }
                 })
 
@@ -57,7 +57,7 @@ const userscontroller = {
                         first_name: userDB.first_name,
                         last_name: userDB.last_name,
                         email: userDB.email,
-                        image: `https://grupo-1-e-books.herokuapp.com/images/users/${userDB.image}`,
+                        image: `https://e-books.onrender.com/images/users/${userDB.image}`,
                         "status": 200,
                         "msg": "ok",
                         "endpoint": `/api/users/${userDB.id}`
