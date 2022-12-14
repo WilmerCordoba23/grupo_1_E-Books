@@ -31,24 +31,6 @@ insert into genres ( name) values ('Drama');
 
 
 
-insert into format (name) values ('Digital');
-insert into format (name) values ('Tapa Dura');
-insert into format (name) values ('Tapa Blanda');
-
-
-
-
-insert into purchase (active) values (1);
-insert into purchase (active) values (0);
-insert into purchase (active) values (0);
-insert into purchase (active) values (1);
-insert into purchase (active) values (0);
-insert into purchase (active) values (1);
-insert into purchase (active) values (1);
-insert into purchase (active) values (0);
-insert into purchase (active) values (0);
-insert into purchase (active) values (1);
-
 insert into product (title, price, description, image, genre_id, category_id) values ('El Camino de Los Reyes', 21.05, 'Anhelo los días previos a la Última Desolación. Los días en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aún había magia en el mundo y honor en el corazón de los hombres. El mundo fue nuestro, pero lo perdimos. Probablemente no hay nada más estimulante para las almas de los hombres que la victoria. ¿O tal vez fue la victoria una ilusión durante todo ese tiempo? ¿Comprendieron nuestros enemigos que cuanto más duramente luchaban, más resistíamos nosotros? Quizá vieron que el fuego y el martillo tan solo producían mejores espadas. Pero ignoraron el acero durante el tiempo suficiente para oxidarse. Hay cuatro personas a las que observamos. La primera es el médico, quien dejó de curar para convertirse en soldado durante la guerra más brutal de nuestro tiempo. La segunda es el asesino, un homicida que llora siempre que mata. La tercera es la mentirosa, una joven que viste un manto de erudita sobre un corazón de ladrona. Por último está el alto príncipe, un guerrero que mira al pasado mientras languidece su sed de guerra. El mundo puede cambiar. La potenciación y el uso de las esquirlas pueden aparecer de nuevo, la magia de los días pasados puede volver a ser nuestra. Esas cuatro personas son la clave. Una de ellas nos redimirá. Y una de ellas nos destruirá.', 'Way_of_Kings.jpg', 1, 3);
 insert into product (title, price, description, image, genre_id, category_id) values ('Palabras Radiantes', 50.46, 'Los Caballeros Radiantes deben volver a alzarse. Los antiguos juramentos por fin se han pronunciado. Los hombres buscan lo que se perdió. Temo que la búsqueda los destruya. Es la naturaleza de la magia. Un alma rota tiene grietas donde puede colarse algo más. Las potencias, los poderes de la creación misma, pueden abrazar un alma rota, pero también pueden ampliar sus fisuras. El Corredor del Viento está perdido en una tierra quebrada, en equilibro entre la venganza y el honor. La Tejedora de Luz, lentamente consumida por su pasado, busca la mentira en la que debe convertirse. El Forjador de Vínculos, nacido en la sangre y la muerte, se esfuerza ahora por reconstruir lo que fue destruido. La Exploradora, a caballo entre los destinos de dos pueblos, se ve obligada a elegir entre una muerte lenta y una terrible traición a todo en lo que cree. Ya es hora de despertarlos, pues acecha la eterna tormenta. Y el asesino ha llegado.', 'Palabras radiantes.jpg', 1, 3);
 insert into product (title, price, description, image, genre_id, category_id) values ('Juramentada', 56.47, 'La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada. Entretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización.', 'Juramentada.jpg', 1, 3);
@@ -63,24 +45,7 @@ insert into product (title, price, description, image, genre_id, category_id) va
 insert into product (title, price, description, image, genre_id, category_id) values ('La Psicología del Dinero',25,'En cuestiones de dinero, lo que importa no es lo listo que seas sino cómo te comportas. Tendemos a pensar en la inversión o la gestión de las finanzas personales como una disciplina matemática, en la que los datos y las fórmulas nos dicen exactamente qué hacer. Sin embargo, el rasgo que define a las personas que logran enriquecerse no es su destreza con los números, ni su salario o su talento, sino su historia personal, sus motivaciones y su visión única del mundo.Un genio que pierde el control de sus emociones puede ser un desastre financiero. Y lo mismo vale en caso contrario: gente de a pie sin formación en finanzas puede enriquecerse si cuenta con unos cuantos patrones de comportamiento. Esto, impensable en otras disciplinas como la arquitectura o la medicina, es fundamental en el campo de las finanzas.Este libro, llamado a convertirse en un clásico de las finanzas personales, nos provee del conocimiento esencial para entender la psicología del dinero y nos invita a hacernos una pregunta fundamental que raramente nos hacemos, cuál es nuestra relación con el dinero y qué queremos realmente de él.A partir de 18 claves imperecederas, Morgan Housel nos enseña cómo funciona la psicología del dinero y cuáles son los hábitos y conductas que nos ayudarán no solo a generar riqueza, sino, más importante aún, a conservarla.  «Un libro imprescindible para cualquiera que quiera tomar decisiones más inteligentes y vivir una vida más rica.» Daniel Pink, autor de La sorprendente verdad sobre qué nos motiva«Ideas fascinantes y consejos prácticos. Cualquiera que quiera hacerse rico debería tener una copia de este libro.» James Clear, autor de Hábitos atómicos«Uno de los mejores y más originales libros de finanzas de los últimos años.» Jason Zweig, Wall Street Journal«Housel es de esos escritores capaces de hacer digeribles conceptos financieros de lo más complejos. Este es un libro que se devora de principio a fin y que no solo nos explica por qué tomamos malas decisiones con respecto al dinero, sino que nos ayudará a tomar mejores.» Annie Duke, autora de Thinking in BetsLa riqueza no es fruto de nuestra inteligencia, talento o trabajo. Es fruto de nuestro comportamiento.','psicologia del dinero.jpg',4,3);
 insert into product (title, price, description, image, genre_id, category_id) values ('Hermanos de Sangre',44,'Cuenta todos los detalles sobre el asesinato de Carlos Castaño Gil, máximo comandante de las autodefensas colombianas. Fueron 11 años la búsqueda de la persona que apretó el gatillo aquel abril 2004 Manuel Salvador Ospina Cifuentes, la persona que le pone fin a la existencia de Carlos Castaño. Tras casi cuatro de décadas de fidelidad y servicio por parte de Ospina al jefe de las AUC ¿quién se iba a imaginar que este jornalero de una finca iba a convertirse en el asesiso de su comandante? Hermanos de Sangre entreteje las historias paralelas (reconstruidas mediante la reportería, la entrevista y la crónica realizadas por el periodista y abogado (Toño) Sánchez Jr.)','hermanos de sangre.jpg',8,2);
 
-
-insert into product_format (product_id, format_id) values (1, 2);
-insert into product_format (product_id, format_id) values (2, 2);
-insert into product_format (product_id, format_id) values (3, 2);
-insert into product_format (product_id, format_id) values (4, 2);
-insert into product_format (product_id, format_id) values (5, 2);
-insert into product_format (product_id, format_id) values (5, 3);
-insert into product_format (product_id, format_id) values (2, 1);
-insert into product_format (product_id, format_id) values (6, 3);
-insert into product_format (product_id, format_id) values (7, 3);
-insert into product_format (product_id, format_id) values (8, 3);
-insert into product_format (product_id, format_id) values (9, 3);
-
-
-select * from format;
 select * from category;
 select * from genres;
 select * from product;
-select * from product_format;
-select * from purchase;
 select * from user;
