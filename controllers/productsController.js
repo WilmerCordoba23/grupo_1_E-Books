@@ -32,6 +32,10 @@ const productscontroller = {
             })
     },
     productDetail: (req, res) => {
+        let admin =false;
+         if(req.session.Email != undefined){
+            admin= true
+        }
         db.product.findByPk(
             req.params.id,{
                 include : [{
@@ -39,9 +43,10 @@ const productscontroller = {
                     nested: true}] })
         
             .then(product => {
-                res.render('productDetail.ejs', {product});
+                res.render('productDetail.ejs', {product,admin});
                 console.log(product)
             });
+        
     },
     productCart:(req,res)=>{
         

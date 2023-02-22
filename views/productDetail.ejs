@@ -22,6 +22,9 @@
                         <button id="formatDetails">Tapa dura</button>
                         <button id="formatDetails">Tapa Blanda</button>
                         <button id="formatDetails">Digital</button>
+                        <%if(admin==true){%>
+                            <a href="/productModify/<%=product.id%>"><button id="payButton2">Modificar Libro</button></a>
+                        <%}%>
                     </div>
                     <div id="payDetails">
                         <button id="payButton1">Añadir al Carrito</button>
