@@ -41,7 +41,7 @@ body{
     border:none;
     padding: 25px 12px;
     border-radius: 5px;
-    margin-top: 3%;
+    margin-top: 5%;
   }
 
   .arriba
@@ -145,10 +145,6 @@ body{
     width: 50%;
 }
 
-.logo-footer{
-    height: 100px;
-    width: 100%;
-}
 
 .nav-bar {
     font-size: 17px;
@@ -420,7 +416,6 @@ footer{
     color: #181818;
     display: block;
     margin: 2px auto;
-    
 
 }
 .footer-copy{
@@ -478,11 +473,6 @@ footer{
         margin: 2.1px 6.8px;
     }
 
-
-    .logo-footer{
-        height: 100px;
-        width: 80%;
-    }
 
     .nav-bar{
         position: relative;
@@ -990,10 +980,7 @@ footer{
         width: 85% !important;
     }
 
-    .logo-footer{
-        height: 100px;
-        width: 80%;
-    }
+
 
     .nav-bar {
         font-size: 12px;
@@ -1322,4 +1309,12 @@ text-align:center;
 .pie p{
 text-decoration: none;
 color: white;
+}
+.checkbox{
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 0 !important;
+        width: 20px !important;
+        margin-right: 0 !important;
 }

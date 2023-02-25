@@ -20,8 +20,8 @@
                                     height="200px" style="margin: 0 auto;"></div>
                                     <div class="pie">
                                         <p>Hola <%=usuario.nombre%> <%=usuario.apellido%></p>
-                                        <p><a href="/productRegister">Crear nuevo libro</a></p>
-                                        <p><a href="https://e-books-dashboard.vercel.app/">IR al Dashboard</a></p>
+                                        <p><a href="/productRegister" style="color: white; ">Crear nuevo libro</a></p>
+                                        <p><a href="https://e-books-dashboard.vercel.app/" style="color: white; ">IR al Dashboard</a></p>
                                         
                                     </div>
                                     </div>
@@ -31,9 +31,9 @@
                         
                             <form action="/logOut" method="post" class="form">
                                 <label for="olvidar">
-                                    <p>Olvidar usuario</p>
+                                    <p>Olvidar usuario <input type="checkbox" name="olvidar" class="checkbox"></p>
                                 </label>
-                                <input type="checkbox" name="olvidar">
+                                
                                 <input class="form Borrar " type="submit" value="Cerrar sesión">
                             </form>
                         </center>

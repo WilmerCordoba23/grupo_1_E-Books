@@ -12,10 +12,10 @@
             <form action="/loginUsers" method="post" id="UserForm" class="form">
                  <h1>Iniciar sesion</h1>
                    <label for="usuario"><p>Correo electronico</p></label>
-                   <input type="text" name="usuario" id="usuario" data-label="Correo" value="<%=locals.old && old.usuario ? old.usuario: '' %>">
+                   <input type="text" name="usuario" id="usuario" data-label="Correo" value="<%=usuario? usuario: '' %>">
                  <br>
                   <label for="password"><p>Contraseña</p></label>
-                  <input type="password" data-label="Contraseña" name="password" id="contraseña">
+                  <input type="password" data-label="Contraseña" name="password" id="contraseña" value="<%=contraseña? contraseña: '' %>">
                  <br>
 
                  <%if(locals.errors) {
@@ -30,8 +30,8 @@
 
                   <div class="alert alert-danger" hidden id="errorsDiv"></div>
 
-                    <label for="recordame"><p>Recordar usuario</p></label>
-                    <input type="checkbox" name="recordame">
+                    <label for="recordame"><p>Recordar usuario <input type="checkbox" name="recordame" class="checkbox"></p></label>
+                    
                   <br>
                     <input type="submit" value="Continuar">
                   <br>   

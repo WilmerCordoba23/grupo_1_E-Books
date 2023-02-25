@@ -102,8 +102,8 @@ const userscontroller = {
                             req.session.imagen = imagen
                             //cookie recordar usuario
                             if(req.body.recordame != undefined){
-                                res.cookie("usuario",email,{maxAge:100000})
-                                res.cookie("contraseña",req.body.password,{maxAge:100000})  
+                                res.cookie("usuario",email,{maxAge:null})
+                                res.cookie("contraseña",req.body.password,{maxAge:null})  
                            }
                         res.redirect('/usuario')
                            //console.log
@@ -138,15 +138,18 @@ const userscontroller = {
     login:(req,res)=>{
         let incorrecto
         if(req.session.Email == undefined){
-            res.render("login",{incorrecto})
+            let contraseña =req.cookies.contraseña;
+            let usuario = req.cookies.usuario;
+        if(req.cookies.contraseña != undefined && req.cookies.usuario != undefined){
+            res.render("login",{incorrecto, contraseña, usuario})
+        } else{
+            res.render("login",{incorrecto,contraseña, usuario})
+        }
+            
         }
         if(req.session.Email != undefined){
             res.redirect("/usuario")
         }
-        if(req.cookies.contraseña != undefined && req.cookies.usuario != undefined){
-            console.log(req.cookies.contraseña)
-            console.log(req.cookies.usuario)
-        } 
     },
 
 }
