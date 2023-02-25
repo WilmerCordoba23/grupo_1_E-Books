@@ -70,6 +70,8 @@ const productscontroller = {
                             id: product.id,
                             name: product.title,
                             description: product.description,
+                            price: product.price,
+                            image: product.image,
                             categoria: {
                                 'name': categoria,
                                 'id': product.category_id
