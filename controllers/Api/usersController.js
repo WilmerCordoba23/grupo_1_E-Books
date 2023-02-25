@@ -36,7 +36,7 @@ const userscontroller = {
             }
 
         } catch (error) {
-            console.log(error);
+            //console.log(error);
             res.status(500).json({ 'msg': '500 - Ha ocurrido un error interno' });
 
         }
@@ -67,7 +67,7 @@ const userscontroller = {
             }
 
         } catch (error) {
-            console.log(error);
+            //console.log(error);
             res.status(500).json({ 'msg': '500 - Ha ocurrido un error interno' });
 
         }

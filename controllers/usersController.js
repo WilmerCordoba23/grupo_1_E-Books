@@ -46,7 +46,7 @@ const userscontroller = {
             imagen: req.session.imagen
         }
         res.render("usuario",{usuario})
-        console.log(usuario)
+        //console.log(usuario)
         }
     },
     logOut:(req,res) => {
@@ -62,7 +62,7 @@ const userscontroller = {
     },
     CheckUsers:(req,res)=>{
         let errors=validationResult(req)
-        console.log(errors)
+        //console.log(errors)
         //res.send({errors})
         if(errors.isEmpty()){
             db.user.findAll({
@@ -75,7 +75,6 @@ const userscontroller = {
                 let email,usuario,apellido,password,imagen;
 
                    // console.log(user)
-                    console.log(user)
                     user.forEach(user => {
                         //let validator=bcrypt.compareSync(req.body.password, user.password)
                         contraseña=user.password
@@ -118,7 +117,7 @@ const userscontroller = {
                    
         }).catch(errors => {
             res.render("login")
-            console.log(errors)
+            //console.log(errors)
 
             })
 

@@ -399,18 +399,14 @@ div.novedades article:hover  {
 /*main*/
 /*footer*/
 
-div.footer-section a{
-    color: #181818;
-    text-decoration: none;
-}
 
-.footer-section,div.footer-section li{
+
+.footer-section{
     margin:  auto;
     background-color: #6AABD2;
     color: #181818;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
     list-style: none;
     text-decoration: none;
     padding-top: 10px;

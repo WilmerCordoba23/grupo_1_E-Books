@@ -85,9 +85,9 @@ const usersController={
                 let encriptedPassword = users[i].Contraseña;
                 let contraseña = req.body.password;
                 let validator= bcrypt.compareSync(contraseña, encriptedPassword)  
-            console.log(encriptedPassword)
-            console.log(contraseña)
-            console.log(validator)
+            //console.log(encriptedPassword)
+            //console.log(contraseña)
+            //console.log(validator)
                 if(users[i].Email == req.body.usuario ){
 
                     if(validator == true)
@@ -132,7 +132,7 @@ const usersController={
             //console.log(errors.array()) //vista de los errores
 
         
-            console.log(req.body.usuario," ",req.body.password) //Vista de los datos ingresados
+            //console.log(req.body.usuario," ",req.body.password) //Vista de los datos ingresados
         
 
     },
@@ -149,7 +149,7 @@ const usersController={
             imagen: req.session.imagen
         }
         res.render("usuario",{usuario})
-        console.log(usuario)
+        //console.log(usuario)
         }
     },
     logOut:(req,res) => {

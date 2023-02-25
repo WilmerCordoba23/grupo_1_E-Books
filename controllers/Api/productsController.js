@@ -70,6 +70,8 @@ const productscontroller = {
                             id: product.id,
                             name: product.title,
                             description: product.description,
+                            price: product.price,
+                            image: product.image,
                             categoria: {
                                 'name': categoria,
                                 'id': product.category_id
@@ -165,7 +167,7 @@ const productscontroller = {
                     }
                 })
         } catch (error) {
-            console.log(error);
+            //console.log(error);
             res.status(500).json({ 'msg': '500 - Ha ocurrido un error interno' });
 
         }
@@ -204,7 +206,7 @@ const productscontroller = {
                     })
                 })
         } catch (error) {
-            console.log(error);
+            //console.log(error);
             res.status(500).json({ 'msg': '500 - Ha ocurrido un error interno' });
 
         }

@@ -44,28 +44,20 @@ const productscontroller = {
         
             .then(product => {
                 res.render('productDetail.ejs', {product,admin});
-                console.log(product)
+                //console.log(product)
             });
         
     },
     productCart:(req,res)=>{
         
-        db.product.findAll({
-            include : [{
-                all: true,
-                nested: true}] })
-        .then(products=>{
-            aleatorio(products);
-            res.render("productCart",{products})
-            console.log(products);
-        })
-        
+        res.render("productCart")
+
     },
     Createproducts: (req,res) =>{ /* Guardado min 31:50  sino funciona es probable que sea porque en el playground tiene el function*/
     let genres =db.genre.findAll();
     let categorys=db.category.findAll();
     let products=db.product.findAll({include: { all: true,nested: true}});     
-    console.log(products)
+    //console.log(products)
     let imagen = "";
     let errors=validationResult(req)
         
@@ -82,7 +74,7 @@ const productscontroller = {
         if (req.file != undefined) {
             imagen=req.file.filename;
         }
-        console.log(imagen)
+        //console.log(imagen)
         db.product.create({
                 title: req.body.name,
                 description: req.body.description,
@@ -93,15 +85,7 @@ const productscontroller = {
                 price: req.body.price
             })
             res.redirect('/')  
-            console.log({
-                title: req.body.name,
-                description: req.body.description,
-                image: imagen,
-                genre_id: req.body.gender,
-                category_id: req.body.category,
-                /* format_id: req.body.format, */
-                price: req.body.price
-            })
+        
     }
     
     },
@@ -144,7 +128,7 @@ const productscontroller = {
             }})
         .then(product => {
             res.render('productModify.ejs', {product,errors:errors.array(), old:req.body})
-            console.log(product);
+            //console.log(product);
         })   
         }
         else
@@ -203,8 +187,12 @@ const productscontroller = {
                 res.render('resultsgender.ejs', { product })
             })
     },
-    
-    
+    pago: (req, res) => { 
+        res.send("vista de pago")
+    },
+    pagocorreo: (req, res) => { 
+        res.send(req.body)
+    },
             
 
 

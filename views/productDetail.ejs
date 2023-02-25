@@ -27,8 +27,8 @@
                         <%}%>
                     </div>
                     <div id="payDetails">
-                        <button id="payButton1">Añadir al Carrito</button>
-                        <button id="payButton2">Comprar ahora</button>
+                        <button id="payButton1" value="<%=product.id%>" name="<%=product.title%>">Añadir al Carrito</button>
+                        <button id="payButton2"><a href="https://e-books.onrender.com/productCart" style="color:black; text-decoration-line: none;">Comprar ahora</a></button>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                             </select>
                         <div id="payDetails">
                             <button id="payButton1">Añadir al Carrito</button>
-                            <button id="payButton2">Comprar ahora</button>
+                            <button id="payButton2"><a href="https://e-books.onrender.com/productCart" style="color:black; text-decoration-line: none;">Comprar ahora</a></button>
                         </div>
                     </div>
                 <hr id="detailsLineMobile">
@@ -98,3 +98,6 @@
     </footer>
 </body>
 </html>
+<script src="/js/carrito.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="sweetalert2.all.min.js"></script>
