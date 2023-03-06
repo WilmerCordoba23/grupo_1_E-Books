@@ -6,7 +6,13 @@
     }
 
  /*header*/
-
+#background-user{
+    background-image: url("/images/background-users.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
 header.home{
     background-color: #6AABD2;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <%- include('./partials/head')%>
 
-    <body>
+    <body id="background-user">
         <%- include('./partials/menu')%>
             <main>
                 <%- include('./partials/genders')%>
@@ -13,6 +13,7 @@
                         
                         <center>
                             <%if(usuario){%>
+                                <div style="height: 60px;"></div>
                                 <div class="tarjeta">
                                     <div class="titulo">Bienvenido a E-Books</div>
                                     <div class="cuerpo">
