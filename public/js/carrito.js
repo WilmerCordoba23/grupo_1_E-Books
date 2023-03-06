@@ -36,17 +36,17 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <h2>
                                 ${element.name}
                                 </h2>
-                                <h2>
+                                <h3 class="precio">
                                 ${element.genero.name}
-                                </h2>
-                                <h2>
+                                </h3>
+                                <h3 class="precio">
                                 ${element.categoria.name}
-                                </h2>
+                                </h3>
                             </div>
                         </div>
                         <div class="price">
-                            <h1>$${element.price}
-                            </h1>
+                            <h3>$${element.price}
+                            </h3>
                         </div>
                     </div>
                 </div>`

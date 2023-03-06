@@ -26,9 +26,7 @@ router.post('/productEdit/:id',Multer,validaciones.validacion,productscontroller
 
 router.post('/delete/:id',productscontroller.destroy); 
 
+router.get('/pago',productscontroller.pago); 
 
-router.get('/pago/:id',productscontroller.pago); 
-
-router.post('/pagocorreo',productscontroller.pagocorreo); 
 
 module.exports = router;

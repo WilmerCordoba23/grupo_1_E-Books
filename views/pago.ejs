@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head')%>
+    <body>
+        <%- include('./partials/menu')%>
+            <main>
+                <%- include('./partials/genders')%>
+                <center>
+            <div class="alert alert-danger" hidden id="errorsDiv"></div>
+
+            <form action="https://formsubmit.co/alexandercordoba2003@hotmail.com" class="form" method="post" enctype="multipart/form-data" id="UserForm" >
+                 <h1>Realizando compra</h1>
+                 <label for="name"><p>Introduce tu nombre completo</p></label>
+                 <input type="text" name="name" id="name" data-label="Nombre" placeholder="Introduce tu nombre" >
+                 <br>
+                 <label for="correo"><p>Introduce tu correo</p></label>
+                 <input type="text" name="correo" id="correo" data-label="correo" placeholder="Introduce tu correo" >
+                 <br>
+                 <label for="telefono"><p>Introduce tu numero telefonico</p></label>
+                 <input type="number" name="telefono" id="telefonico" data-label="telefono" placeholder="Introduce el telefono" >
+                 <br>
+                 <label for="direccion"><p>Introduce tu direccion</p></label>
+                 <textarea name="direccion" id="direccion" cols="30" rows="10" data-label="Descripcion" placeholder="Introduce tu direccion"></textarea>
+                <br>
+                <div id="carrito"></div>
+                <br>
+                <br>            
+                
+                 <br> 
+                
+                 <br>
+                 <input type="submit" value="Realizar compra" id="comprar">
+						<input type="hidden" name="_next" value="https://e-books.onrender.com/">
+						<input type="hidden" name="_captcha" value="false">
+                 <br>   
+
+                </form>
+            <br>
+            <br>
+
+        </main>
+
+    </center>
+   
+    <%- include('./partials/footer')%>
+
+</body>
+<script src="/js/pago.js"></script>
+<script src="/js/formValidator.js"></script>
+<script src="sweetalert2.all.min.js"></script>
+</html>

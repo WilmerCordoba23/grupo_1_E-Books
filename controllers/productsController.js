@@ -188,12 +188,8 @@ const productscontroller = {
             })
     },
     pago: (req, res) => { 
-        res.send("vista de pago")
-    },
-    pagocorreo: (req, res) => { 
-        res.send(req.body)
-    },
-            
+        res.render('pago.ejs')
+    }
 
 
 

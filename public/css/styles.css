@@ -192,6 +192,10 @@ p.mensaje {
 h4.descripcion {
     font-size: 20px;
 }
+h4.precio {
+    margin-top: 10px;
+    font-size: 16px ;
+}
 section.banner img{
     width: 100%;
 }
