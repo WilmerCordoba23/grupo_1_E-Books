@@ -7,7 +7,7 @@
 
  /*header*/
 #background-user{
-    background-image: url("/images/background-users.jpg");
+    background-image: url("/images/backgroundUsers.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -70,6 +70,9 @@ body{
     /* border-radius: 3px; */
     width: 85%;
     margin-right: 5%;
+}
+#formUser{
+    margin-top: 12px !important;
 }
 
 .form textarea{
@@ -946,7 +949,7 @@ footer{
 
 @media (min-width: 390px) and (max-width: 767px) {
     .tarjeta{
-        width:360px !important;
+        width:320px !important;
     }
     body{
         font-size: 14px !important;
@@ -1286,8 +1289,11 @@ footer{
 
 }
 
-@media (min-width: 768px){
+@media (min-width: 767px) and (max-width:1079px){
 
+    #seccionUser{
+        margin: 3% 7%;
+    }
     .cart{
         background-color: #f4f2e9;
         margin-left: 1%;
@@ -1563,4 +1569,248 @@ color: white;
         padding: 0 !important;
         width: 20px !important;
         margin-right: 0 !important;
+}
+@media (min-width:1079px){
+    #seccionUser{
+        margin: 3% 25%;
+    }
+    .cart{
+        background-color: #f4f2e9;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #productInfo{
+        font-size: 20px;
+    }
+
+    .price{
+        margin-left: 55%;
+    }
+
+    #productName{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #cart-line{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .img_cart{
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 150px;
+        width: 100px;
+    }
+
+    #title_cart{
+        margin-left: 2%;
+        margin-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    #Carrito{
+        margin-top: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    h2#subtotalCarrito{
+        margin-top: 50px;
+    }
+
+    button.pago{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+        width: 80%;
+        height: 30px;
+    }
+
+    div.pago{
+        padding-bottom: 30px;
+    }
+
+    .subtotal{
+        padding-bottom: 30px;
+        margin-top: 10px;
+        margin-left: 80%;
+    }
+
+    .total{
+        margin-top: 50px;
+        margin-right: 1%;
+        margin-bottom: 40px;
+    }
+
+    #productDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between
+    }
+
+    #generalDetails{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #nameDetails{
+        margin-top: 20px;
+        flex-grow: 0.08;
+    }
+
+    #priceDetails{
+        flex-grow: 0.02;
+        margin-top: 20px;
+    }
+
+    #format{
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    #formatDetails{
+        background-color:#f4f4f4;
+        border: solid;
+        border-width: 1px;
+        border-color: #c8c8c8;
+        width: 120px;
+        height: 40px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    #payDetails{
+        flex-grow: 0.2;
+        align-self: flex-start;
+    }
+
+    #payButton1{
+        background-color:#181818;
+        border: none;
+        border-width: 1px;
+        width: 183px;
+        height: 40px;
+        margin-right: 10px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    #payButton2{
+        background-color:#f4f4f4;
+        border: solid;
+        border-width: 1px;
+        border-color: #c8c8c8;
+        width: 183px;
+        height: 40px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    #formatDetails:hover{
+        background-color: #c4c4c4;
+        border-color: #181818;
+    }
+
+    #payButton1:hover{
+        background-color: #2a2a2a;
+    }
+
+    #payButton2:hover{
+        background-color: #c4c4c4;
+        border-color: #181818;
+    }
+
+    #sinopsisName{
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-left: 2%;
+    }
+
+    #sinopsisDetails{
+        margin-top: 80px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 40px;
+    }
+
+    div#sinopsis{
+        border: solid;
+        border-color: #c8c8c8;
+        border-width: 1px;
+    }
+
+    #sinopsis{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    .detailsMobile{
+        display: none;
+    }
+
+    #sinopsisDetailsMobile{
+        display: none;
+    }
+
+    .logo{
+        height: 70px;
+        width: 60%;
+        margin: 0 25px;
+        position: relative;
+        top: 4px;
+    }
+
+    .buscador{
+        width: 40%;
+        margin: 0 auto;
+        position: relative;
+        top: 8px;
+    }
+
+     header  .buscador input{
+        margin-top: 5px;
+        width: 80%;
+        height: 30px;
+    }
+
+    .enlaces{
+         position: relative;
+         top: 16px;
+         left: 0;
+         font-size: 12px;
+    }
+
+    .enlaces li{
+        width: auto;
+    }
+
+    .enlaces{
+        margin-top: 10px;
+    }
+
+    .novedades{
+        width: 100%;
+    }
 }

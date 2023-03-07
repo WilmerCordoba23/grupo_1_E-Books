@@ -9,7 +9,7 @@
 
 
 
-                    <section class="seccion">
+                    <section class="seccion" id="seccionUser">
                         
                         <center>
                             <%if(usuario){%>
@@ -30,7 +30,7 @@
                                 <%}%>
                         
                         
-                            <form action="/logOut" method="post" class="form">
+                            <form action="/logOut" method="post" class="form" id="formUser">
                                 <label for="olvidar">
                                     <p>Olvidar usuario <input type="checkbox" name="olvidar" class="checkbox"></p>
                                 </label>
