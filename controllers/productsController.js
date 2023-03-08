@@ -84,12 +84,16 @@ const productscontroller = {
                 /* format_id: req.body.format, */
                 price: req.body.price
             })
-            res.redirect('/')  
+            res.redirect('/login')  
         
     }
     
     },
     productRegister(req, res){
+        if(req.session.Email == undefined){
+            res.redirect('/login')
+        }
+
         let genres =db.genre.findAll();
         let categorys=db.category.findAll();
         let products=db.product.findAll({include: { all: true,nested: true}});
@@ -101,6 +105,9 @@ const productscontroller = {
         })  
     },
     productModify(req, res){
+        if(req.session.Email == undefined){
+            res.redirect('/')
+        }
         let genres =db.genre.findAll();
         let categorys=db.category.findAll();
         let products=db.product.findByPk(req.params.id);
