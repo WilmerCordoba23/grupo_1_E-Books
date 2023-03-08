@@ -16,7 +16,10 @@
 header.home{
     background-color: #6AABD2;
 }
-
+#detailMobile{
+    margin-left: 7%;
+    margin-right: 5%;
+}
 body{
     color: #333333;
     background-color:#D9E4EC;
@@ -912,6 +915,19 @@ footer{
         color: #ffffff;
         cursor: pointer;
     }
+    
+    #payButton1Mobile{
+        background-color:#181818;
+        border: none;
+        border-width: 1px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 40px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
 
     #payButton2{
         margin-top: 10px;
@@ -1055,6 +1071,18 @@ footer{
         color: #ffffff;
         cursor: pointer;
     }
+    #payButton1Mobile{
+        background-color:#181818;
+        border: none;
+        border-width: 1px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 40px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
 
     #payButton2{
         margin-top: 10px;
@@ -1433,6 +1461,16 @@ footer{
         color: #ffffff;
         cursor: pointer;
     }
+    #payButton1Mobile{
+        background-color:#181818;
+        border: none;
+        border-width: 1px;
+        width: 183px;
+        height: 40px;
+        margin-right: 10px;
+        color: #ffffff;
+        cursor: pointer;
+    }
 
     #payButton2{
         background-color:#f4f4f4;
@@ -1451,6 +1489,10 @@ footer{
     }
 
     #payButton1:hover{
+        background-color: #2a2a2a;
+    }
+    
+    #payButton1Mobile:hover{
         background-color: #2a2a2a;
     }
 
@@ -1713,6 +1755,17 @@ color: white;
         color: #ffffff;
         cursor: pointer;
     }
+    #payButton1Mobile{
+        background-color:#181818;
+        border: none;
+        border-width: 1px;
+        width: 183px;
+        height: 40px;
+        margin-right: 10px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
 
     #payButton2{
         background-color:#f4f4f4;
@@ -1731,6 +1784,9 @@ color: white;
     }
 
     #payButton1:hover{
+        background-color: #2a2a2a;
+    }
+    #payButton1Mobile:hover{
         background-color: #2a2a2a;
     }
 

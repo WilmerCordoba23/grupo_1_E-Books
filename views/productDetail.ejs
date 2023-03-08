@@ -41,13 +41,10 @@
                     <img src="../images/products/<%=product.image%>" alt="El camino de los Reyes" >
                         <hr id="detailsLineMobile">
                     <div id="generalDetails">
-                            <select name="Formato" id="formatComboBox">
-                                <option value="Tapadura" selected>Tapa Dura $49.04</option>
-                                <option value="Tapablanda" >Tapa Blanda $24.99</option>
-                                <option value="Digital">Digital 7.99</option>
-                            </select>
+                           <h2 id="detailMobile"><%=product.title%> $<%=product.price%></h2> 
+                          
                         <div id="payDetails">
-                            <button id="payButton1" value="<%=product.id%>" name="<%=product.title%>">Añadir al Carrito</button>
+                            <button id="payButton1Mobile" value="<%=product.id%>" name="<%=product.title%>">Añadir al Carrito</button>
                             <button id="payButton2"><a href="/productCart" style="color:black; text-decoration-line: none;">Comprar ahora</a></button>
                         </div>
                     </div>

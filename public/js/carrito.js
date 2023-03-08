@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let carrito = [];
     const añadir = document.getElementById("payButton1");
+    const añadirMobile = document.getElementById("payButton1Mobile");
     const rendercarrito = document.getElementById("carrito");
     const subtotalCarrito = document.getElementById("subtotalCarrito");
     const subtotalCarrito2 = document.getElementById("subtotalCarrito2");
@@ -72,6 +73,22 @@ document.addEventListener('DOMContentLoaded', () => {
             )
         }
     }
+
+    if (añadirMobile != null) {
+        añadirMobile.addEventListener('click', anyadirProductoAlCarrito);
+
+        function anyadirProductoAlCarrito(evento) {
+            // Anyadimos el Nodo a nuestro carrito
+            localStorage.setItem(evento.target.name, evento.target.value);
+
+            Swal.fire(
+                'Excelente',
+                'Libro agregado!',
+                'success'
+            )
+        }
+    }
+
 
     /**
      * Varia el carrito y vuelve a dibujarlo
