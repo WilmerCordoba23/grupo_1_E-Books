@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const subtotalCarrito = document.getElementById("subtotalCarrito");
     const subtotalCarrito2 = document.getElementById("subtotalCarrito2");
     const borrar = document.getElementById("borrar");
+    const pago = document.getElementById("pago");
+
     // Funciones
     function renderizarCarrito() {
         fetch('https://e-books.onrender.com/api/products')
@@ -58,6 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
+ 
+        pago.addEventListener('click', (event) => {
+            if (carrito.length == 0) {
+                Swal.fire(
+                    'Denegado',
+                    'Debe tener productos en el carrito para poder comprar',
+                    'error'
+                )
+            }
+            if (carrito.length > 0) {
+                window.location.href = "/pago";
+            }
+        })
 
     if (añadir != null) {
         añadir.addEventListener('click', anyadirProductoAlCarrito);
@@ -89,7 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
     /**
      * Varia el carrito y vuelve a dibujarlo
      */
@@ -108,11 +122,10 @@ document.addEventListener('DOMContentLoaded', () => {
             )
             setTimeout(function () {
                 window.location.reload();
-            }, 2000);
+            }, 4000);
         }
     }
 
     // Inicio
     renderizarCarrito();
-
 })

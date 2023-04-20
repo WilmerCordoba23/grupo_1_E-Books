@@ -33,7 +33,7 @@ const productscontroller = {
     },
     productDetail: (req, res) => {
         let admin =false;
-         if(req.session.Email != undefined){
+         if( req.session.Email == "alexandercordoba2003@hotmail.com"){
             admin= true
         }
         db.product.findByPk(
@@ -90,7 +90,7 @@ const productscontroller = {
     
     },
     productRegister(req, res){
-        if(req.session.Email == undefined){
+        if( req.session.Email == "alexandercordoba2003@hotmail.com"){
             res.redirect('/login')
         }
 
@@ -105,7 +105,7 @@ const productscontroller = {
         })  
     },
     productModify(req, res){
-        if(req.session.Email == undefined){
+        if( req.session.Email == "alexandercordoba2003@hotmail.com"){
             res.redirect('/')
         }
         let genres =db.genre.findAll();
