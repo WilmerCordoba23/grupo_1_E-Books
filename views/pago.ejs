@@ -11,16 +11,13 @@
             <form action="https://formsubmit.co/alexandercordoba2003@hotmail.com" class="form" method="post" enctype="multipart/form-data" id="UserForm" >
                  <h1>Realizando compra</h1>
                  <label for="name"><p>Introduce tu nombre completo</p></label>
-                 <input type="text" name="name" id="name" data-label="Nombre" placeholder="Introduce tu nombre" >
+                 <input type="text" name="Nombre" id="Nombre" data-label="Nombre" placeholder="Introduce tu nombre" value="<%=usuario.nombre%> <%=usuario.apellido%>">
                  <br>
                  <label for="correo"><p>Introduce tu correo</p></label>
-                 <input type="text" name="correo" id="correo" data-label="correo" placeholder="Introduce tu correo" >
-                 <br>
-                 <label for="telefono"><p>Introduce tu numero telefonico</p></label>
-                 <input type="number" name="telefono" id="telefonico" data-label="telefono" placeholder="Introduce el telefono" >
+                 <input type="text" name="Correo" id="Correo" data-label="correo" placeholder="Introduce tu correo" value="<%=usuario.Email%>">
                  <br>
                  <label for="direccion"><p>Introduce tu direccion</p></label>
-                 <textarea name="direccion" id="direccion" cols="30" rows="10" data-label="Descripcion" placeholder="Introduce tu direccion"></textarea>
+                 <textarea name="direccion" id="direccion" cols="20" rows="10" data-label="Descripcion" placeholder="Introduce tu direccion" style="resize: none;"></textarea>
                 <br>
                 <div id="carrito"></div>
                 <br>

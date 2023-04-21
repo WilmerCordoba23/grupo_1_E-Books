@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const subtotalCarrito2 = document.getElementById("subtotalCarrito2");
     const borrar = document.getElementById("borrar");
     const pago = document.getElementById("pago");
-
     // Funciones
     function renderizarCarrito() {
         fetch('https://e-books.onrender.com/api/products')
@@ -60,19 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
- 
-        pago.addEventListener('click', (event) => {
-            if (carrito.length == 0) {
-                Swal.fire(
-                    'Denegado',
-                    'Debe tener productos en el carrito para poder comprar',
-                    'error'
-                )
-            }
-            if (carrito.length > 0) {
-                window.location.href = "/pago";
-            }
-        })
 
     if (añadir != null) {
         añadir.addEventListener('click', anyadirProductoAlCarrito);
@@ -104,28 +90,52 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
     /**
      * Varia el carrito y vuelve a dibujarlo
      */
 
     if (borrar != null) {
         borrar.addEventListener('click', vaciarCarrito);
-        function vaciarCarrito() {
-            // Limpiamos los productos guardados
-            carrito = [];
-            // Renderizamos los cambios
-            localStorage.clear();
-            Swal.fire(
-                'Excelente',
-                'Carrito vaciado',
-                'success'
-            )
-            setTimeout(function () {
-                window.location.reload();
-            }, 4000);
-        }
+       
+            function vaciarCarrito() {
+                if (carrito.length >= 0) {
+                // Limpiamos los productos guardados
+                carrito = [];
+                // Renderizamos los cambios
+                localStorage.clear();
+                Swal.fire(
+                    'Excelente',
+                    'El carrito fue vaciado',
+                    'success'
+                )
+                setTimeout(function () {
+                    window.location.reload();
+                }, 2000);}
+                if (carrito.length == 0) {
+                    Swal.fire(
+                        'Carrito',
+                        'El carrito ya esta vacio!',
+                        'info'
+                    )
+                }
+            }
     }
 
+    pago.addEventListener('click', (event) => {
+        if (carrito.length == 0) {
+            Swal.fire(
+                'Denegado',
+                'Debe tener productos en el carrito para poder comprar',
+                'error'
+            )
+        }
+        if (carrito.length > 0) {
+            window.location.href = "/pago";
+        }
+    })
+    
     // Inicio
     renderizarCarrito();
+
 })

@@ -90,8 +90,8 @@ const productscontroller = {
     
     },
     productRegister(req, res){
-        if( req.session.Email == "alexandercordoba2003@hotmail.com"){
-            res.redirect('/login')
+        if( req.session.Email != "alexandercordoba2003@hotmail.com"){
+            res.redirect('/')
         }
 
         let genres =db.genre.findAll();
@@ -105,7 +105,7 @@ const productscontroller = {
         })  
     },
     productModify(req, res){
-        if( req.session.Email == "alexandercordoba2003@hotmail.com"){
+        if( req.session.Email != "alexandercordoba2003@hotmail.com"){
             res.redirect('/')
         }
         let genres =db.genre.findAll();
@@ -195,7 +195,20 @@ const productscontroller = {
             })
     },
     pago: (req, res) => { 
-        res.render('pago.ejs')
+        if(req.session.Email == undefined){
+            res.redirect('/login')
+        }
+        else{
+            let usuario={
+            Email: req.session.Email,
+            nombre: req.session.Nombre,
+            apellido: req.session.Apellido,
+            contraseña: req.session.contraseña,
+            imagen: req.session.imagen
+        }
+        res.render('pago.ejs',{usuario})
+    }
+
     }
 
 
