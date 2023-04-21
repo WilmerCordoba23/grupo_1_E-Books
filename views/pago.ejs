@@ -10,21 +10,18 @@
 
             <form action="https://formsubmit.co/alexandercordoba2003@hotmail.com" class="form" method="post" enctype="multipart/form-data" id="UserForm" >
                  <h1>Realizando compra</h1>
-                 <label for="name"><p>Introduce tu nombre completo</p></label>
-                 <input type="text" name="Nombre" id="Nombre" data-label="Nombre" placeholder="Introduce tu nombre" value="<%=usuario.nombre%> <%=usuario.apellido%>">
+                 <input type="hidden" name="_subject" value="Nuevo pedido de compra!">
+                 <label for="Nombre"><p>Introduce tu nombre completo</p></label>
+                 <input type="text" name="Nombre" id="Nombre" data-label="Nombre" placeholder="Introduce tu nombre" value="<%=usuario.nombre%> <%=usuario.apellido%>" required>
                  <br>
-                 <label for="correo"><p>Introduce tu correo</p></label>
-                 <input type="text" name="Correo" id="Correo" data-label="correo" placeholder="Introduce tu correo" value="<%=usuario.Email%>">
+                 <label for="Correo"><p>Introduce tu correo</p></label>
+                 <input type="email" name="Correo" id="Correo" data-label="Correo" placeholder="Introduce tu correo" value="<%=usuario.Email%>"required>
                  <br>
-                 <label for="direccion"><p>Introduce tu direccion</p></label>
-                 <textarea name="direccion" id="direccion" cols="20" rows="10" data-label="Descripcion" placeholder="Introduce tu direccion" style="resize: none;"></textarea>
+                 <label for="Direccion"><p>Introduce tu direccion</p></label>
+                 <textarea name="Direccion" id="Direccion" cols="20" rows="10" data-label="Descripcion" placeholder="Introduce tu direccion" style="resize: none;" required minlength="5"></textarea>
                 <br>
                 <div id="carrito"></div>
                 <br>
-                <br>            
-                
-                 <br> 
-                
                  <br>
                  <input type="submit" value="Realizar compra" id="comprar">
 						<input type="hidden" name="_next" value="https://e-books.onrender.com/">

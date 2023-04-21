@@ -34,21 +34,20 @@ document.addEventListener('DOMContentLoaded', () => {
                                 alt="${element.image}>" class="img_cart">
                         </div>
                         <div>
-                            <div id="productName">
-                                <h2>
-                                ${element.name}
+                            <div id="productName"  style="margin-left: 20px;">
+                                <h2 style="margin: 5px 0">
+                                Nombre:  ${element.name}
                                 </h2>
-                                <h3 class="precio">
-                                ${element.genero.name}
+                                <h3 class="precio" style="margin: 6px 0">
+                                Genero:  ${element.genero.name}
                                 </h3>
-                                <h3 class="precio">
-                                ${element.categoria.name}
+                                <h3 class="precio" style="margin: 6px 0">
+                                Categoria:  ${element.categoria.name}
+                                </h3>
+                                <h3 class="precio" style="margin: 6px 0">
+                                Precio:  ${element.price}
                                 </h3>
                             </div>
-                        </div>
-                        <div class="price">
-                            <h3>$${element.price}
-                            </h3>
                         </div>
                     </div>
                 </div>`

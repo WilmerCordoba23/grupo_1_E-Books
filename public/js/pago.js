@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                         <div>
                             <div id="productName">
-                            <input type="hidden" name="Libro: ${element.name}" value="${element.name}" >
+                            <input type="hidden" name="Libro #${element.id}" value="${element.name}" >
                                 <p>
                                 ${element.name}
                                 $${element.price}
